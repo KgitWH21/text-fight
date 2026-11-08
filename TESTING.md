@@ -17,13 +17,14 @@
 - Configuration diagnostics name missing/invalid secrets and bindings without returning secret values. The connection dialog displays recognized setting names and requirements, ignores unexpected server details, and keeps local writing available.
 - Draw diagnostics preserve numeric Wordnik upstream statuses (400/401/403/404/429/500) and distinguish timeout, network, JSON, invalid-word, and Worker-cache failures. Tests inject secret-bearing exception messages and response bodies and verify none of those secrets appear in diagnostic responses.
 
-`npm run test:dom`: **five interaction scenario groups passed** using jsdom 26.1.0 already available on this host:
+`npm run test:dom`: **six interaction scenario groups passed** using jsdom 26.1.0 already available on this host:
 
 - Actual app event handlers for the 3,000-word regression, selection/caret preservation, full and corrected-session clipboard text, plain-text download content, autosave, and app restart using saved local storage.
 - Pace changes without changing the card, text, or XP; fractional custom pace; pin/unpin; manual next; pause; duplicate bonus prevention. A simulated clock also exercises automatic deals without changing focus/caret, background exclusion, and no backlog after suspension.
 - Draft creation, switching and restoring separate rounds; drill mode; mocked optional-endpoint success, HTTP 429 and offline fallbacks; automatic vocabulary bonus plus repeated manual confirmation and restoration.
 - Original rank names, five-pip display, Master ratings, promotion fanfare preserving editor focus, and existing saves restoring without changing XP, drafts, round state, or replaying the promotion fanfare.
 - Wordnik connection UI: successful/incorrect/throttled password login, authorization headers with redirects disabled, cleared password fields, no credentials in local/session storage, loss of credentials on reload, disconnect and expiry, denied-request offline fallback, and cancellation ignoring a late login response. Writing, active-round identity, and XP remain intact.
+- Mobile fullscreen writing: computed CSS hides all app UI except the editor and prompt/timer with its exit control. Existing selection direction, caret, scrolling, manuscript, baseline, round, and XP are preserved across entry/exit. Timed cards keep changing without stealing focus. Tests cover idle-draft round creation without awarding baseline XP, writing/autosave in the mode, short viewport handling, Escape/IME behavior, and mocked native fullscreen success, browser exit, rejection, and cancellation during an async transition. These are DOM/CSS checks and mocked APIs, rather than rendered or physical-phone verification.
 
 DOM-harness command used:
 
@@ -42,6 +43,6 @@ JSDOM_PATH=/home/kwhay/keith-projects/text-fight/node_modules/jsdom node tests/d
 
 ## Still needs real-browser/device verification
 
-The executable browser suite is included in `tests/browser.cjs`. Run it on a host allowing a local HTTP server and Chromium. It exercises the regression, focus/caret after deals, pace/pin/pause, clipboard, XP deduplication, persistence, a **real** service-worker offline reload, and layout overflow at **412×915** and **1440×1000**, plus a **412×430** keyboard-space approximation. These rendered-browser checks did **not** run successfully here; no browser screenshot is claimed.
+The executable browser suite is included in `tests/browser.cjs`. Run it on a host allowing a local HTTP server and Chromium. It exercises the regression, focus/caret after deals, pace/pin/pause, clipboard, XP deduplication, persistence, a **real** service-worker offline reload, and layout overflow at **412×915** and **1440×1000**, plus mobile fullscreen at normal height and a **412×430** keyboard-space approximation. It checks that only the prompt/timer/editor/exit control remain visible, the shortened-viewport editor retains useful height, and exiting preserves the draft, round, and XP. These rendered-browser checks did **not** run successfully here; no browser screenshot is claimed.
 
 No physical Pixel 8a, Windows browser, Android dictation/keyboard, install prompt, audio playback, or livestream mirroring was available to test. The authenticated Wordnik endpoint was checked with real cryptography and mocked upstream responses; it was not deployed or tested with a real API key. Actual browser CORS preflight and phone/desktop login remain unverified here; deployment and Cloudflare secret configuration must be completed from the user's terminal.

@@ -1,5 +1,5 @@
 // Bump VERSION for every release. Cache updates never touch localStorage.
-const VERSION = '1.2.0';
+const VERSION = '1.3.0';
 const PREFIX = `text-fight:${new URL(self.registration.scope).pathname}:`;
 const CACHE = PREFIX + VERSION;
 const FILES = ['./', './index.html', './style.css', './app.js', './core.js', './manifest.webmanifest', './data/sentence-trainer.json', './data/words.json', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png'];

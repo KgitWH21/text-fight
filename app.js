@@ -20,6 +20,7 @@ let decks, beforeInput = null, lastTick = performance.now(), lastSavedTick = per
 let liveWords = [], fetchingWords = false, lastLiveFetch = 0, installPrompt = null, swRegistration;
 // Wordnik credentials never enter saved app state or browser storage.
 let wordnikSession = null, wordFetchController = null, authController = null, connectionEpoch = 0;
+let writingFullscreen = false, nativeWritingFullscreen = false, fullscreenRevision = 0;
 const draft = () => state.drafts.find(d => d.id === state.activeId);
 const interval = () => PACES[state.settings.pace] || state.settings.customMinutes * 60000;
 const mode = () => draft().round?.mode || 'continue';
@@ -51,6 +52,58 @@ function restoreEditor() {
   el.setSelectionRange(Math.min(start, d.text.length), Math.min(end, d.text.length));
   el.scrollTop = d.scrollTop || 0;
 }
+function focusEditor() {
+  const el = $('editor'), start = el.selectionStart, end = el.selectionEnd, direction = el.selectionDirection;
+  const top = el.scrollTop, left = el.scrollLeft;
+  el.focus({ preventScroll: true }); el.setSelectionRange(start, end, direction);
+  el.scrollTop = top; el.scrollLeft = left;
+}
+function setWritingFullscreen(enabled) {
+  writingFullscreen = enabled;
+  document.body.classList.toggle('writing-fullscreen', enabled);
+  $('fullscreenButton').setAttribute('aria-pressed', String(enabled));
+  $('exitFullscreen').hidden = !enabled;
+  if (!enabled) { $('fanfare').hidden = true; $('toast').hidden = true; }
+  resize();
+}
+async function enterWritingFullscreen() {
+  if (writingFullscreen || !decks) return;
+  // Starting from an idle manuscript establishes its baseline once. Existing
+  // rounds, including their pace, pause and pin state, are left intact.
+  if (!draft().round) startRound('continue');
+  const revision = ++fullscreenRevision;
+  setWritingFullscreen(true); focusEditor();
+  if (!document.fullscreenEnabled || !document.documentElement.requestFullscreen || document.fullscreenElement) return;
+  try {
+    await document.documentElement.requestFullscreen({ navigationUI: 'hide' });
+    // An exit during the native transition must not reopen fullscreen later.
+    if (revision !== fullscreenRevision || !writingFullscreen) {
+      if (document.fullscreenElement === document.documentElement) await document.exitFullscreen();
+      return;
+    }
+    nativeWritingFullscreen = document.fullscreenElement === document.documentElement;
+    focusEditor();
+  } catch { /* The editor-only layout also works without native fullscreen. */ }
+  resize();
+}
+async function exitWritingFullscreen() {
+  ++fullscreenRevision; setWritingFullscreen(false);
+  if (nativeWritingFullscreen && document.fullscreenElement === document.documentElement) {
+    nativeWritingFullscreen = false;
+    try { await document.exitFullscreen(); } catch { nativeWritingFullscreen = document.fullscreenElement === document.documentElement; }
+  }
+  focusEditor();
+}
+document.addEventListener('fullscreenchange', () => {
+  if (document.fullscreenElement === document.documentElement && writingFullscreen) nativeWritingFullscreen = true;
+  else if (!document.fullscreenElement && nativeWritingFullscreen) {
+    nativeWritingFullscreen = false; ++fullscreenRevision; setWritingFullscreen(false);
+  }
+  resize();
+});
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && !event.isComposing && writingFullscreen) { event.preventDefault(); exitWritingFullscreen(); }
+});
 function updateCounts() {
   const d = draft(), net = sessionCount(d.text, d.round), p = progress(state.xp);
   const career = rankFromXP(state.xp);
@@ -304,7 +357,9 @@ $('nextButton').addEventListener('click', () => { if (draft().round.pinned) { to
 $('pinButton').addEventListener('click', () => { tick(); const r = draft().round; r.pinned = !r.pinned; r.remaining = interval(); lastTick = performance.now(); renderRound(); save(); });
 $('usedButton').addEventListener('click', usePrompt);
 // Prompt actions can be tapped while composing without blurring the textarea.
-for (const id of ['nextButton', 'pinButton', 'usedButton', 'pauseButton']) $(id).addEventListener('pointerdown', event => { if (document.activeElement === $('editor')) event.preventDefault(); });
+for (const id of ['nextButton', 'pinButton', 'usedButton', 'pauseButton', 'fullscreenButton', 'exitFullscreen']) $(id).addEventListener('pointerdown', event => { if (document.activeElement === $('editor')) event.preventDefault(); });
+$('fullscreenButton').addEventListener('click', enterWritingFullscreen);
+$('exitFullscreen').addEventListener('click', exitWritingFullscreen);
 $('pace').addEventListener('change', () => {
   if ($('pace').value === 'custom') { $('customMinutes').value = state.settings.customMinutes; $('customDialog').showModal(); }
   else setPace($('pace').value);
@@ -403,7 +458,11 @@ window.addEventListener('online', () => { networkStatus(); prefetchWords(); }); 
 window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); installPrompt = event; $('installButton').hidden = false; });
 $('installButton').addEventListener('click', async () => { if (installPrompt) { await installPrompt.prompt(); installPrompt = null; $('installButton').hidden = true; } });
 window.addEventListener('appinstalled', () => { $('installButton').hidden = true; toast('Text Fight installed.'); });
-function resize() { document.documentElement.style.setProperty('--app-height', `${window.visualViewport?.height || window.innerHeight}px`); }
+function resize() {
+  const height = window.visualViewport?.height || window.innerHeight;
+  document.documentElement.style.setProperty('--app-height', `${height}px`);
+  document.body.classList.toggle('writing-compact', height < 600);
+}
 window.visualViewport?.addEventListener('resize', resize); window.addEventListener('resize', resize); resize();
 
 restoreEditor(); $('draftTitle').value = draft().title;
@@ -413,6 +472,7 @@ else save();
 try {
   const [craft, words] = await Promise.all([fetch('./data/sentence-trainer.json').then(r => { if (!r.ok) throw Error(); return r.json(); }), fetch('./data/words.json').then(r => { if (!r.ok) throw Error(); return r.json(); })]);
   decks = { ...craft, words };
+  $('fullscreenButton').disabled = false;
   prefetchWords();
 } catch { $('promptExplanation').textContent = 'Prompt data could not load. Reconnect once, then reload to prepare offline writing.'; }
 setInterval(tick, 500);

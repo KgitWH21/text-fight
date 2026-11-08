@@ -78,9 +78,29 @@ async function main() {
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
       await page.screenshot({ path: path.join(results, `writing-${width}.png`) });
       if (mobile) {
+        const fullState = await page.evaluate(() => JSON.parse(localStorage.getItem('text-fight-v1')));
+        await editor.evaluate(el => { el.focus(); el.setSelectionRange(10, 10); });
+        await page.locator('#fullscreenButton').click();
+        await page.waitForFunction(() => document.body.classList.contains('writing-fullscreen'));
+        for (const selector of ['.topbar', '.sidebar', '.manuscript-heading', '.roundbar', '.session-footer', '.editor-bottom', '.prompt-top', '.prompt-actions', '.card-number', '#fanfare', '#toast']) {
+          assert.equal(await page.locator(selector).isVisible(), false, selector);
+        }
+        assert.equal(await page.locator('.prompt-card').isVisible(), true);
+        assert.equal(await page.locator('#timer').isVisible(), true);
+        assert.equal(await editor.evaluate(el => el.selectionStart), 10);
+        assert.equal(await editor.evaluate(el => document.activeElement === el), true);
+        await page.screenshot({ path: path.join(results, 'writing-fullscreen-mobile.png') });
         await page.setViewportSize({ width: 412, height: 430 }); await editor.focus();
-        const box = await editor.boundingBox(); assert.ok(box.height >= 100, `Keyboard-height editor too small: ${box.height}`);
-        await page.screenshot({ path: path.join(results, 'writing-keyboard-height.png') });
+        const box = await editor.boundingBox(); assert.ok(box.height >= 230, `Fullscreen keyboard-height editor too small: ${box.height}`);
+        assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+        await page.screenshot({ path: path.join(results, 'writing-fullscreen-keyboard-height.png') });
+        await page.locator('#exitFullscreen').click();
+        await page.waitForFunction(() => !document.body.classList.contains('writing-fullscreen'));
+        const afterFull = await page.evaluate(() => JSON.parse(localStorage.getItem('text-fight-v1')));
+        assert.equal(afterFull.xp, fullState.xp); assert.equal(afterFull.activeId, fullState.activeId);
+        assert.equal(afterFull.drafts[0].text, fullState.drafts[0].text);
+        assert.equal(afterFull.drafts[0].round.id, fullState.drafts[0].round.id);
+        assert.equal(await page.locator('.manuscript-heading').isVisible(), true);
       }
       assert.deepEqual(errors, []); await context.close();
       console.log(`PASS ${width}px: regression, caret, pace, pin, XP, copy, persistence, offline, layout`);

@@ -80,3 +80,38 @@ button { font-size: 14px; }
   .xp-top strong { font-size: 13px; }
   .xp-top #level { font-size: 12px; }
 }
+
+/* Mobile writing mode uses the existing textarea and prompt, without moving
+   or replacing either node when the mode, keyboard, or prompt changes. */
+#fullscreenButton { display: none; }
+#exitFullscreen { align-items: center; justify-content: center; min-width: 40px; min-height: 36px; padding: 6px; border: 0; }
+#fullscreenButton svg, #exitFullscreen svg { display: block; }
+@media (max-width: 700px) {
+  #fullscreenButton { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; min-height: 36px; padding: 6px; }
+}
+body.writing-fullscreen { overflow: hidden; overscroll-behavior: none; }
+.writing-fullscreen .app { position: fixed; top: 0; right: 0; left: 0; display: flex; flex-direction: column; height: var(--app-height); width: 100%; max-width: none; margin: 0; }
+.writing-fullscreen .topbar,
+.writing-fullscreen .sidebar,
+.writing-fullscreen .manuscript-heading,
+.writing-fullscreen .roundbar,
+.writing-fullscreen .session-footer,
+.writing-fullscreen .editor-bottom,
+.writing-fullscreen .prompt-top,
+.writing-fullscreen .prompt-actions,
+.writing-fullscreen .card-number,
+.writing-fullscreen #fanfare,
+.writing-fullscreen #toast { display: none !important; }
+.writing-fullscreen main { flex: 1; min-height: 0; width: 100%; max-width: none; margin: 0; overflow: hidden; gap: 8px; padding: max(8px, env(safe-area-inset-top)) max(10px, env(safe-area-inset-right)) max(4px, env(safe-area-inset-bottom)) max(10px, env(safe-area-inset-left)); }
+.writing-fullscreen .prompt-card { flex: none; margin: 0; padding: 8px 12px 4px; border-radius: 4px; }
+.writing-fullscreen .prompt-body { height: 90px; min-height: 0; padding: 4px 0; overflow: auto; }
+.writing-fullscreen .prompt-copy h1 { font-size: 24px; line-height: 1.2; white-space: normal; overflow: visible; margin: 0 0 4px; }
+.writing-fullscreen .prompt-copy p { display: block; font-size: 14px; line-height: 1.4; max-height: none; margin: 0; -webkit-line-clamp: unset; }
+.writing-fullscreen .prompt-bottom { min-height: 36px; padding-top: 2px; flex-wrap: nowrap; }
+.writing-fullscreen #timer { font-size: 13px; }
+.writing-fullscreen #exitFullscreen:not([hidden]) { display: inline-flex; }
+.writing-fullscreen .editor-wrap { flex: 1; min-height: 0; margin: 0; }
+.writing-fullscreen #editor { min-height: 0; padding: 8px 2px 16px; font-size: 18px; line-height: 1.7; }
+.writing-fullscreen.writing-compact main { gap: 4px; }
+.writing-fullscreen.writing-compact .prompt-body { height: 60px; }
+.writing-fullscreen.writing-compact .prompt-copy h1 { font-size: 21px; }

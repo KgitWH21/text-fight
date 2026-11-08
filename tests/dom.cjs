@@ -16,6 +16,8 @@ async function main() {
     const virtualConsole = new VirtualConsole(); virtualConsole.on('jsdomError', error => errors.push(error.message));
     const dom = new JSDOM(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), { url: 'https://example.test/text-fight-2/', runScripts: 'outside-only', pretendToBeVisual: true, virtualConsole });
     const w = dom.window;
+    const stylesheet = w.document.createElement('style');
+    stylesheet.textContent = fs.readFileSync(path.join(root, 'style.css'), 'utf8'); w.document.head.append(stylesheet);
     let clock = 0, hidden = false;
     Object.defineProperty(w.performance, 'now', { value: () => clock });
     Object.defineProperty(w.document, 'hidden', { configurable: true, get: () => hidden });
@@ -208,6 +210,86 @@ async function main() {
     await app.finish();
   }
   console.log('PASS DOM: original rank ladder, pip display, Master ratings, promotion focus and preservation of existing saves');
+  app = await boot();
+  app.$('newDraftTitle').value = 'Fullscreen scene';
+  app.$('newDraftForm').dispatchEvent(new app.w.Event('submit', { cancelable: true }));
+  edit(0, 0, 'An existing scene.');
+  const idleXP = app.state().xp;
+  app.$('editor').focus(); app.$('editor').setSelectionRange(3, 11, 'backward'); app.$('editor').scrollTop = 64;
+  app.$('fullscreenButton').click();
+  assert.equal(app.w.document.body.classList.contains('writing-fullscreen'), true);
+  assert.equal(app.$('exitFullscreen').hidden, false);
+  assert.equal(app.$('editor').value, 'An existing scene.');
+  assert.equal(app.$('editor').selectionStart, 3); assert.equal(app.$('editor').selectionEnd, 11);
+  assert.equal(app.$('editor').selectionDirection, 'backward'); assert.equal(app.$('editor').scrollTop, 64);
+  assert.equal(app.w.document.activeElement, app.$('editor'));
+  let fsRound = app.state().drafts.find(d => d.id === app.state().activeId).round;
+  assert.equal(fsRound.baseline, 3); assert.ok(fsRound.card); assert.equal(app.state().xp, idleXP);
+  assert.equal(app.$('sessionCount').textContent, '+0');
+  for (const selector of ['.topbar', '.sidebar', '.manuscript-heading', '.roundbar', '.session-footer', '.editor-bottom', '.prompt-top', '.prompt-actions', '.card-number', '#fanfare', '#toast']) {
+    assert.equal(app.w.getComputedStyle(app.w.document.querySelector(selector)).display, 'none', selector);
+  }
+  assert.notEqual(app.w.getComputedStyle(app.w.document.querySelector('.prompt-card')).display, 'none');
+  assert.notEqual(app.w.getComputedStyle(app.$('editor')).display, 'none');
+  assert.notEqual(app.w.getComputedStyle(app.$('timer')).display, 'none');
+  app.$('customMinutes').value = '.05'; app.$('customForm').dispatchEvent(new app.w.Event('submit', { cancelable: true }));
+  const firstFullCard = app.state().drafts.find(d => d.id === app.state().activeId).round.card.id;
+  assert.equal(app.$('timer').textContent, 'NEXT IN 0:03');
+  app.advance(1000); assert.equal(app.$('timer').textContent, 'NEXT IN 0:02');
+  app.advance(1000); app.advance(1000);
+  assert.notEqual(app.state().drafts.find(d => d.id === app.state().activeId).round.card.id, firstFullCard);
+  assert.equal(app.$('editor').selectionStart, 3); assert.equal(app.$('editor').selectionEnd, 11);
+  assert.equal(app.w.document.activeElement, app.$('editor'));
+  app.w.innerHeight = 430; app.w.dispatchEvent(new app.w.Event('resize'));
+  assert.equal(app.w.document.body.classList.contains('writing-compact'), true);
+  assert.equal(app.w.document.documentElement.style.getPropertyValue('--app-height'), '430px');
+  edit(app.$('editor').value.length, app.$('editor').value.length, ' fullscreencheck');
+  assert.equal(app.$('sessionCount').textContent, '+1'); assert.equal(app.state().xp, idleXP + 1);
+  fsRound = app.state().drafts.find(d => d.id === app.state().activeId).round;
+  const beforeToggle = JSON.stringify(app.state());
+  app.$('exitFullscreen').click();
+  assert.equal(app.w.document.body.classList.contains('writing-fullscreen'), false);
+  assert.equal(app.$('exitFullscreen').hidden, true);
+  assert.equal(JSON.stringify(app.state()), beforeToggle);
+  const caret = app.$('editor').selectionStart;
+  app.$('fullscreenButton').click();
+  assert.equal(JSON.stringify(app.state()), beforeToggle); assert.equal(app.$('editor').selectionStart, caret);
+  app.w.document.dispatchEvent(new app.w.KeyboardEvent('keydown', { key: 'Escape', isComposing: true, bubbles: true }));
+  assert.equal(app.w.document.body.classList.contains('writing-fullscreen'), true);
+  app.w.document.dispatchEvent(new app.w.KeyboardEvent('keydown', { key: 'Escape', bubbles: true, cancelable: true }));
+  assert.equal(app.w.document.body.classList.contains('writing-fullscreen'), false);
+  // Simulate the native API separately from the CSS fallback, including an
+  // interrupted async request. No claim of real browser fullscreen is made.
+  let nativeElement = null;
+  Object.defineProperty(app.w.document, 'fullscreenEnabled', { configurable: true, value: true });
+  Object.defineProperty(app.w.document, 'fullscreenElement', { configurable: true, get: () => nativeElement });
+  app.w.document.documentElement.requestFullscreen = async options => {
+    assert.equal(options.navigationUI, 'hide'); nativeElement = app.w.document.documentElement;
+    app.w.document.dispatchEvent(new app.w.Event('fullscreenchange'));
+  };
+  app.w.document.exitFullscreen = async () => { nativeElement = null; app.w.document.dispatchEvent(new app.w.Event('fullscreenchange')); };
+  app.$('fullscreenButton').click(); await new Promise(setImmediate);
+  assert.equal(nativeElement, app.w.document.documentElement);
+  assert.equal(app.$('editor').selectionStart, caret);
+  await app.w.document.exitFullscreen();
+  assert.equal(app.w.document.body.classList.contains('writing-fullscreen'), false);
+  app.w.document.documentElement.requestFullscreen = async () => { throw Error('Fullscreen denied'); };
+  app.$('fullscreenButton').click(); await new Promise(setImmediate);
+  assert.equal(app.w.document.body.classList.contains('writing-fullscreen'), true);
+  app.$('exitFullscreen').click();
+  let finishNativeRequest;
+  app.w.document.documentElement.requestFullscreen = () => new Promise(resolve => {
+    finishNativeRequest = () => { nativeElement = app.w.document.documentElement; app.w.document.dispatchEvent(new app.w.Event('fullscreenchange')); resolve(); };
+  });
+  app.$('fullscreenButton').click(); app.$('exitFullscreen').click(); finishNativeRequest(); await new Promise(setImmediate);
+  assert.equal(nativeElement, null); assert.equal(app.w.document.body.classList.contains('writing-fullscreen'), false);
+  assert.equal(JSON.stringify(app.state()), beforeToggle);
+  const fullText = app.$('editor').value; await app.finish(); app = await boot();
+  assert.equal(app.$('editor').value, fullText); assert.equal(app.state().xp, idleXP + 1);
+  assert.equal(app.$('sessionCount').textContent, '+1');
+  assert.equal(app.state().drafts.find(d => d.id === app.state().activeId).round.id, fsRound.id);
+  console.log('PASS DOM: mobile fullscreen layout, timer/deals, caret, saved writing/XP, keyboard height, exits, native API denial and transition cancellation');
+  await app.finish();
   assert.deepEqual(errors, []);
 }
 main().catch(error => { console.error(error); process.exitCode = 1; });
