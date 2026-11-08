@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#101215">
+  <meta name="description" content="A quiet arena for your next scene. Offline writing, craft prompts, and a little fighting spirit.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Text Fight · Your next scene</title>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Text Fight home"><span class="brand-mark" aria-hidden="true">T<span>F</span></span><span>TEXT FIGHT</span></a>
+      <div class="top-actions"><span id="connection" class="connection">LOCAL FIRST</span><button id="draftsButton" class="mobile-only" aria-label="Open drafts">Drafts</button><button id="settingsButton" aria-label="Open settings">Settings <span aria-hidden="true">↗</span></button></div>
+    </header>
+    <aside class="sidebar">
+      <div class="sidebar-heading"><span class="eyebrow">DRAFTS</span><button id="newDraft" class="icon-button" aria-label="Create draft">+</button></div>
+      <div id="draftList" class="draft-list"></div>
+      <button id="sidebarDrill" class="drill-link">↗ Start a fresh drill</button>
+      <div class="sidebar-note"><span class="local-dot"></span> Yours, on this device.<p>Saved as you write. Ready offline.</p><a href="https://kgitwh21.github.io/sentence_trainer/" target="_blank" rel="noreferrer">Craft deck by Sentence Trainer ↗</a></div>
+    </aside>
+    <main>
+      <section class="manuscript-heading">
+        <div class="title-area"><label class="eyebrow" for="draftTitle">YOUR SCENE NAME</label><input id="draftTitle" value="Untitled scene" maxlength="160" aria-label="Draft title" autocomplete="off"></div>
+        <div class="manuscript-actions"><span id="saveStatus" role="status">Saved on device</span><button id="toolsButton" aria-label="Open draft tools">•••</button></div>
+      </section>
+      <section class="roundbar">
+        <div class="round-label"><span id="roundDot" class="local-dot"></span><span id="roundStatus">READY TO WRITE</span></div>
+        <div id="startControls"><button id="continueButton" class="primary">Continue a draft <span aria-hidden="true">→</span></button><button id="drillButton">Start a drill</button></div>
+        <div id="activeControls" hidden><button id="pauseButton">Pause</button><button id="roundsButton" aria-label="Start another round">New round</button></div>
+      </section>
+      <section class="prompt-card" aria-label="Current writing prompt">
+        <div class="prompt-top"><span id="promptCategory" class="eyebrow">WRITING PROMPT</span><div class="pace-control"><label for="pace">Pace</label><select id="pace"><option value="chill">Chill · 5m</option><option value="steady">Steady · 3m</option><option value="hard">Hard · 1m</option><option value="custom">Custom</option></select><button id="categoriesButton" aria-label="Choose prompt categories">☷</button></div></div>
+        <div class="prompt-body"><div class="prompt-copy"><h1 id="promptTitle">Start a round</h1><p id="promptExplanation">Choose Continue a draft or Start a drill to receive prompts.</p></div><span class="card-number" aria-hidden="true">↗</span></div>
+        <div class="prompt-bottom"><span id="timer">CHILL · NO RUSH</span><div class="prompt-actions"><button id="pinButton" disabled aria-pressed="false">Pin</button><button id="nextButton" disabled>Next now <span aria-hidden="true">→</span></button><button id="usedButton" disabled class="used-button">Used it <span>+5</span></button></div></div>
+      </section>
+      <div class="editor-wrap"><textarea id="editor" aria-label="Manuscript editor" placeholder="Write your scene…" spellcheck="true" autocapitalize="sentences"></textarea><div class="editor-bottom"><span id="fullCount">0 draft words</span><div><button id="undoButton" aria-label="Undo writing edit" title="Undo">↶</button><button id="redoButton" aria-label="Redo writing edit" title="Redo">↷</button></div></div></div>
+      <footer class="session-footer"><div class="session-words"><strong id="sessionCount">+0</strong><span>SESSION WORDS</span></div><div id="xpBlock" class="xp-block"><div class="xp-top"><strong id="rank">Rookie</strong><span id="rankDetail" class="rank-detail" role="img" hidden></span><span id="level">LVL 01</span><span id="xpLabel">0 / 100 XP</span></div><div id="xpTrack" class="xp-track" role="progressbar" aria-label="Level progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="xpFill"></span></div><span id="lifetimeXP" class="lifetime">0 lifetime XP</span></div><span class="footer-mark" aria-hidden="true">TF / 01</span></footer>
+    </main>
+  </div>
+  <dialog id="draftsDialog"><form method="dialog" class="dialog-heading"><h2>Your drafts</h2><button aria-label="Close drafts">×</button></form><div id="mobileDraftList" class="draft-list"></div><button id="mobileNewDraft" class="primary wide">+ New draft</button></dialog>
+  <dialog id="newDraftDialog"><form id="newDraftForm"><div class="dialog-heading"><h2>New draft</h2><button type="button" data-close aria-label="Close new draft">×</button></div><label for="newDraftTitle">Give this scene a name</label><input id="newDraftTitle" maxlength="160" placeholder="Untitled scene" autocomplete="off"><button class="primary wide" type="submit">Open manuscript →</button></form></dialog>
+  <dialog id="toolsDialog"><form method="dialog" class="dialog-heading"><h2>Draft tools</h2><button aria-label="Close draft tools">×</button></form><button id="copyDraft" class="wide">Copy full draft</button><button id="copySession" class="wide">Copy session text</button><button id="downloadDraft" class="wide">Download plain text (.txt)</button><p class="muted">Session text includes prose added this round, with your corrections. Drafts and XP stay on this device.</p></dialog>
+  <dialog id="settingsDialog"><form method="dialog" class="dialog-heading"><h2>Your setup</h2><button aria-label="Close settings">×</button></form><label class="check"><input type="checkbox" id="sound"> Level-up sound</label><label for="wordnikEndpoint">Optional Wordnik endpoint</label><input id="wordnikEndpoint" type="url" placeholder="https://your-worker.example/word" autocomplete="off"><p class="muted">Your API key stays on your server. Connect with your endpoint password to use live words.</p><button id="connectWordnik" class="wide" type="button">Connect Wordnik</button><button id="disconnectWordnik" class="wide" type="button" hidden>Disconnect Wordnik</button><p id="wordnikStatus" class="muted" role="status">Offline word deck active.</p><button id="saveSettings" class="primary wide">Save settings</button><hr><button id="installButton" class="wide" hidden>Install Text Fight</button><p id="installHelp" class="muted">Android: Chrome menu → Add to Home screen → Install. Desktop: open the same HTTPS link in Chrome or Edge; use the install icon in the address bar.</p><p id="offlineStatus" class="muted">Preparing offline app…</p><button id="updateButton" class="wide" hidden>Update app & resume draft</button></dialog>
+  <dialog id="wordnikAuthDialog"><form id="wordnikAuthForm" autocomplete="off"><div class="dialog-heading"><h2>Connect Wordnik</h2><button type="button" data-close aria-label="Close Wordnik connection">×</button></div><p id="wordnikAuthHost" class="muted"></p><label for="wordnikPassword">Endpoint password</label><input id="wordnikPassword" type="password" maxlength="256" required autocomplete="off"><p class="muted">Enter the password you set for this endpoint. Your Wordnik API key stays on the server. This connection lasts one hour and ends when you reload the app.</p><p id="wordnikAuthError" class="error" role="alert"></p><button id="wordnikAuthSubmit" class="primary wide" type="submit">Connect</button></form></dialog>
+  <dialog id="categoriesDialog"><form id="categoriesForm"><div class="dialog-heading"><h2>Choose your prompts</h2><button type="button" data-close aria-label="Close categories">×</button></div><p class="muted">Each enabled category has an equal chance. Practice one or mix a few.</p><div id="categoryChoices"></div><p id="categoryError" class="error" role="alert"></p><button class="primary wide" type="submit">Use these categories</button></form></dialog>
+  <dialog id="customDialog"><form id="customForm"><div class="dialog-heading"><h2>Set your pace</h2><button type="button" data-close aria-label="Close custom pace">×</button></div><label for="customMinutes">Minutes between prompts</label><input id="customMinutes" type="number" min="0" step="any" value="5" required><p class="muted">Any positive interval. The new timer begins when you save.</p><button class="primary wide" type="submit">Set pace</button></form></dialog>
+  <dialog id="roundDialog"><form method="dialog" class="dialog-heading"><h2>A new round</h2><button aria-label="Close new round">×</button></form><p class="muted">Your writing and earned XP stay saved. The session count starts at zero.</p><button id="restartContinue" class="primary wide">Continue this draft</button><button id="restartDrill" class="wide">Drill in this draft</button></dialog>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <div id="fanfare" class="fanfare" role="status" hidden></div>
+  <noscript>Text Fight needs JavaScript to save your drafts locally and deal prompts.</noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

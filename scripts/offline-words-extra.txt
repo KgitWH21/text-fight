@@ -1,0 +1,1000 @@
+door|A movable barrier closing an entrance.
+window|An opening that admits light or air.
+table|A raised surface for work or meals.
+chair|A seat with a back for one person.
+bed|A place arranged for sleeping.
+blanket|A thick covering used for warmth.
+pillow|A soft support for the head.
+sheet|A broad, thin piece of fabric or other material.
+mattress|A padded surface placed on a bed.
+quilt|A bed covering stitched through layers of fabric.
+curtain|A hanging cloth that screens an opening.
+carpet|A thick fabric covering for a floor.
+rug|A movable piece of floor covering.
+floor|The lower surface of a room.
+ceiling|The overhead surface inside a room.
+wall|A vertical structure enclosing or dividing space.
+roof|The upper covering of a building.
+chimney|A passage that carries smoke outside.
+porch|A sheltered platform outside an entrance.
+balcony|A raised platform projecting from a building.
+terrace|A level outdoor area beside a building.
+veranda|A roofed platform along a building's exterior.
+cellar|A room beneath ground level, often used for storage.
+attic|The space directly beneath a roof.
+basement|A building's lowest floor, partly or entirely underground.
+closet|A small enclosed space for storage.
+cupboard|A storage space fitted with shelves and doors.
+cabinet|A piece of furniture with enclosed storage.
+drawer|A sliding compartment in furniture.
+shelf|A flat support for storing or displaying things.
+bookcase|A piece of furniture with shelves for books.
+wardrobe|A tall cupboard for hanging clothes.
+dresser|A chest of drawers for clothing.
+mirror|A surface that reflects an image.
+basin|An open container used for washing or holding water.
+bucket|A deep container with a carrying handle.
+bowl|A rounded container with an open top.
+plate|A shallow dish used for serving food.
+cup|A small drinking vessel, often with a handle.
+mug|A sturdy drinking vessel with a handle.
+saucer|A small shallow dish beneath a cup.
+spoon|A utensil with a small curved bowl.
+fork|A utensil with prongs for lifting food.
+knife|A tool with a sharp cutting blade.
+ladle|A deep spoon for serving liquids.
+colander|A perforated bowl used to drain food.
+strainer|A mesh tool that separates solids from liquid.
+kettle|A vessel used to heat water.
+teapot|A vessel in which tea is brewed and served.
+skillet|A frying pan, often made of heavy metal.
+cauldron|A large pot for cooking over a fire.
+brazier|A container holding hot coals for warmth.
+oven|An enclosed chamber used for baking or heating.
+stove|An appliance used for cooking or heating.
+grate|A framework of bars that supports or guards something.
+candle|A wick enclosed in wax or another slow-burning material.
+wick|A cord that draws fuel to a flame.
+match|A small stick tipped with an ignitable substance.
+flint|A hard stone that can produce sparks when struck.
+flame|The visible, flickering part of a fire.
+ember|A glowing fragment remaining in a fire.
+ash|The powder left after something burns.
+soot|Fine black particles deposited by smoke.
+smoke|Airborne particles and gases released by burning.
+fuel|Material used to produce heat or power.
+coal|A dark combustible rock used as fuel.
+charcoal|A black fuel made by heating wood with little air.
+timber|Wood prepared for building.
+lumber|Wood cut into useful boards or beams.
+plank|A long, flat piece of timber.
+beam|A long support carrying structural weight.
+post|An upright support fixed into the ground.
+pole|A long, slender rod or shaft.
+stake|A pointed piece driven into the ground.
+nail|A small metal fastener driven into material.
+screw|A fastener with a spiral ridge.
+bolt|A stout fastener, often secured with a nut.
+washer|A flat ring placed beneath a fastening.
+rivet|A permanent fastener formed by flattening its end.
+clamp|A device that grips things tightly together.
+vice|A device holding an object between tightened jaws.
+hammer|A tool with a heavy striking head.
+mallet|A hammer with a broad wooden or rubber head.
+axe|A tool with a heavy blade for chopping.
+hatchet|A small axe used with one hand.
+saw|A cutting tool with a toothed edge.
+plane|A tool that shaves a wooden surface smooth.
+awl|A pointed tool for piercing small holes.
+file|A tool with a rough surface for shaping material.
+raspberry|A small fruit made of many juicy segments.
+sandpaper|Paper coated with abrasive grit.
+whetstone|A stone used to sharpen blades.
+sickle|A curved blade used for cutting vegetation.
+scythe|A long-handled tool with a broad curved blade.
+shovel|A tool for lifting loose material.
+spade|A flat-bladed tool for digging.
+hoe|A long-handled tool for loosening soil.
+rake|A tool with teeth for gathering or leveling material.
+pickaxe|A heavy pointed tool for breaking hard ground.
+wheelbarrow|A small handcart supported by a wheel.
+cart|A wheeled vehicle for carrying loads.
+wagon|A four-wheeled vehicle used for transporting goods.
+sled|A vehicle that slides on runners.
+sleigh|A runner-mounted vehicle, often drawn by horses.
+harness|Straps and fittings used to guide or secure an animal.
+bridle|Headgear used to control a horse.
+reins|Straps connecting a rider's hands to a bridle.
+saddle|A shaped seat placed on a riding animal.
+stirrup|A hanging support for a rider's foot.
+spur|A small device on a rider's heel.
+hoof|The hard covering of certain animals' feet.
+mane|Long hair along an animal's neck.
+muzzle|The projecting nose and mouth of an animal.
+antler|A branching bony growth on a deer's head.
+tusk|A long projecting tooth.
+claw|A sharp curved nail on an animal's foot.
+talon|A strong hooked claw, especially on a bird.
+feather|One of the light structures covering a bird.
+quill|A stiff feather shaft, once used for writing.
+wing|A limb adapted for flight.
+beak|A bird's hard projecting mouth.
+nest|A structure made by an animal for shelter or breeding.
+burrow|A hole or tunnel used as an animal's home.
+den|A concealed resting place for an animal.
+kennel|A shelter or establishment for dogs.
+stable|A building where horses are housed.
+barn|A farm building for animals, crops, or equipment.
+silo|A tall storage structure for grain or feed.
+coop|A small enclosure for poultry.
+pen|An enclosed area for keeping animals.
+paddock|A fenced field for grazing or exercising animals.
+pasture|Land covered with plants suitable for grazing.
+meadow|Open grassland, often dotted with wildflowers.
+field|An area of open land, often cultivated.
+hedge|A row of shrubs forming a boundary.
+fence|A barrier enclosing or dividing land.
+gate|A movable barrier in a fence or wall.
+stile|Steps or a passage allowing people across a fence.
+path|A route made or used for walking.
+lane|A narrow road or passage.
+road|A prepared route for vehicles or travelers.
+street|A road lined with buildings.
+alley|A narrow passage between buildings.
+avenue|A broad road, sometimes lined with trees.
+boulevard|A wide urban road, often with planted sections.
+causeway|A raised route across wet or low ground.
+bridge|A structure carrying a route over an obstacle.
+viaduct|A long elevated structure carrying a road or railway.
+tunnel|A passage through or beneath an obstacle.
+arch|A curved structure spanning an opening.
+pillar|An upright structural support.
+column|A vertical support, often cylindrical.
+foundation|The supporting base beneath a structure.
+buttress|A projecting support that strengthens a wall.
+parapet|A low protective wall along an edge.
+rampart|A broad defensive wall or embankment.
+battlement|A defensive parapet with alternating raised sections.
+moat|A ditch surrounding a fortified place.
+drawbridge|A bridge that can be raised or moved aside.
+portcullis|A heavy grating lowered to close a fortified entrance.
+courtyard|An open area enclosed by walls or buildings.
+cloister|A covered walkway bordering an enclosed court.
+arcade|A covered passage formed by a series of arches.
+corridor|A passage connecting rooms.
+passage|A narrow route through or between places.
+hallway|A passage inside a building.
+vestibule|A small entrance space before a larger room.
+foyer|An entrance hall or gathering space.
+lobby|A public entrance or waiting area.
+chamber|An enclosed room or compartment.
+parlor|A room used for receiving visitors.
+scullery|A small room used for washing dishes and kitchen work.
+pantry|A space for storing food and kitchen supplies.
+larder|A cool place for storing food.
+kitchen|A room or area where food is prepared.
+workshop|A room or building where things are made or repaired.
+smithy|A workshop where a smith works metal.
+forge|A hearth or furnace for heating metal.
+foundry|A place where metal is melted and cast.
+kiln|A heated chamber for firing pottery or drying materials.
+warehouse|A large building used for storing goods.
+granary|A building used to store grain.
+mill|A place or machine that grinds or processes material.
+windmill|A structure whose sails capture wind power.
+waterwheel|A wheel turned by flowing or falling water.
+well|A deep opening made to obtain groundwater.
+pump|A device that moves fluid by pressure or suction.
+trough|A long open container for water or feed.
+aqueduct|A channel or structure carrying water.
+reservoir|A place where water is collected and stored.
+dam|A barrier holding back or controlling water.
+weir|A low barrier built across flowing water.
+sluice|A channel or gate controlling a flow of water.
+canal|An artificial waterway.
+wharf|A waterside platform where vessels load and unload.
+quay|A solid landing place beside navigable water.
+pier|A structure projecting from shore over water.
+jetty|A structure extending into water for access or protection.
+dock|An enclosed or equipped place for vessels.
+harbor|A sheltered area where vessels can anchor.
+marina|A harbor equipped for small boats.
+boathouse|A building used to shelter boats.
+lighthouse|A tower displaying a light to guide vessels.
+beacon|A visible signal that guides or warns.
+buoy|A floating marker fixed or drifting in water.
+rope|A thick cord made from twisted strands.
+cord|A flexible length of twisted fibers.
+twine|A thin strong string made from twisted strands.
+thread|A fine strand used in sewing or weaving.
+yarn|A continuous strand of fibers used to make fabric.
+needle|A slender pointed tool used in sewing.
+pin|A small pointed fastener.
+buckle|A fastening through which a strap passes.
+clasp|A fastening that holds parts together.
+zipper|A fastening made from interlocking rows of teeth.
+button|A small fastening passed through a loop or hole.
+loop|A curve or ring formed by something bending back.
+knot|A fastening made by interlacing a flexible length.
+tassel|A hanging bunch of threads or cords.
+fringe|A border of hanging threads or strips.
+hem|The folded and sewn edge of fabric.
+cuff|The end portion of a sleeve or trouser leg.
+collar|The part of a garment around the neck.
+lapel|The folded edge on the front of a jacket.
+pocket|A small pouch sewn into clothing.
+lining|An inner layer of fabric or other material.
+patch|A piece of material covering or repairing a surface.
+apron|A protective garment worn over the front of the body.
+cloak|A loose outer garment hanging from the shoulders.
+shawl|A piece of fabric worn around the shoulders or head.
+scarf|A length of fabric worn around the neck or head.
+bonnet|A hat tied beneath the chin.
+helmet|A protective covering for the head.
+visor|A projecting shade or movable face covering.
+gauntlet|A long protective glove.
+mitten|A glove with one section for the fingers together.
+boot|Footwear covering the foot and part of the leg.
+sandal|An open shoe held by straps.
+slipper|A light shoe, often worn indoors.
+river|A natural stream of water flowing toward another body of water.
+stream|A relatively small flow of water in a channel.
+brook|A small natural stream.
+creek|A small stream or narrow inlet.
+rivulet|A very small stream of liquid.
+waterfall|Water falling over a steep edge.
+cascade|A fall of water flowing over a series of drops.
+rapids|A stretch of swiftly moving, turbulent water.
+pool|A small area of collected liquid.
+pond|A small body of still water.
+lake|A large body of water surrounded by land.
+lagoon|A shallow body of water separated from a larger one.
+estuary|The tidal mouth of a river.
+delta|Land formed by deposited sediment at a river's mouth.
+swamp|Wet ground dominated by trees or shrubs.
+marsh|Wet ground covered mainly with grasses and similar plants.
+bog|Wet, spongy ground where partly decayed plants accumulate.
+fen|A wetland fed by mineral-bearing groundwater or surface water.
+moor|Open uncultivated upland, often covered with low shrubs.
+heath|Open land covered with low shrubs and coarse grasses.
+plain|A broad area of relatively level land.
+prairie|A wide area of open grassland.
+steppe|A broad, mostly treeless grassland in a dry region.
+plateau|An elevated area with a relatively level surface.
+mesa|An isolated hill with a flat top and steep sides.
+butte|An isolated steep-sided hill with a small flat top.
+ridge|A long narrow crest of raised ground.
+crest|The highest edge or top of a raised surface.
+summit|The highest point of a mountain or achievement.
+peak|A pointed top, especially of a mountain.
+cliff|A steep, high face of rock or earth.
+bluff|A steep bank or headland.
+ravine|A deep, narrow valley with steep sides.
+gorge|A narrow valley with steep rocky walls.
+canyon|A deep valley cut through rock.
+gully|A channel cut into earth by running water.
+valley|Low ground lying between hills or mountains.
+hollow|A sheltered depression or cavity.
+dell|A small wooded valley.
+glen|A narrow valley, especially in hilly country.
+knoll|A small rounded hill.
+mound|A rounded heap or raised area.
+dune|A hill or ridge of windblown sand.
+beach|A shore of sand, pebbles, or other loose material.
+shore|The land bordering a body of water.
+coast|The land along the edge of a sea.
+cove|A small sheltered inlet.
+bay|A broad inlet partly enclosed by land.
+inlet|A narrow opening through which water extends inland.
+fjord|A long, deep sea inlet between steep slopes.
+headland|High land projecting into the sea.
+cape|A prominent point of land extending into water.
+peninsula|Land surrounded by water on most sides.
+isthmus|A narrow strip of land connecting larger areas.
+island|Land surrounded by water.
+archipelago|A group or chain of islands.
+reef|A ridge of rock or coral near the water's surface.
+atoll|A ring-shaped coral formation surrounding a lagoon.
+sandbar|A ridge of sand formed by moving water.
+shingleback|An Australian lizard with large scales and a short, blunt tail.
+scree|Loose rock fragments covering a steep slope.
+pebble|A small stone rounded by wear.
+boulder|A large rounded or irregular mass of rock.
+slate|A fine-grained rock that splits into thin layers.
+granite|A hard rock containing visible mineral crystals.
+limestone|A rock composed mainly of calcium carbonate.
+flintlock|A gun mechanism that ignites powder with a flint spark.
+quartz|A common hard mineral found in many rocks.
+mica|A shiny mineral that separates into thin sheets.
+clay|Fine earth that becomes moldable when wet.
+silt|Fine sediment carried or deposited by water.
+loam|Soil containing a mixture of sand, silt, and clay.
+humus|Dark organic material formed by decaying matter in soil.
+peat|Partly decayed plant material accumulated in wet ground.
+moss|A small plant forming soft green growth on damp surfaces.
+lichen|A growth formed by a fungus living with an alga or cyanobacterium.
+fern|A plant with divided fronds that reproduces by spores.
+frond|A large divided leaf, especially of a fern or palm.
+petal|One of the often colorful parts surrounding a flower's center.
+pollen|Fine grains produced by seed plants for reproduction.
+stamen|The pollen-producing part of a flower.
+nectar|A sweet liquid produced by flowers.
+bud|An undeveloped shoot, leaf, or flower.
+blossom|A flower, especially on a fruit tree.
+root|A plant part that anchors it and absorbs water.
+bark|The protective outer covering of a tree's trunk or branches.
+branch|A woody division growing from a tree's trunk.
+twig|A small slender woody shoot.
+sapling|A young tree with a slender trunk.
+stump|The remaining base of a cut or broken tree.
+log|A cut length of tree trunk or branch.
+canopy|An overhead cover formed by branches or another structure.
+thicket|A dense growth of bushes or small trees.
+copse|A small group of trees.
+grove|A group of trees with relatively open ground beneath.
+forest|A large area covered mainly with trees.
+jungle|Dense vegetation, especially in a tropical region.
+clearing|An open space within a wooded area.
+glade|An open area in a wood or forest.
+undergrowth|Low plants growing beneath taller vegetation.
+ivy|A climbing or trailing plant that clings to surfaces.
+willow|A tree or shrub often having narrow leaves and flexible branches.
+birch|A tree often recognized by its pale, peeling bark.
+cedar|An evergreen tree valued for its aromatic wood.
+maple|A tree commonly bearing lobed leaves and winged seeds.
+oak|A tree bearing acorns and usually having strong wood.
+acorn|The nut produced by an oak tree.
+chestnut|A glossy brown nut enclosed in a prickly husk.
+walnut|A ridged edible nut enclosed in a hard shell.
+hazelnut|A small rounded nut from a hazel tree.
+almond|An edible seed with a thin brown skin.
+fig|A soft fruit containing many tiny seeds.
+plum|A smooth-skinned fruit with a central stone.
+peach|A soft fruit with fuzzy skin and a central stone.
+apricot|A small orange fruit related to the peach.
+pear|A sweet fruit usually narrowing toward its stem.
+apple|A firm, rounded fruit with a central seed-containing core.
+quince|A fragrant yellow fruit often cooked before eating.
+pomegranate|A thick-skinned fruit containing many juicy red seeds.
+lemon|A yellow citrus fruit with sour juice.
+lime|A small citrus fruit, often green and sharply sour.
+orange|A citrus fruit with segmented flesh and a fragrant rind.
+grape|A small juicy fruit that grows in clusters.
+raisin|A dried grape.
+date|A sweet fruit produced by certain palms.
+olive|A small oily fruit with a hard central stone.
+carrot|An edible root, usually orange and tapering.
+parsnip|A pale edible root with a sweet, earthy flavor.
+beet|A rounded edible root, often deep red.
+radish|A crisp edible root with a peppery taste.
+onion|An edible bulb formed from tightly layered leaves.
+garlic|A strongly flavored bulb divided into cloves.
+leek|A vegetable with a long pale stalk and broad green leaves.
+celery|A vegetable with crisp, ribbed stalks.
+cabbage|A vegetable whose leaves form a compact head.
+kale|A leafy cabbage that does not form a tight head.
+spinach|A leafy green vegetable.
+lettuce|A leafy plant commonly eaten raw.
+fennel|An aromatic plant with feathery leaves and an anise-like flavor.
+squash|A plant bearing edible fleshy fruits with firm rinds.
+gourd|A hard-rinded fruit sometimes dried into a container.
+pumpkin|A large round squash, often orange.
+cucumber|A long crisp fruit commonly eaten as a vegetable.
+eggplant|A vegetable with smooth skin and spongy flesh.
+pepper|A pungent spice or the fruit of certain vegetable plants.
+chili|A pepper with a hot, pungent flavor.
+bean|An edible seed usually enclosed in a pod.
+lentil|A small flattened edible seed.
+chickpea|A rounded edible seed with a slightly pointed shape.
+barley|A cereal grain used for food, feed, and brewing.
+oat|A cereal plant producing grain often eaten as porridge.
+rye|A cereal grain used for bread and spirits.
+wheat|A cereal grain widely used to make flour.
+millet|A group of grasses cultivated for small edible grains.
+rice|A cereal grain commonly grown in flooded fields.
+flour|A fine powder made by grinding grain or other food.
+dough|A thick mixture kneaded or shaped before baking.
+batter|A pourable mixture used in cooking.
+bread|Food made by baking a mixture based on flour and liquid.
+crust|A firm outer layer, especially on baked food.
+crumb|A small fragment of bread or another brittle food.
+pastry|Dough rich in fat, used for baked dishes.
+dumpling|A small mass of dough cooked with or without filling.
+noodle|A long thin strip or strand of dough.
+broth|A thin savory liquid made by simmering ingredients.
+stew|A dish of ingredients cooked slowly in liquid.
+gravy|A sauce often made from cooking juices.
+brine|Water containing a high concentration of salt.
+vinegar|A sour liquid used in cooking and preserving.
+honey|A sweet substance made by bees from nectar.
+molasses|A dark thick syrup produced during sugar processing.
+syrup|A thick, sweet liquid.
+jam|Fruit cooked with sugar into a spread.
+jelly|A soft food set into a trembling mass.
+curd|A soft mass formed when milk coagulates.
+cheese|Food made by processing coagulated milk.
+butter|A spread made by churning cream.
+cream|The richer, fatty portion of milk.
+yogurt|Milk thickened and soured by bacterial cultures.
+buttermilk|A tangy dairy liquid, traditionally left after churning butter.
+coffee|A drink brewed from roasted coffee seeds.
+tea|A drink made by steeping tea leaves in hot water.
+cocoa|Powder made from processed cacao seeds, or a drink made with it.
+cider|A drink made from pressed fruit, especially apples.
+flask|A small container, often used for carrying liquid.
+canteen|A portable water container or a place serving meals.
+goblet|A drinking vessel with a stem and broad bowl.
+chalice|A large ceremonial drinking cup.
+decanter|A stoppered vessel used for serving a drink.
+pitcher|A container with a handle and pouring spout.
+carafe|A container used for serving water or wine.
+phone|A device used to communicate by sound and other signals.
+screen|A surface displaying images or shielding something from view.
+keyboard|An arrangement of keys used to enter information or play music.
+cursor|A moving mark showing a position on a display.
+monitor|A display used to view electronic information.
+terminal|A device for accessing a computer system, or a transport station.
+computer|An electronic device that processes information.
+laptop|A portable computer with an attached screen and keyboard.
+tablet|A thin flat object, including a portable touchscreen computer.
+charger|A device that restores electrical energy to a battery.
+battery|A device that stores energy for supplying electricity.
+cable|A thick cord or bundle of wires.
+socket|A hollow fitting that receives a matching part.
+plug|A piece inserted to close an opening or make a connection.
+switch|A device that changes an electrical connection.
+bulb|A rounded light source or a plant's underground storage structure.
+filament|A very thin strand or threadlike structure.
+circuit|A complete path through which electricity can flow.
+sensor|A device that detects a physical condition or change.
+signal|An action or transmission conveying information.
+antenna|A structure used to send or receive radio signals.
+transmitter|A device that sends out a signal.
+receiver|A device or person that receives a signal or object.
+speaker|A person speaking or a device producing sound.
+microphone|A device that converts sound into an electrical signal.
+headphones|A pair of small speakers worn over or in the ears.
+camera|A device used to record images.
+lens|A shaped transparent piece that bends light.
+shutter|A movable cover controlling an opening or exposure to light.
+tripod|A support standing on three legs.
+projector|A device that casts an image onto a surface.
+printer|A device that produces text or images on a surface.
+scanner|A device that reads or examines something systematically.
+cartridge|A replaceable container holding material for a device.
+envelope|A folded covering used to hold a letter or document.
+postcard|A card mailed without an envelope.
+stamp|A small printed label or a tool for making an impression.
+ticket|A document or token granting admission or travel.
+receipt|A written acknowledgment of payment or delivery.
+invoice|A document listing goods or services and the amount due.
+barcode|A machine-readable pattern identifying an item.
+passport|An official document identifying an international traveler.
+badge|A small sign of identity, membership, or authority.
+uniform|Standard clothing identifying a group or occupation.
+clipboard|A portable board with a clip for holding papers.
+notebook|A bound collection of pages for writing notes.
+pencil|A writing tool containing a solid marking core.
+eraser|A tool or material used to remove written marks.
+ruler|A straight tool used to measure or draw lines.
+stapler|A tool that joins materials with bent metal fasteners.
+paperclip|A small bent wire used to hold papers together.
+folder|A cover used to organize and hold documents.
+briefcase|A flat case used to carry papers and work materials.
+backpack|A bag carried on the back with shoulder straps.
+suitcase|A handled case for clothing and travel belongings.
+handbag|A small bag carried for personal belongings.
+wallet|A small folding case for money and cards.
+purse|A small bag or container for money or personal items.
+key|A shaped object used to operate a lock.
+keyhole|The opening into which a lock's key is inserted.
+padlock|A portable lock with a movable loop.
+chain|A series of connected links.
+handrail|A rail held for support beside stairs or a walkway.
+escalator|A moving staircase.
+elevator|A platform or cabin that moves people or goods vertically.
+platform|A raised, level surface used as a working or standing area.
+subway|An underground railway or pedestrian passage.
+turntable|A rotating platform, especially one used to play records.
+engine|A machine that converts energy into useful motion.
+piston|A sliding part that moves inside a cylinder.
+amble|To walk at an easy, unhurried pace.
+stroll|To walk casually, usually for pleasure.
+stride|To walk with long, purposeful steps.
+trudge|To walk with slow, heavy effort.
+shuffle|To move with short steps while dragging the feet.
+limp|To walk unevenly because one leg is painful or weak.
+hobble|To walk awkwardly or with difficulty.
+stumble|To trip or briefly lose balance.
+totter|To move or stand with unstable, swaying motions.
+stomp|To step heavily and forcefully.
+tramp|To walk heavily or travel on foot for a long time.
+march|To walk with regular, deliberate steps.
+slink|To move quietly as if avoiding attention.
+creep|To move slowly and cautiously.
+crawl|To move close to the ground using limbs or the body.
+slither|To slide or twist along a surface.
+glide|To move smoothly with little apparent effort.
+drift|To move slowly under the influence of a current or force.
+float|To rest or move on a fluid without sinking.
+hover|To remain suspended or linger near a place.
+soar|To rise or fly high with apparent ease.
+swoop|To descend or move in a swift sweeping curve.
+dive|To plunge downward, especially headfirst.
+plunge|To move or thrust suddenly downward or forward.
+plummet|To fall rapidly and steeply.
+tumble|To fall or roll with uncontrolled turns.
+topple|To lose balance and fall over.
+pitch|To throw forcefully or tilt sharply.
+tilt|To move into a sloping position.
+lean|To incline the body or rest against support.
+crouch|To lower the body by bending the knees.
+stoop|To bend the upper body downward.
+hunch|To bend the back and raise the shoulders.
+kneel|To rest the body on one or both knees.
+squat|To lower the body with knees bent and weight over the feet.
+perch|To sit or rest on a narrow or elevated support.
+roost|To settle into a resting place, especially for the night.
+settle|To come to rest or become established.
+alight|To land gently or step down from a vehicle.
+descend|To move from a higher place to a lower one.
+ascend|To move or rise upward.
+scale|To climb a steep surface or reach a height.
+climb|To move upward using effort or support.
+mount|To get onto, rise above, or increase.
+scramble|To climb or move hurriedly with awkward effort.
+scamper|To run with quick, light steps.
+scurry|To move quickly with small hurried steps.
+dart|To make a sudden, quick movement.
+gallop|To run with the fast gait of a horse.
+dash|To move or rush with sudden speed.
+sprint|To run at high speed for a short distance.
+charge|To rush forward with force or determination.
+rush|To move or act with haste.
+hurtle|To move with great speed, often dangerously.
+barrel|To move rapidly with force and little restraint.
+lunge|To make a sudden forward thrust.
+leap|To spring through the air or across a gap.
+bound|To move forward with long jumping strides.
+spring|To move suddenly or jump upward.
+hop|To make a short jump, often on one foot.
+skip|To move with alternating steps and light jumps.
+vault|To jump over something using a hand or pole for support.
+hurdle|To leap over an obstacle.
+swerve|To change direction suddenly.
+veer|To shift direction or course.
+weave|To move in and out or interlace strands.
+zigzag|To move through a series of sharp alternating turns.
+pivot|To turn around a fixed point.
+twist|To turn into a bent or spiral shape.
+coil|To wind into a series of loops.
+curl|To form or move into a curved shape.
+unfurl|To open out something rolled or folded.
+uncoil|To straighten from a coiled shape.
+untangle|To free something from knots or confusion.
+unwind|To loosen something wound around a center.
+wind|To wrap or turn something around a center.
+wring|To twist and squeeze firmly.
+squeeze|To press inward from opposing sides.
+crush|To press with enough force to deform or break.
+compress|To press into a smaller or denser form.
+flatten|To make a surface level or an object thinner.
+fold|To bend one part over another.
+crease|To make a sharp line by folding or pressing.
+crinkle|To form small wrinkles with a dry rustling sound.
+wrinkle|To form small folds or lines on a surface.
+rumple|To disturb a smooth surface into uneven folds.
+ruffle|To stir into irregular movement or disturb composure.
+fluff|To shake or arrange something into a soft, airy shape.
+flap|To move loosely back and forth.
+flutter|To move with quick, light, irregular motions.
+flicker|To shine or move with rapid, unsteady changes.
+flare|To burn or brighten suddenly.
+blaze|To burn brightly and fiercely.
+glow|To give off steady light or warmth.
+gleam|To shine with a clear, often reflected light.
+glisten|To shine with small reflections, especially when wet.
+glitter|To shine with many bright points of light.
+sparkle|To flash with small bright bursts.
+shimmer|To shine with a soft, trembling light.
+shine|To emit or reflect light.
+dazzle|To overwhelm sight with brightness or impress greatly.
+dim|To become less bright or distinct.
+fade|To lose brightness, strength, or clarity gradually.
+bleach|To remove color or make something very pale.
+stain|To mark or discolor a surface.
+smudge|To blur or smear a mark.
+smear|To spread a substance unevenly across a surface.
+daub|To apply a substance in rough, thick strokes.
+slather|To spread a thick or generous coating.
+splatter|To scatter liquid in irregular drops.
+splash|To scatter liquid through sudden movement.
+sprinkle|To scatter small drops or particles lightly.
+dribble|To let liquid fall or flow in small amounts.
+trickle|To flow in a thin, slow stream.
+seep|To pass slowly through small openings.
+ooze|To flow slowly as a thick substance.
+gush|To flow out suddenly and abundantly.
+spurt|To burst out in a short, forceful stream.
+surge|To move forward or increase with sudden force.
+swell|To grow larger, fuller, or more intense.
+ripple|To move in small waves or spread in gentle successive changes.
+undulate|To move or rise and fall in a wave-like pattern.
+billow|To swell outward or move in broad rolling masses.
+heave|To lift or move with great effort.
+haul|To pull or carry something heavy.
+heft|To lift something to feel or judge its weight.
+hoist|To raise something with effort or equipment.
+lug|To carry or drag something cumbersome.
+tug|To pull with a short, sharp effort.
+yank|To pull suddenly and forcefully.
+drag|To pull something along a surface.
+tow|To pull a vehicle or vessel behind another.
+jerk|To move with a sudden sharp motion.
+snatch|To seize quickly or unexpectedly.
+grab|To take hold of something suddenly.
+grasp|To hold firmly or understand clearly.
+clutch|To hold tightly, often from fear or urgency.
+clench|To close or tighten firmly.
+embrace|To hold closely in the arms or accept willingly.
+grope|To feel about uncertainly while searching.
+fumble|To handle something clumsily or uncertainly.
+fidget|To make small restless movements.
+twitch|To move with a brief involuntary jerk.
+flail|To wave the limbs wildly or ineffectively.
+thrash|To move or strike violently and repeatedly.
+convulse|To shake with sudden, powerful contractions.
+quiver|To tremble with small rapid movements.
+tremble|To shake from emotion, weakness, or cold.
+shiver|To shake slightly and involuntarily.
+palpitate|To beat or flutter rapidly, especially of the heart.
+whisper|To speak very softly with little vibration of the vocal cords.
+murmur|To speak or sound in a low, gentle way.
+mutter|To speak quietly and indistinctly, often with irritation.
+mumble|To speak unclearly without opening the mouth fully.
+grumble|To complain in a low, dissatisfied way.
+rumble|To make a deep, rolling sound.
+growl|To make a low rough sound of warning or anger.
+snarl|To speak or sound with harsh hostility.
+hiss|To make a sharp sound like escaping air.
+spit|To force saliva or another substance from the mouth.
+snap|To make a sharp breaking sound or speak abruptly.
+yelp|To utter a short, sharp cry.
+yap|To bark or talk in repeated sharp bursts.
+yowl|To make a long, loud, mournful cry.
+howl|To make a prolonged, rising cry or sound.
+wail|To cry out with a long, high sound of distress.
+whine|To make a sustained high sound or complain plaintively.
+whimper|To cry with soft, broken sounds.
+sob|To cry with convulsive catches of breath.
+sniffle|To breathe through the nose in small wet-sounding breaths.
+snort|To expel air noisily through the nose.
+sniff|To draw air through the nose to smell something.
+sigh|To release a long breath expressing feeling.
+gasp|To draw a sudden, sharp breath.
+pant|To breathe rapidly and heavily.
+wheeze|To breathe with a whistling or rattling sound.
+cough|To expel air suddenly from the lungs.
+hack|To cut with rough blows or cough harshly.
+croak|To make a low, rough sound.
+choke|To have breathing obstructed or become blocked.
+gag|To retch or struggle against something in the throat.
+retch|To make the muscular effort of vomiting.
+belch|To release gas noisily or emit something in a large burst.
+burp|To release swallowed gas through the mouth.
+hiccup|To make an involuntary sound caused by a sudden breathing spasm.
+gurgle|To make a bubbling sound as liquid or air moves.
+bubble|To form or rise in rounded pockets of gas.
+burble|To make a continuous soft bubbling sound.
+chuckle|To laugh quietly with a low sound.
+chortle|To laugh with an audible expression of delight.
+giggle|To laugh in repeated light, high sounds.
+snicker|To laugh quietly in a mocking or restrained way.
+cackle|To laugh with sharp, harsh bursts.
+guffaw|To laugh loudly and heartily.
+laugh|To express amusement with vocal sounds and bodily movement.
+scoff|To express scorn or disbelief.
+jeer|To make mocking or insulting remarks.
+taunt|To provoke someone with repeated insults or challenges.
+heckle|To interrupt a speaker with hostile or persistent remarks.
+tease|To provoke playfully or draw something out little by little.
+banter|To exchange playful, teasing remarks.
+quip|To make a short, witty remark.
+jest|To speak or act jokingly.
+retort|To answer sharply or with a quick counterargument.
+reply|To give an answer in words or action.
+respond|To react or provide an answer.
+answer|To respond to a question, call, or demand.
+ask|To seek information or request something.
+inquire|To ask for information.
+probe|To investigate closely or test with a pointed instrument.
+question|To ask about or express doubt concerning something.
+plead|To appeal earnestly or present a case.
+implore|To ask urgently and earnestly.
+beseech|To appeal to someone with great urgency.
+beg|To ask for something with strong need or earnestness.
+urge|To press someone toward an action.
+entreat|To ask earnestly and respectfully.
+persuade|To influence someone through reasons or appeals.
+cajole|To persuade through flattery or patient coaxing.
+wheedle|To obtain something through flattering or coaxing talk.
+flatter|To praise someone, often to gain favor.
+praise|To express approval or admiration.
+commend|To express approval or recommend favorably.
+applaud|To clap in approval or express strong support.
+cheer|To shout encouragement or make someone happier.
+acclaim|To welcome or praise enthusiastically.
+celebrate|To mark an occasion with recognition or enjoyment.
+mourn|To feel or express sorrow over a loss.
+grieve|To experience deep sorrow.
+lament|To express grief or regret.
+regret|To feel sorrow about a past action or circumstance.
+repent|To feel remorse and turn away from wrongdoing.
+resent|To feel lasting irritation at perceived unfairness.
+envy|To desire an advantage or possession another person has.
+covet|To desire something intensely, especially another's possession.
+crave|To feel a powerful desire for something.
+yearn|To long deeply for something absent or difficult to reach.
+long|To feel a strong, persistent desire.
+ache|To feel a dull pain or a deep emotional longing.
+pine|To suffer with longing for someone or something.
+brood|To dwell anxiously or unhappily on a thought.
+ponder|To consider something carefully and at length.
+muse|To think quietly and reflectively.
+reflect|To think back carefully or return light from a surface.
+contemplate|To consider attentively or look at something steadily.
+consider|To give something deliberate thought.
+deliberate|To weigh choices carefully before deciding.
+reckon|To calculate or form an opinion.
+reason|To think through evidence or explain a conclusion.
+infer|To reach a conclusion from evidence rather than direct statement.
+deduce|To arrive at a conclusion through logical reasoning.
+guess|To form an answer without enough evidence for certainty.
+surmise|To suppose something on incomplete evidence.
+suspect|To think something may be true without being certain.
+doubt|To feel uncertainty about a claim or possibility.
+hesitate|To pause through uncertainty or reluctance.
+waver|To move unsteadily or become uncertain.
+vacillate|To shift repeatedly between choices or opinions.
+resolve|To decide firmly or find a solution.
+decide|To choose or reach a conclusion.
+determine|To establish a fact or settle on a course of action.
+intend|To have an action or result in mind.
+scheme|To make a detailed or secret plan.
+plot|To plan events, often secretly.
+plan|To arrange in advance how something will be done.
+prepare|To make something ready.
+arrange|To put things in order or organize an event.
+assemble|To bring parts or people together.
+gather|To bring scattered things together.
+collect|To accumulate or bring things into one place.
+amass|To gather a large quantity over time.
+hoard|To accumulate and guard a supply.
+stash|To place something in a concealed or safe spot.
+conceal|To keep something from being seen or known.
+hide|To place or remain out of sight.
+obscure|To make something harder to see or understand.
+mask|To cover or disguise a feature or feeling.
+disguise|To alter an appearance so it is harder to recognize.
+camouflage|To conceal something by making it blend with its surroundings.
+veil|To cover lightly or make something less evident.
+shroud|To cover or surround something so it is concealed.
+unmask|To expose a hidden identity or motive.
+reveal|To make something visible or known.
+disclose|To make previously hidden information known.
+divulge|To reveal information that was private or secret.
+confide|To share private thoughts with someone trusted.
+admit|To acknowledge something or allow entry.
+confess|To acknowledge a concealed action or feeling.
+acknowledge|To recognize or openly accept something.
+deny|To state that something is untrue or refuse access.
+refuse|To decline a request or reject an offer.
+reject|To dismiss or refuse to accept something.
+rebuff|To reject someone abruptly or firmly.
+repel|To drive away or cause strong aversion.
+resist|To oppose a force, urge, or demand.
+defy|To resist openly or refuse to obey.
+oppose|To act or argue against something.
+confront|To face a person, problem, or threat directly.
+challenge|To question a claim or call someone to a contest.
+accuse|To state that someone has done something wrong.
+rough|Uneven or harsh to the touch.
+smooth|Even in texture or moving without interruption.
+coarse|Made of large particles or having a rough texture.
+fine|Delicate in texture, detail, or size.
+granular|Made up of small grains or particles.
+gritty|Containing hard particles or showing determined courage.
+sandy|Covered with or resembling sand.
+silky|Smooth and soft like silk.
+velvety|Soft, dense, and smooth like velvet.
+satiny|Smooth and glossy like satin.
+waxy|Resembling wax in texture or appearance.
+oily|Covered with oil or having an oil-like texture.
+greasy|Coated with or containing much grease.
+slimy|Covered with a slippery, unpleasantly smooth substance.
+sticky|Clinging to surfaces or difficult to remove.
+tacky|Slightly sticky to the touch.
+clammy|Unpleasantly damp and cool.
+damp|Slightly wet.
+moist|Containing a small amount of moisture.
+sodden|Soaked heavily with liquid.
+saturated|Holding as much of a substance as possible.
+waterlogged|Soaked or filled with water.
+parched|Extremely dry or thirsty.
+arid|Very dry, with little rainfall or moisture.
+dusty|Covered with or full of fine dry particles.
+powdery|Having the texture of fine loose particles.
+crumbly|Easily breaking into small pieces.
+brittle|Hard but easily broken or snapped.
+fragile|Easily damaged or broken.
+frail|Physically weak or delicate.
+sturdy|Strongly built and able to withstand strain.
+robust|Strong, healthy, or resilient.
+rigid|Stiff and resistant to bending or change.
+stiff|Difficult to bend or move freely.
+supple|Able to bend or move smoothly and easily.
+flexible|Able to bend without breaking or adapt to change.
+elastic|Able to stretch and return toward its original shape.
+taut|Stretched or pulled tight.
+loose|Not tightly held, fixed, or attached.
+slack|Not drawn tight; lacking tension.
+slender|Narrow and gracefully thin.
+slim|Thin in shape or small in amount.
+gaunt|Very thin, often with a worn or hungry appearance.
+stocky|Broad and solidly built.
+burly|Large, strong, and heavily built.
+lanky|Tall and thin, often awkwardly so.
+willowy|Tall, slender, and flexible in appearance.
+broad|Wide across or extensive in range.
+narrow|Having little width or limited scope.
+wide|Extending a considerable distance from side to side.
+deep|Extending far below a surface or inward from an edge.
+shallow|Having little depth.
+steep|Rising or falling at a sharp angle.
+level|Flat or even, without a slope.
+slanted|Set at an angle or presented with a particular bias.
+crooked|Bent out of a straight line or dishonest.
+warped|Bent or distorted from an original shape.
+lopsided|Unevenly balanced or heavier on one side.
+askew|Out of line or set at an awkward angle.
+awry|Out of the expected position or course.
+uneven|Not level, regular, or consistent.
+jagged|Having sharp, irregular points or edges.
+notched|Marked by small cuts or indentations along an edge.
+ridged|Marked by raised narrow lines.
+grooved|Marked by long narrow channels.
+fluted|Shaped with a series of long grooves.
+scalloped|Edged with a repeated pattern of rounded curves.
+knurled|Covered with small ridges for gripping.
+barbed|Fitted with backward-facing points; sharply hurtful in speech.
+thorny|Covered with thorns or difficult to resolve.
+spiny|Covered with stiff pointed projections.
+prickly|Having sharp points or being easily irritated.
+hairy|Covered with hair.
+furry|Covered with soft, dense hair.
+fuzzy|Covered with fine soft fibers or lacking clear edges.
+downy|Covered with soft fine feathers or similar fibers.
+feathery|Light, soft, or divided like a feather.
+scaly|Covered with thin overlapping plates or flakes.
+leathery|Tough and flexible like leather.
+calloused|Hardened by repeated friction or pressure.
+rugged|Rough and uneven or strongly built.
+gnarled|Twisted and knobby, often through age.
+sinuous|Curving smoothly from side to side.
+contorted|Twisted into an unusual or strained shape.
+angular|Having clear angles or sharp outlines.
+rounded|Having a curved outline without sharp corners.
+bumpy|Covered with small raised areas.
+bulbous|Rounded and swollen in shape.
+tapered|Gradually narrowing toward one end.
+pointed|Ending in a sharp tip or expressing a direct criticism.
+blunt|Having a rounded edge or speaking without softening the meaning.
+sharp|Having a fine cutting edge or a keenly defined quality.
+keen|Sharply perceptive or strongly eager.
+dull|Lacking sharpness, brightness, or excitement.
+bright|Giving much light or showing lively intelligence.
+brilliant|Exceptionally bright or impressive.
+radiant|Giving off light or showing visible happiness.
+luminous|Emitting or reflecting a soft light.
+luminescent|Giving off light through a process other than high heat.
+iridescent|Showing shifting colors as the viewing angle changes.
+opalescent|Showing a soft, milky play of colors.
+pearlescent|Having a gentle reflective sheen like a pearl.
+translucent|Allowing light through without a clear view beyond.
+transparent|Allowing a clear view through or easy understanding.
+opaque|Preventing a clear view or resisting understanding.
+murky|Dark or clouded enough to be difficult to see through.
+cloudy|Covered with clouds or made unclear by suspended material.
+hazy|Obscured by fine particles or uncertain in detail.
+misty|Filled with fine suspended droplets of water.
+foggy|Obscured by fog or unclear in thought.
+smoky|Containing smoke or resembling its color or smell.
+dusky|Dimly lit or darkened in color.
+gloomy|Dark and poorly lit or filled with sadness.
+somber|Dark or subdued in appearance or mood.
+sullen|Showing silent resentment or a dark, heavy mood.
+bleak|Bare and unwelcoming or offering little hope.
+desolate|Empty and abandoned or deeply unhappy.
+forlorn|Pitifully lonely or unlikely to succeed.
+lonely|Feeling the absence of company or being far from others.
+remote|Far away in place, time, or connection.
+isolated|Separated from other people or things.
+abandoned|Left behind or no longer cared for.
+empty|Containing nothing or lacking a felt substance.
+vacant|Unoccupied or showing little attention.
+silent|Making no sound or choosing not to speak.
+quiet|Making little noise or showing little activity.
+hushed|Softened into near silence.
+muted|Reduced in volume, brightness, or intensity.
+boisterous|Noisy, energetic, and difficult to restrain.
+raucous|Harshly loud and disorderly.
+strident|Loud, harsh, and insistent.
+shrill|High and piercing in sound.
+hoarse|Rough or strained in the voice.
+husky|Low and slightly rough in the voice.
+sonorous|Deep, rich, and resonant in sound.
+resonant|Rich in echoes or carrying a strong emotional association.
+mellifluous|Smooth and pleasing to hear.
+euphonious|Having a pleasing sound.
+dissonant|Clashing or lacking harmony in sound or feeling.
+discordant|Conflicting or unpleasantly lacking harmony.
+harmonious|Fitting together pleasantly or peacefully.
+rhythmic|Following a noticeable pattern of beats or movements.
+cadenced|Shaped by a measured, recurring rhythm.
+staccato|Made of short, sharply separated sounds or movements.
+sibilant|Having a hissing sound.
+guttural|Produced deep in the throat or having a throaty quality.
+plaintive|Expressing sorrow or longing through sound.
+wistful|Showing a gentle sadness for something desired or remembered.
+pensive|Deep in thought, often with a trace of sadness.
+melancholy|Marked by a quiet, lingering sadness.
+braid|To interlace three or more strands into a patterned length.
+plait|To fold or interlace strands into a braid.
+embroider|To decorate fabric with sewn patterns or embellish a story.
+stitch|To join or mark material with loops of thread.
+sew|To join or fasten material using a needle and thread.
+knit|To form fabric from interconnected loops or bring things closely together.
+crochet|To make fabric by drawing loops of yarn through one another with a hook.
+felt|To press or work fibers into a dense matted fabric.
+gild|To cover with a thin layer of gold or a golden appearance.
+engrave|To cut a design or inscription into a hard surface.
+etch|To mark a surface with fine lines or impress something deeply.
+carve|To shape material by cutting pieces away.
+hew|To shape or cut with heavy chopping blows.
+whittle|To shape wood by shaving off small pieces.
+pare|To trim away a thin outer layer or reduce something gradually.
+peel|To remove an outer covering or separate in thin layers.
+slit|To cut a narrow opening.
+slice|To cut into thin, flat pieces.
+slash|To cut with a broad, forceful stroke.
+chop|To cut with repeated sharp blows.
+scorch|To burn or discolor a surface with intense heat.
+singe|To burn lightly at the surface or tips.
+char|To blacken something through partial burning.
+burn|To consume or damage through fire or intense heat.
+freeze|To become solid through cold or stop moving suddenly.
+chill|To cool something or cause a feeling of fear.
+numb|To reduce physical sensation or dull an emotional response.
+thaw|To soften or become liquid after freezing.
+melt|To become liquid through heat or gradually lose firmness.
+dissolve|To mix into a liquid or gradually cease to exist as a distinct form.
+distill|To purify through evaporation and condensation or extract an essence.
+evaporate|To change from liquid into vapor.
+condense|To become denser or change from vapor into liquid.
+congeal|To thicken or set into a firmer mass.
+coagulate|To turn from a liquid into a thickened or clotted mass.
+curdle|To separate into clumps and liquid, especially of milk.
+ferment|To undergo chemical changes caused by microorganisms or build toward unrest.
+leaven|To make dough rise or lighten a heavy mood.
+knead|To work a pliable material by pressing and folding it repeatedly.
+sift|To separate fine particles or examine something carefully.
+sieve|To pass material through a mesh that separates particles by size.
+infuse|To steep a substance in liquid or fill something with a quality.
+filter|To pass through a separating medium or remove unwanted material.
+decant|To pour liquid carefully away from sediment or into another container.
+pour|To cause a liquid or loose material to flow out.
+spill|To let something flow or fall from its container.
+drain|To remove liquid or gradually exhaust a supply.
+bleed|To lose blood or allow fluid to escape.
+sear|To burn or brown a surface with intense heat.
+render|To make or represent something; in cooking, to melt fat out of tissue.

@@ -1,0 +1,2791 @@
+{
+  "starters": [
+    {
+      "type": "Noun",
+      "example": "Begin with a concrete person, place, object, or idea."
+    },
+    {
+      "type": "Verb",
+      "example": "Open with an action word, often as a command: “Listen.”"
+    },
+    {
+      "type": "Adjective",
+      "example": "Begin with a descriptive word or phrase: “Silent and watchful...”"
+    },
+    {
+      "type": "Adverb",
+      "example": "Start with an adverb that changes the pace or attitude: “Reluctantly...”"
+    },
+    {
+      "type": "Location",
+      "example": "Place the reader immediately: “Beneath the overpass...”"
+    },
+    {
+      "type": "Prepositional phrase",
+      "example": "Begin with a relationship in space or time: “After the storm...”"
+    },
+    {
+      "type": "Time marker",
+      "example": "Start with when something happens: “Three hours later...”"
+    },
+    {
+      "type": "Participial phrase",
+      "example": "Begin with an -ing or -ed phrase: “Dragging one foot...”"
+    },
+    {
+      "type": "Infinitive phrase",
+      "example": "Begin with “to” plus a verb: “To reach the harbor...”"
+    },
+    {
+      "type": "Dependent clause",
+      "example": "Open with “although,” “because,” “when,” “unless,” or a similar word."
+    },
+    {
+      "type": "Conditional",
+      "example": "Begin with a condition: “If the lights failed...”"
+    },
+    {
+      "type": "Conjunction",
+      "example": "Start with “And,” “But,” or “Yet” to continue pressure or contrast."
+    },
+    {
+      "type": "Pronoun",
+      "example": "Begin directly with “She,” “He,” “They,” “It,” or another pronoun."
+    },
+    {
+      "type": "Dialogue",
+      "example": "Open with something spoken aloud."
+    },
+    {
+      "type": "Question",
+      "example": "Begin by asking a question that creates tension or curiosity."
+    },
+    {
+      "type": "Command",
+      "example": "Address someone directly: “Run.” “Forget the map.”"
+    },
+    {
+      "type": "Interjection",
+      "example": "Begin with a reaction: “No.” “Well...” “Damn.”"
+    },
+    {
+      "type": "Appositive",
+      "example": "Start with a phrase that renames the subject: “The youngest of five brothers...”"
+    },
+    {
+      "type": "Absolute phrase",
+      "example": "Open with a detached image: “His hands trembling...”"
+    },
+    {
+      "type": "Direct object first",
+      "example": "Put the object before the subject: “That explanation, she rejected.”"
+    },
+    {
+      "type": "Predicate adjective first",
+      "example": "Lead with a judgment or condition: “Impossible was the word...”"
+    },
+    {
+      "type": "Sound or sensation",
+      "example": "Begin with something heard, felt, smelled, or seen."
+    },
+    {
+      "type": "Contrast",
+      "example": "Start with “Instead,” “Nevertheless,” “For once,” or another turn."
+    },
+    {
+      "type": "Negative construction",
+      "example": "Open with “Never,” “Not until,” or “Nothing.”"
+    }
+  ],
+  "craftDevices": [
+    {
+      "type": "Aberrant Decoding",
+      "example": "Misread or deliberately recode a familiar phrase, symbol, or message so the mistaken interpretation opens a second meaning."
+    },
+    {
+      "type": "Asemic Writing",
+      "example": "Introduce one invented, unreadable sign or glyph-like word whose shape and placement carry feeling without a fixed verbal meaning."
+    },
+    {
+      "type": "Bio-Poetry",
+      "example": "Let a biological process, organism, or living system determine the sentence’s imagery, structure, or movement."
+    },
+    {
+      "type": "Constrained Writing",
+      "example": "Write under one explicit rule—such as omitting a letter, fixing the word count, or restricting vocabulary—and preserve natural meaning."
+    },
+    {
+      "type": "Ephemeral Poetry",
+      "example": "Make the sentence depend on something fleeting—weather, breath, light, memory, or disappearance—so impermanence shapes both image and form."
+    },
+    {
+      "type": "Erasure Poetry",
+      "example": "Imagine the sentence uncovered by erasing most of a longer source; use only a sparse sequence of surviving words with suggestive gaps."
+    },
+    {
+      "type": "Fractal Poetry",
+      "example": "Repeat one image or syntactic pattern at smaller scales, letting each part echo the structure or meaning of the whole."
+    },
+    {
+      "type": "Mirative Vectoring",
+      "example": "Pivot the sentence through sudden discovery or astonishment, directing attention from what seemed known toward an unexpected reality."
+    },
+    {
+      "type": "Oulipo Writing",
+      "example": "Choose a playful, rigorous language constraint—lipogram, snowball, substitution, or another generative rule—and let it produce an unforeseen turn."
+    },
+    {
+      "type": "Palindromic Verse",
+      "example": "Build the sentence around a mirrored sequence of letters, words, images, or clauses that gains meaning when read back toward its beginning."
+    },
+    {
+      "type": "Phonesthetic Verse",
+      "example": "Choose sounds for their felt qualities, clustering consonants and vowels so the sentence’s music reinforces its mood or motion."
+    },
+    {
+      "type": "Semantic Satiation",
+      "example": "Repeat one charged word until its ordinary meaning loosens, then let its sound or a newly strange meaning take over."
+    },
+    {
+      "type": "Surrealist Automatistic Writing",
+      "example": "Write by rapid, uncensored association, allowing an unexpected image or logical rupture to enter without explanation."
+    },
+    {
+      "type": "Synesthetic Metaphor",
+      "example": "Describe one sensory experience through another sense—for example, a bitter color or a velvet sound—and make the crossing emotionally precise."
+    },
+    {
+      "type": "Visual Poetry",
+      "example": "Arrange spacing, punctuation, capitalization, or word shape so the sentence’s appearance participates in its meaning."
+    },
+    {
+      "type": "Absolute phrase",
+      "example": "Add a noun-plus-modifier phrase that frames the main clause: ‘Her hands shaking, she opened it.’"
+    },
+    {
+      "type": "Action in the verb",
+      "example": "Replace a weak verb plus abstract noun with one precise, energetic verb."
+    },
+    {
+      "type": "Alliteration",
+      "example": "Repeat an opening consonant sound in nearby words without forcing it."
+    },
+    {
+      "type": "Anacoluthon",
+      "example": "Begin in one grammatical construction, then deliberately break into another to convey urgency, emotion, or disrupted thought."
+    },
+    {
+      "type": "Anadiplosis",
+      "example": "End one clause with a word that begins the next clause."
+    },
+    {
+      "type": "Anaphora",
+      "example": "Repeat the same word or phrase at the beginning of successive clauses."
+    },
+    {
+      "type": "Anastrophe",
+      "example": "Invert ordinary word order for emphasis or an archaic cadence: ‘Bright was the moon.’"
+    },
+    {
+      "type": "Antithesis",
+      "example": "Place contrasting ideas in matching grammatical structures."
+    },
+    {
+      "type": "Aposiopesis",
+      "example": "Break off before completing the thought, letting silence or punctuation supply the emotional force."
+    },
+    {
+      "type": "Apposition",
+      "example": "Rename or clarify a noun with a nearby descriptive phrase."
+    },
+    {
+      "type": "Appositive chain",
+      "example": "Follow a noun with two or more renaming phrases that reveal increasingly specific detail."
+    },
+    {
+      "type": "Archaism",
+      "example": "Use an older word, inflection, or turn of syntax sparingly to create historical, ceremonial, or mythic weight."
+    },
+    {
+      "type": "Asyndeton",
+      "example": "Omit conjunctions from a series to increase speed or force."
+    },
+    {
+      "type": "Auxesis",
+      "example": "Arrange words or clauses in a rising sequence of force, scale, or consequence."
+    },
+    {
+      "type": "Balanced structure",
+      "example": "Give two parts of the sentence similar length and grammatical form."
+    },
+    {
+      "type": "Brachylogia",
+      "example": "Compress the sentence by omitting expected words while preserving clarity and force."
+    },
+    {
+      "type": "Catachresis",
+      "example": "Use a deliberately strained or impossible metaphor to name something ordinary language cannot quite contain."
+    },
+    {
+      "type": "Chiasmus",
+      "example": "Repeat a grammatical pattern in reverse order: A-B, then B-A."
+    },
+    {
+      "type": "Climactic ordering",
+      "example": "Arrange details from least important or intense to most important or intense."
+    },
+    {
+      "type": "Commoratio",
+      "example": "Repeat the same central idea in several differently worded clauses to dwell on it for emphasis."
+    },
+    {
+      "type": "Concrete imagery",
+      "example": "Express the idea through specific physical details the reader can sense."
+    },
+    {
+      "type": "Concrete subject",
+      "example": "Make a specific person, object, or force the grammatical subject instead of an abstraction."
+    },
+    {
+      "type": "Conduplicatio",
+      "example": "Repeat a key word from one clause in the next, using recurrence to bind and intensify the sentence."
+    },
+    {
+      "type": "Cumulative sentence",
+      "example": "State the main clause early, then add layers of modifying detail."
+    },
+    {
+      "type": "Delayed main clause",
+      "example": "Open with modifiers or dependent material, then postpone the core statement for emphasis."
+    },
+    {
+      "type": "Delayed subject",
+      "example": "Delay naming the sentence’s subject until descriptive or situational material has prepared for it."
+    },
+    {
+      "type": "Delayed verb",
+      "example": "Separate the subject from its main verb with controlled descriptive material to build anticipation."
+    },
+    {
+      "type": "Diacope",
+      "example": "Repeat a word or phrase with a small interruption between repetitions."
+    },
+    {
+      "type": "Direct sentence",
+      "example": "Use a clear subject, a strong verb, and a concrete object with no unnecessary framing."
+    },
+    {
+      "type": "Ellipsis",
+      "example": "Deliberately omit words the reader can easily supply from context."
+    },
+    {
+      "type": "Enallage",
+      "example": "Deliberately substitute an unexpected grammatical form, tense, person, or number for stylistic effect."
+    },
+    {
+      "type": "End emphasis",
+      "example": "Move the newest, heaviest, or most surprising information to the final phrase."
+    },
+    {
+      "type": "Epanalepsis",
+      "example": "Repeat the opening word or phrase at the end of the same sentence or clause."
+    },
+    {
+      "type": "Epistrophe",
+      "example": "Repeat the same word or phrase at the ends of successive clauses."
+    },
+    {
+      "type": "Epizeuxis",
+      "example": "Repeat a word immediately with no interruption: ‘Gone, gone, gone.’"
+    },
+    {
+      "type": "Extended metaphor",
+      "example": "Develop one comparison through more than one related detail or action."
+    },
+    {
+      "type": "Front-loaded modifier",
+      "example": "Begin with a descriptive phrase that establishes condition, attitude, time, or setting before the subject appears."
+    },
+    {
+      "type": "Gerund phrase",
+      "example": "Build part of the sentence around an -ing form acting as a noun: ‘Waiting was the hardest part.’"
+    },
+    {
+      "type": "Hendiadys",
+      "example": "Express one complex idea through two coordinated words joined by ‘and’: ‘sound and fury.’"
+    },
+    {
+      "type": "Hypallage",
+      "example": "Transfer a modifier from the word it logically describes to a neighboring noun: ‘a sleepless night.’"
+    },
+    {
+      "type": "Hyperbole",
+      "example": "Use obvious exaggeration to intensify an emotion, impression, or judgment."
+    },
+    {
+      "type": "Hypotaxis",
+      "example": "Build a sentence through layers of subordinate clauses so relationships of cause, time, and condition are explicit."
+    },
+    {
+      "type": "Interrupting modifier",
+      "example": "Insert a brief descriptive phrase inside the main clause without losing grammatical control."
+    },
+    {
+      "type": "Inversion",
+      "example": "Reverse ordinary word order to emphasize a particular element."
+    },
+    {
+      "type": "Irony",
+      "example": "Create tension between the apparent meaning and the intended or actual meaning."
+    },
+    {
+      "type": "Isocolon",
+      "example": "Create successive phrases or clauses of roughly equal length and corresponding structure."
+    },
+    {
+      "type": "Loose-to-tight movement",
+      "example": "Begin broadly, then narrow the sentence toward one precise action, image, or conclusion."
+    },
+    {
+      "type": "Metaphor",
+      "example": "Describe one thing as another to reveal a useful resemblance."
+    },
+    {
+      "type": "Modifier ladder",
+      "example": "Add two or three modifiers in a deliberate sequence, each sharpening the image or action."
+    },
+    {
+      "type": "Nominalization repair",
+      "example": "Turn an abstract noun ending in -tion, -ment, or -ance back into a vivid verb when possible."
+    },
+    {
+      "type": "Onomatopoeia",
+      "example": "Use a word whose sound imitates or suggests the sound being described."
+    },
+    {
+      "type": "Oxymoron",
+      "example": "Join apparently contradictory terms to create a concentrated effect."
+    },
+    {
+      "type": "Parallel clauses",
+      "example": "Build two or more clauses with the same grammatical pattern."
+    },
+    {
+      "type": "Parallelism",
+      "example": "Repeat a grammatical structure across related words, phrases, or clauses."
+    },
+    {
+      "type": "Parataxis",
+      "example": "Place clauses beside one another with little or no subordination, creating speed, bluntness, or biblical gravity."
+    },
+    {
+      "type": "Parenthesis",
+      "example": "Insert a grammatically independent aside that complicates, comments on, or undercuts the main statement."
+    },
+    {
+      "type": "Participial phrase",
+      "example": "Use an -ing or -ed phrase to compress a related action or condition into the sentence."
+    },
+    {
+      "type": "Periodic sentence",
+      "example": "Delay the main clause or central meaning until the end."
+    },
+    {
+      "type": "Personification",
+      "example": "Give a nonhuman thing a distinctly human action, motive, or feeling."
+    },
+    {
+      "type": "Pleonasm",
+      "example": "Use deliberate verbal excess or redundancy to create emphasis, solemnity, or a spoken cadence."
+    },
+    {
+      "type": "Polysyndeton",
+      "example": "Repeat conjunctions between items to slow, accumulate, or intensify them."
+    },
+    {
+      "type": "Predicate adjective shift",
+      "example": "Move an adjective away from its noun and make it part of the sentence’s main assertion."
+    },
+    {
+      "type": "Prepositional layering",
+      "example": "Use a controlled sequence of prepositional phrases to locate or deepen the image."
+    },
+    {
+      "type": "Prolepsis",
+      "example": "Place a word, judgment, or anticipated result earlier than normal to foreground what is coming."
+    },
+    {
+      "type": "Question and answer",
+      "example": "Pose a genuine or rhetorical question, then answer it within the same sentence or immediately after it."
+    },
+    {
+      "type": "Relative clause",
+      "example": "Add a who, which, or that clause to identify, restrict, or expand a noun."
+    },
+    {
+      "type": "Repeated sentence frame",
+      "example": "Repeat the same syntactic frame while changing the key content inside it."
+    },
+    {
+      "type": "Rhetorical question",
+      "example": "Ask a question for emphasis rather than to obtain an answer."
+    },
+    {
+      "type": "Right-branching sentence",
+      "example": "Place the main clause first, then let each new phrase extend naturally to the right."
+    },
+    {
+      "type": "Scesis onomaton",
+      "example": "Build a forceful sentence from a rapid series of near-synonymous nouns or adjectives with few verbs."
+    },
+    {
+      "type": "Series of three",
+      "example": "Arrange three coordinated words, phrases, or clauses to create completeness and rhythm."
+    },
+    {
+      "type": "Short-long contrast",
+      "example": "Pair a short clause with a much longer one to create emphasis through rhythmic contrast."
+    },
+    {
+      "type": "Simile",
+      "example": "Compare unlike things using ‘like’ or ‘as’ to sharpen an image."
+    },
+    {
+      "type": "Specific-before-abstract",
+      "example": "Present a concrete example or physical fact before stating its larger meaning."
+    },
+    {
+      "type": "Subject-verb proximity",
+      "example": "Keep the main subject and verb close together so the sentence remains easy to follow."
+    },
+    {
+      "type": "Suspended sentence",
+      "example": "Withhold a key word or completion across several parallel phrases before finally releasing it."
+    },
+    {
+      "type": "Synchysis",
+      "example": "Interlock words or phrases in an intentionally tangled order to create density, grandeur, or confusion."
+    },
+    {
+      "type": "Tmesis",
+      "example": "Split a word or fixed phrase by inserting another word for emphasis or comic force."
+    },
+    {
+      "type": "Transferred epithet",
+      "example": "Attach an adjective to a nearby noun rather than to the person or thing it logically describes."
+    },
+    {
+      "type": "Tricolon",
+      "example": "Build the sentence around three parallel words, phrases, or clauses."
+    },
+    {
+      "type": "Understatement",
+      "example": "Deliberately describe something as less important or intense than it is."
+    },
+    {
+      "type": "V-2 inversion",
+      "example": "Place the finite verb unusually early, often after an opening element, to create a formal or older cadence."
+    },
+    {
+      "type": "Verb sequence",
+      "example": "Use a series of precise verbs to make the subject’s progression visible and energetic."
+    },
+    {
+      "type": "Waw-consecutive cadence",
+      "example": "Link successive actions with repeated ‘and’ clauses to evoke scriptural or chronicle-like movement."
+    },
+    {
+      "type": "Weighted ending",
+      "example": "Reserve the longest, most complex, or most consequential element for the sentence’s end."
+    },
+    {
+      "type": "Zeugma",
+      "example": "Use one governing word with two others in different senses."
+    }
+  ],
+  "enders": [
+    {
+      "type": "Strong noun",
+      "example": "End on the most vivid person, place, object, or idea."
+    },
+    {
+      "type": "Main verb",
+      "example": "Let the final word be the decisive action."
+    },
+    {
+      "type": "Concrete image",
+      "example": "Finish with something the reader can see."
+    },
+    {
+      "type": "Revelation",
+      "example": "Save the new or surprising information for the end."
+    },
+    {
+      "type": "Emotional reversal",
+      "example": "Turn the feeling of the sentence in its final phrase."
+    },
+    {
+      "type": "Short emphatic word",
+      "example": "Land on one compact word: “No.” “Him.” “Again.”"
+    },
+    {
+      "type": "Prepositional phrase",
+      "example": "End by locating the action: “beneath the house.”"
+    },
+    {
+      "type": "Adverb",
+      "example": "Finish with an adverb that meaningfully alters the action."
+    },
+    {
+      "type": "Subordinate clause",
+      "example": "End with a clause beginning with “because,” “until,” or “as though.”"
+    },
+    {
+      "type": "Participial phrase",
+      "example": "Finish with an -ing phrase that extends the action."
+    },
+    {
+      "type": "Appositive",
+      "example": "End with a renaming phrase after a comma or dash."
+    },
+    {
+      "type": "Fragment",
+      "example": "Follow the sentence with a deliberate fragment. Something sharp."
+    },
+    {
+      "type": "Question",
+      "example": "Finish by turning the sentence into an unanswered question."
+    },
+    {
+      "type": "Parallel structure",
+      "example": "End with two or three balanced phrases."
+    },
+    {
+      "type": "Repetition",
+      "example": "Repeat a key word at the end for pressure or emphasis."
+    },
+    {
+      "type": "Withheld information",
+      "example": "Stop just before explaining the most important detail."
+    },
+    {
+      "type": "Name",
+      "example": "Make the final word a character’s name."
+    },
+    {
+      "type": "Sensory detail",
+      "example": "End on a sound, texture, smell, taste, or color."
+    },
+    {
+      "type": "Contradiction",
+      "example": "Finish with a detail that challenges the sentence’s opening claim."
+    },
+    {
+      "type": "Threat",
+      "example": "Let the final phrase imply immediate danger."
+    }
+  ],
+  "prompts": [
+    "What you had for breakfast.",
+    "The last place you walked.",
+    "The last thing you watched.",
+    "The last thing you read.",
+    "The last song you heard.",
+    "The last thing you bought.",
+    "The last message you received.",
+    "The last room you entered.",
+    "The last thing you searched for online.",
+    "The last minor inconvenience you encountered.",
+    "Something currently within reach.",
+    "The nearest window.",
+    "The chair you are sitting in.",
+    "A sound you can hear right now.",
+    "An object on your desk or table.",
+    "Something nearby that needs cleaning.",
+    "A light source in the room.",
+    "The temperature where you are.",
+    "The smell of the room you are in.",
+    "The texture of something in your hand.",
+    "Making coffee or tea.",
+    "Brushing your teeth.",
+    "Taking out the trash.",
+    "Opening your computer.",
+    "Waiting for food to heat.",
+    "Getting dressed.",
+    "Preparing for bed.",
+    "Looking for something you misplaced.",
+    "Standing in a checkout line.",
+    "Carrying groceries inside.",
+    "Washing a dish.",
+    "Folding laundry.",
+    "Charging a dying phone.",
+    "Checking the weather before leaving.",
+    "Walking through a parking lot.",
+    "Hearing a neighbor through the wall.",
+    "Watching someone parallel park.",
+    "Opening a package.",
+    "Realizing you are out of something ordinary.",
+    "Deciding what to eat when nothing sounds good.",
+    "A food you think is overrated.",
+    "A minor task you dislike.",
+    "Something people make unnecessarily complicated.",
+    "A habit you recently developed.",
+    "A product that disappointed you.",
+    "Something that was better ten years ago.",
+    "A skill that looks easier than it is.",
+    "A place that feels different at night.",
+    "Something you have changed your mind about.",
+    "A small luxury you would miss.",
+    "A rule you follow even when no one is watching.",
+    "A harmless lie people tell every day.",
+    "A private ritual that helps you begin work.",
+    "A sound that instantly irritates you.",
+    "A smell that returns you to another time.",
+    "A phrase someone says too often.",
+    "A possession you keep despite rarely using it.",
+    "A minor decision you keep postponing.",
+    "The difference between being tired and being finished.",
+    "A moment when silence was more useful than advice.",
+    "Your first home.",
+    "A school hallway you still remember.",
+    "A meal someone used to make for you.",
+    "A childhood game.",
+    "A familiar family phrase.",
+    "A place you have not visited in years.",
+    "An old piece of clothing.",
+    "A former daily routine.",
+    "A song you once heard constantly.",
+    "A forgotten acquaintance.",
+    "The first time you were trusted with something important.",
+    "A childhood fear that now seems small.",
+    "A childhood fear that no longer seems small.",
+    "The first time an adult disappointed you.",
+    "A room that no longer exists.",
+    "An object inherited from someone else.",
+    "The last time a group of people were all together.",
+    "A photograph whose meaning changed over time.",
+    "A memory you are no longer sure is accurate.",
+    "Returning to a place that once felt enormous.",
+    "The first moment you felt understood by someone.",
+    "A quiet act of care.",
+    "Someone remembering a detail you thought they had forgotten.",
+    "A shared joke that would make no sense to anyone else.",
+    "Sitting beside someone without needing to speak.",
+    "A reunion after a long absence.",
+    "The first ordinary morning after falling in love.",
+    "Realizing a friendship has become permanent.",
+    "Realizing a friendship has already ended.",
+    "A conversation that repaired something.",
+    "A conversation that changed nothing.",
+    "Someone showing up when they did not have to.",
+    "A kindness from a stranger.",
+    "Being welcomed into a family or community.",
+    "Feeling lonely in a crowded room.",
+    "Missing someone during an otherwise happy moment.",
+    "The moment a child trusts an adult.",
+    "The moment an adult recognizes a child has grown.",
+    "The relief of seeing a familiar face.",
+    "The pain of being treated like a stranger by someone familiar.",
+    "Beginning a task you have avoided for weeks.",
+    "Finishing work no one else will notice.",
+    "Making a mistake in front of other people.",
+    "Realizing you are better at something than you used to be.",
+    "Realizing talent will not be enough.",
+    "Receiving praise you do not fully believe.",
+    "Receiving criticism you know is correct.",
+    "Being asked to lead before you feel ready.",
+    "Watching someone else receive an opportunity you wanted.",
+    "Solving a problem after nearly giving up.",
+    "Discovering that the easy part is over.",
+    "Doing excellent work while feeling terrible.",
+    "Pretending to understand during a meeting or lesson.",
+    "The moment practice becomes instinct.",
+    "The embarrassment of being confidently wrong.",
+    "The private satisfaction of doing something properly.",
+    "A project that grew beyond its original purpose.",
+    "The moment a long effort finally becomes visible.",
+    "Choosing not to take the safest path.",
+    "Starting over after losing progress.",
+    "Moving into a new home.",
+    "Sleeping in an unfamiliar room for the first time.",
+    "The last day at a job.",
+    "The first day after retirement.",
+    "Leaving a place without knowing whether you will return.",
+    "Deleting a phone number you once knew by heart.",
+    "Giving away something that once mattered deeply.",
+    "Realizing an era of your life has ended.",
+    "Hearing news that changes the shape of the future.",
+    "Choosing a name for someone or something new.",
+    "Signing a document that makes a decision real.",
+    "Crossing a border.",
+    "Seeing your hometown through the eyes of a visitor.",
+    "The first night after a major decision.",
+    "The ordinary morning after a life-changing event.",
+    "Learning that a familiar building will be demolished.",
+    "Packing one final box.",
+    "The moment a temporary arrangement becomes permanent.",
+    "A goodbye that seemed unimportant at the time.",
+    "A beginning that did not feel like one.",
+    "Seeing a place you had only known from pictures.",
+    "Hearing a favorite song at exactly the right moment.",
+    "Laughing so hard you cannot speak.",
+    "Receiving unexpectedly good news.",
+    "Watching someone you love succeed.",
+    "A meal that tastes better because of the company.",
+    "The first comfortable day after a long illness.",
+    "A pet greeting someone at the door.",
+    "The first rain after a dry season.",
+    "A city seen from above at night.",
+    "A room filled with people who are glad you came.",
+    "Finding money in an old coat.",
+    "Waking before an alarm and realizing you can sleep longer.",
+    "The sudden cancellation of an unwanted obligation.",
+    "A stranger giving directions with unusual care.",
+    "Seeing an elderly couple make each other laugh.",
+    "A baby recognizing a familiar voice.",
+    "A long-awaited package finally arriving.",
+    "The moment music turns a gathering into a celebration.",
+    "An ordinary day that you suddenly recognize as good.",
+    "A phone call received in the middle of the night.",
+    "The first meal after a funeral.",
+    "Entering the room of someone who has died.",
+    "Learning that someone will not recover.",
+    "The moment a relationship becomes irreparable.",
+    "Being unable to reach someone during an emergency.",
+    "Returning home after a disaster.",
+    "Watching a familiar place burn.",
+    "Waiting for test results.",
+    "The instant before delivering terrible news.",
+    "The instant after receiving terrible news.",
+    "Packing the belongings of someone who is gone.",
+    "A family argument that reveals an older wound.",
+    "Realizing an apology will never come.",
+    "The silence after an ambulance leaves.",
+    "A child asking a question no adult can answer.",
+    "The last lucid conversation with someone who is fading.",
+    "Recognizing that a loved one no longer recognizes you.",
+    "The first anniversary of a loss.",
+    "Discovering that grief has changed but has not ended.",
+    "Waking from anesthesia.",
+    "Waiting alone in an examination room.",
+    "Learning to use crutches.",
+    "The first breath after surfacing from deep water.",
+    "A panic attack in a public place.",
+    "The sudden awareness of your own heartbeat.",
+    "Trying to hide pain from someone who knows you well.",
+    "The first time your body refuses something your mind expects it to do.",
+    "Sitting beside someone in a hospital overnight.",
+    "Receiving a diagnosis that finally explains years of symptoms.",
+    "The boredom of a long recovery.",
+    "The indignity of needing help with an ordinary task.",
+    "The first walk outside after being confined indoors.",
+    "The strange gratitude of an uneventful medical result.",
+    "Realizing that exhaustion has become normal.",
+    "A citywide power outage.",
+    "An earthquake during an ordinary meal.",
+    "A sudden evacuation.",
+    "A crowd realizing the event has gone wrong.",
+    "The final announcement at a closing factory.",
+    "The first day after a war ends.",
+    "The first day after a war begins.",
+    "A government announcement that changes daily life.",
+    "A community searching for a missing person.",
+    "A town preparing for a hurricane.",
+    "A family crossing a border with only what they can carry.",
+    "The opening of a time capsule.",
+    "The demolition of a neighborhood landmark.",
+    "A total solar eclipse.",
+    "The first human voice heard after days of isolation.",
+    "A rescue team finding someone alive.",
+    "A public celebration after years of waiting.",
+    "A ceremony honoring someone who is absent.",
+    "The rediscovery of something believed lost.",
+    "The moment a historical event becomes a personal memory.",
+    "A spouse learns that their partner is being deployed.",
+    "A child watches a parent pack for deployment.",
+    "A service member writes a letter they hope will never be delivered.",
+    "A veteran returns to a home that no longer feels familiar.",
+    "A family receives conflicting news about someone missing in action.",
+    "Two siblings choose opposite sides of a civil war.",
+    "A recruit realizes training did not prepare them for combat.",
+    "A medic treats an enemy soldier before a wounded friend.",
+    "A civilian offers shelter to a frightened deserter.",
+    "A soldier misses the birth of their child.",
+    "A unit shares an ordinary meal before a dangerous mission.",
+    "A commander must send exhausted troops back into danger.",
+    "A sentry hears movement beyond the wire on a moonless night.",
+    "A pilot is ordered to strike a target near civilians.",
+    "A communications officer receives an impossible command.",
+    "A patrol discovers that its map is dangerously outdated.",
+    "Two enemies become trapped together and must cooperate.",
+    "A ceasefire begins while one isolated unit is still fighting.",
+    "A soldier must decide whether to obey an unlawful order.",
+    "A prisoner of war is offered freedom at a moral cost.",
+    "A battlefield promotion places an unready person in command.",
+    "A retreat leaves someone behind.",
+    "A rescue mission becomes more dangerous than the battle it follows.",
+    "A general realizes the enemy has anticipated the entire strategy.",
+    "A small country prepares to resist a vastly larger invader.",
+    "A government manufactures a justification for an unjust war.",
+    "Allied nations fracture over how the war should end.",
+    "A leader must choose between a costly offensive and a prolonged siege.",
+    "A neutral nation is pressured to choose a side.",
+    "A rebellion wins territory but begins losing its principles.",
+    "A horrific battle continues after its strategic purpose has vanished.",
+    "An army wins every battle while losing the war.",
+    "A blockade turns military pressure into civilian catastrophe.",
+    "Peace negotiations depend on an agreement nobody trusts.",
+    "A weapon is developed that may make victory morally unbearable.",
+    "A war atrocity has been committed, and witnesses are being silenced.",
+    "A soldier photographs evidence their superiors want destroyed.",
+    "A village must identify those responsible for a massacre.",
+    "A tribunal hears testimony from both a victim and a perpetrator.",
+    "A mass grave is discovered decades after the war.",
+    "Propaganda transforms a neighbor into an enemy.",
+    "A journalist embeds with troops whose actions they begin to question.",
+    "An interpreter deliberately changes the meaning of a crucial message.",
+    "A museum displays an object looted during a forgotten occupation.",
+    "A war memorial omits the names of the politically inconvenient dead.",
+    "A town celebrates liberation before learning who liberated it.",
+    "The last surviving participant disputes the official story of a famous battle.",
+    "Former enemies meet by accident many years after the armistice.",
+    "A war ends, but no one can agree on who won.",
+    "The first quiet morning after the guns stop.",
+    "Receiving a call to leave the familiar world behind.",
+    "Standing at the threshold of a place no one returns from unchanged.",
+    "A dream that feels more like a summons than a dream.",
+    "An ordinary person discovering a sacred obligation.",
+    "Meeting a guide who may be wise, dangerous, or both.",
+    "Refusing a destiny that continues to return in new forms.",
+    "Crossing into a realm governed by unfamiliar laws.",
+    "Entering the wilderness alone.",
+    "A test that reveals character rather than strength.",
+    "Receiving help from an unexpected or supernatural source.",
+    "A bargain made with a god, spirit, ancestor, or unknown power.",
+    "A gift that is also a burden.",
+    "A prophecy misunderstood until it is nearly fulfilled.",
+    "A sign that could be coincidence or revelation.",
+    "A prayer offered without certainty that anyone is listening.",
+    "A prayer answered in the least desired way.",
+    "The silence that follows a miracle.",
+    "The first moment someone suspects the gods are afraid.",
+    "A divine command that conflicts with human compassion.",
+    "A sacred place damaged by ordinary people.",
+    "A ritual performed by someone who no longer believes in it.",
+    "A ritual that works despite everyone’s disbelief.",
+    "The discovery that an enemy serves the same god.",
+    "The moment a hero realizes victory requires sacrifice.",
+    "Descending into darkness to recover someone or something lost.",
+    "Facing the figure who embodies one’s deepest fear.",
+    "A symbolic death followed by an uncertain return.",
+    "Returning home with knowledge no one wants to hear.",
+    "Finding that home has changed while the traveler was away.",
+    "Bringing back a gift that cannot be shared easily.",
+    "Realizing the monster and the savior are the same being.",
+    "A mortal arguing with fate.",
+    "A god envying an ordinary human life.",
+    "An immortal confronting the meaning of endless time.",
+    "The creation of the first boundary between order and chaos.",
+    "The final star going dark.",
+    "A civilization hearing evidence that it is not alone.",
+    "The universe appearing briefly conscious.",
+    "Time folding so that an ancestor meets a descendant.",
+    "A person seeing the scale of the cosmos and feeling comfort instead of terror.",
+    "A person seeing the scale of the cosmos and feeling terror instead of wonder.",
+    "The instant before a world is created.",
+    "The instant after a world ends.",
+    "A soul waiting to be judged.",
+    "A judgment delivered by a flawed divine authority.",
+    "A dead person permitted one final ordinary conversation.",
+    "An ancestor appearing in a moment of crisis.",
+    "A forgotten god receiving the first prayer in centuries.",
+    "A revelation that makes daily life harder rather than easier.",
+    "A cosmic truth hidden inside a mundane object.",
+    "The sacred concealed within an ordinary meal.",
+    "A child asking where the universe came from.",
+    "The moment faith survives certainty.",
+    "The moment faith collapses under silence.",
+    "Discovering that divine beings are bound by rules too.",
+    "The hero returning not triumphant, but changed enough to begin again.",
+    "A character enters a room and realizes something is wrong.",
+    "Someone receives a message they were never meant to see.",
+    "A familiar place feels different after many years.",
+    "A character lies while trying to sound sincere.",
+    "Two people notice the same object but interpret it differently.",
+    "A machine begins doing something it was not designed to do.",
+    "A character hears a sound from an impossible location.",
+    "Someone tries to leave without being noticed.",
+    "A small mistake creates a much larger problem.",
+    "A character recognizes a stranger.",
+    "An ordinary object carries an unsettling implication.",
+    "Someone wins an argument and immediately regrets it.",
+    "A character discovers that an old memory is inaccurate.",
+    "A person waits for someone who may not come.",
+    "A celebration is interrupted by bad news.",
+    "A character must choose between speed and caution.",
+    "Someone tries to hide physical pain.",
+    "A peaceful scene contains one disturbing detail.",
+    "A character realizes they have been followed.",
+    "Two people speak politely while threatening each other."
+  ],
+  "sentenceEnhancements": [
+    {
+      "type": "Acronym",
+      "example": "Insert one acronym that the sentence makes legible through context."
+    },
+    {
+      "type": "Alien word",
+      "example": "Invent one extraterrestrial word whose phonetics suggest body, environment, or worldview."
+    },
+    {
+      "type": "Ancient or historical word: Akkadian",
+      "example": "Insert one attested or responsibly reconstructed word from Akkadian. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Ancient Egyptian",
+      "example": "Insert one attested or responsibly reconstructed word from Ancient Egyptian. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Ancient Greek",
+      "example": "Insert one attested or responsibly reconstructed word from Ancient Greek. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Anglo-Norman",
+      "example": "Insert one attested or responsibly reconstructed word from Anglo-Norman. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Avestan",
+      "example": "Insert one attested or responsibly reconstructed word from Avestan. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Biblical Hebrew",
+      "example": "Insert one attested or responsibly reconstructed word from Biblical Hebrew. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Classical Arabic",
+      "example": "Insert one attested or responsibly reconstructed word from Classical Arabic. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Classical Armenian",
+      "example": "Insert one attested or responsibly reconstructed word from Classical Armenian. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Classical Chinese",
+      "example": "Insert one attested or responsibly reconstructed word from Classical Chinese. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Classical Japanese",
+      "example": "Insert one attested or responsibly reconstructed word from Classical Japanese. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Classical Maya",
+      "example": "Insert one attested or responsibly reconstructed word from Classical Maya. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Classical Nahuatl",
+      "example": "Insert one attested or responsibly reconstructed word from Classical Nahuatl. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Coptic",
+      "example": "Insert one attested or responsibly reconstructed word from Coptic. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Elamite",
+      "example": "Insert one attested or responsibly reconstructed word from Elamite. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Etruscan",
+      "example": "Insert one attested or responsibly reconstructed word from Etruscan. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Gaulish",
+      "example": "Insert one attested or responsibly reconstructed word from Gaulish. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Geʽez",
+      "example": "Insert one attested or responsibly reconstructed word from Geʽez. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Gothic",
+      "example": "Insert one attested or responsibly reconstructed word from Gothic. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Hattic",
+      "example": "Insert one attested or responsibly reconstructed word from Hattic. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Hittite",
+      "example": "Insert one attested or responsibly reconstructed word from Hittite. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Hurrian",
+      "example": "Insert one attested or responsibly reconstructed word from Hurrian. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Koine Greek",
+      "example": "Insert one attested or responsibly reconstructed word from Koine Greek. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Latin",
+      "example": "Insert one attested or responsibly reconstructed word from Latin. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Luwian",
+      "example": "Insert one attested or responsibly reconstructed word from Luwian. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Middle English",
+      "example": "Insert one attested or responsibly reconstructed word from Middle English. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Middle French",
+      "example": "Insert one attested or responsibly reconstructed word from Middle French. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Middle High German",
+      "example": "Insert one attested or responsibly reconstructed word from Middle High German. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Mycenaean Greek",
+      "example": "Insert one attested or responsibly reconstructed word from Mycenaean Greek. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old Church Slavonic",
+      "example": "Insert one attested or responsibly reconstructed word from Old Church Slavonic. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old English",
+      "example": "Insert one attested or responsibly reconstructed word from Old English. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old French",
+      "example": "Insert one attested or responsibly reconstructed word from Old French. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old High German",
+      "example": "Insert one attested or responsibly reconstructed word from Old High German. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old Irish",
+      "example": "Insert one attested or responsibly reconstructed word from Old Irish. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old Japanese",
+      "example": "Insert one attested or responsibly reconstructed word from Old Japanese. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old Norse",
+      "example": "Insert one attested or responsibly reconstructed word from Old Norse. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old Persian",
+      "example": "Insert one attested or responsibly reconstructed word from Old Persian. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old Prussian",
+      "example": "Insert one attested or responsibly reconstructed word from Old Prussian. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Old Saxon",
+      "example": "Insert one attested or responsibly reconstructed word from Old Saxon. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Pali",
+      "example": "Insert one attested or responsibly reconstructed word from Pali. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Phoenician",
+      "example": "Insert one attested or responsibly reconstructed word from Phoenician. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Proto-Germanic reconstruction",
+      "example": "Insert one attested or responsibly reconstructed word from Proto-Germanic reconstruction. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Proto-Indo-European reconstruction",
+      "example": "Insert one attested or responsibly reconstructed word from Proto-Indo-European reconstruction. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Sanskrit",
+      "example": "Insert one attested or responsibly reconstructed word from Sanskrit. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Sumerian",
+      "example": "Insert one attested or responsibly reconstructed word from Sumerian. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Syriac",
+      "example": "Insert one attested or responsibly reconstructed word from Syriac. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Tocharian",
+      "example": "Insert one attested or responsibly reconstructed word from Tocharian. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Ugaritic",
+      "example": "Insert one attested or responsibly reconstructed word from Ugaritic. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Ancient or historical word: Vulgar Latin",
+      "example": "Insert one attested or responsibly reconstructed word from Vulgar Latin. Use it as ritual, scholarship, ancestry, inscription, memory, or verbal fossil."
+    },
+    {
+      "type": "Animal name",
+      "example": "Insert one animal name as literal presence, comparison, omen, nickname, or inherited symbol."
+    },
+    {
+      "type": "Archaic English word",
+      "example": "Insert one genuinely archaic English word and make its age enrich the voice rather than parody it."
+    },
+    {
+      "type": "Architectural term",
+      "example": "Insert one architectural word and let built space organize the sentence."
+    },
+    {
+      "type": "Astrological term",
+      "example": "Insert one astrological word and clarify whether the sentence believes, doubts, exploits, or merely notices it."
+    },
+    {
+      "type": "Aviation term",
+      "example": "Insert one aviation word as procedure, memory, danger, or metaphor of control."
+    },
+    {
+      "type": "Body-part word",
+      "example": "Insert one anatomical word and make the sentence physically felt."
+    },
+    {
+      "type": "Borrowed word used incorrectly",
+      "example": "Have a character use one borrowed word slightly wrong, revealing aspiration, confusion, or social performance."
+    },
+    {
+      "type": "Brand name",
+      "example": "Insert one brand name as social signal, period detail, aspiration, embarrassment, or debris."
+    },
+    {
+      "type": "Bureaucratic term",
+      "example": "Insert one bureaucratic word whose sterile tone clashes with lived experience."
+    },
+    {
+      "type": "Chess term",
+      "example": "Insert one chess word—check, gambit, fork, mate—and avoid the most predictable metaphor."
+    },
+    {
+      "type": "Child-coined word",
+      "example": "Insert one word invented by a child and make its private logic immediately graspable."
+    },
+    {
+      "type": "Color word",
+      "example": "Insert one precise or unusual color word and make it perform more than visual description."
+    },
+    {
+      "type": "Computing insertion: AI-model vocabulary",
+      "example": "Insert one word or token from AI-model vocabulary. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Algorithm term",
+      "example": "Insert one word or token from Algorithm term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: API term",
+      "example": "Insert one word or token from API term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Command-line command",
+      "example": "Insert one word or token from Command-line command. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Compiler error",
+      "example": "Insert one word or token from Compiler error. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Cybersecurity term",
+      "example": "Insert one word or token from Cybersecurity term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Database term",
+      "example": "Insert one word or token from Database term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Debugging term",
+      "example": "Insert one word or token from Debugging term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: File extension",
+      "example": "Insert one word or token from File extension. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Git command",
+      "example": "Insert one word or token from Git command. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: HTTP status",
+      "example": "Insert one word or token from HTTP status. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Linux command",
+      "example": "Insert one word or token from Linux command. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Machine-learning term",
+      "example": "Insert one word or token from Machine-learning term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Networking term",
+      "example": "Insert one word or token from Networking term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Regular-expression token",
+      "example": "Insert one word or token from Regular-expression token. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Robotics term",
+      "example": "Insert one word or token from Robotics term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Unicode name",
+      "example": "Insert one word or token from Unicode name. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Version-control term",
+      "example": "Insert one word or token from Version-control term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Computing insertion: Web-development term",
+      "example": "Insert one word or token from Web-development term. The technical language should sharpen character, action, analogy, or atmosphere."
+    },
+    {
+      "type": "Constructed-language word: Blissymbolics",
+      "example": "Insert one word from Blissymbolics. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Constructed-language word: Esperanto",
+      "example": "Insert one word from Esperanto. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Constructed-language word: Ido",
+      "example": "Insert one word from Ido. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Constructed-language word: Interlingua",
+      "example": "Insert one word from Interlingua. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Constructed-language word: Lojban",
+      "example": "Insert one word from Lojban. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Constructed-language word: Láadan",
+      "example": "Insert one word from Láadan. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Constructed-language word: Solresol",
+      "example": "Insert one word from Solresol. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Constructed-language word: Toki Pona",
+      "example": "Insert one word from Toki Pona. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Constructed-language word: Volapük",
+      "example": "Insert one word from Volapük. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Corporate jargon",
+      "example": "Insert one corporate buzzword and use it sincerely, comically, defensively, or ominously."
+    },
+    {
+      "type": "Dialect word",
+      "example": "Insert one regional dialect word appropriate to a place, speaker, and social context."
+    },
+    {
+      "type": "Divine name",
+      "example": "Insert one name or title for a god, spirit, saint, demon, or cosmic intelligence."
+    },
+    {
+      "type": "Dream word",
+      "example": "Insert one word that feels imported from a dream: specific, unexplained, and emotionally certain."
+    },
+    {
+      "type": "Emoji name",
+      "example": "Insert the spoken name of one emoji, such as “skull” or “sparkles,” as contemporary verbal shorthand."
+    },
+    {
+      "type": "Expletive",
+      "example": "Insert one expletive. Decide whether it erupts as anger, pain, comedy, prayer, intimacy, or verbal punctuation."
+    },
+    {
+      "type": "Family-only word",
+      "example": "Insert one household word whose meaning belongs to a particular family history."
+    },
+    {
+      "type": "Fashion term",
+      "example": "Insert one clothing or fashion word that reveals body, class, era, or performance."
+    },
+    {
+      "type": "Fictional lexicon: Atlantean",
+      "example": "Insert one recognizable or newly coined word in the style of Atlantean. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Belter Creole",
+      "example": "Insert one recognizable or newly coined word in the style of Belter Creole. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Black Speech",
+      "example": "Insert one recognizable or newly coined word in the style of Black Speech. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Chakobsa",
+      "example": "Insert one recognizable or newly coined word in the style of Chakobsa. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Cityspeak",
+      "example": "Insert one recognizable or newly coined word in the style of Cityspeak. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Dovahzul/Dragon Language",
+      "example": "Insert one recognizable or newly coined word in the style of Dovahzul/Dragon Language. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Enochian as fictional occult register",
+      "example": "Insert one recognizable or newly coined word in the style of Enochian as fictional occult register. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Ewokese",
+      "example": "Insert one recognizable or newly coined word in the style of Ewokese. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Fremen terminology",
+      "example": "Insert one recognizable or newly coined word in the style of Fremen terminology. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Gallifreyan",
+      "example": "Insert one recognizable or newly coined word in the style of Gallifreyan. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Huttese",
+      "example": "Insert one recognizable or newly coined word in the style of Huttese. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Kryptonian",
+      "example": "Insert one recognizable or newly coined word in the style of Kryptonian. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Lapine",
+      "example": "Insert one recognizable or newly coined word in the style of Lapine. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Minionese",
+      "example": "Insert one recognizable or newly coined word in the style of Minionese. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Nadsat",
+      "example": "Insert one recognizable or newly coined word in the style of Nadsat. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Newspeak",
+      "example": "Insert one recognizable or newly coined word in the style of Newspeak. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Orcish",
+      "example": "Insert one recognizable or newly coined word in the style of Orcish. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Parseltongue",
+      "example": "Insert one recognizable or newly coined word in the style of Parseltongue. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Simlish",
+      "example": "Insert one recognizable or newly coined word in the style of Simlish. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Sith terminology",
+      "example": "Insert one recognizable or newly coined word in the style of Sith terminology. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Star Trek Federation Standard jargon",
+      "example": "Insert one recognizable or newly coined word in the style of Star Trek Federation Standard jargon. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Star Wars Aurebesh-era slang",
+      "example": "Insert one recognizable or newly coined word in the style of Star Wars Aurebesh-era slang. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Thalassian",
+      "example": "Insert one recognizable or newly coined word in the style of Thalassian. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: The Dark Tongue",
+      "example": "Insert one recognizable or newly coined word in the style of The Dark Tongue. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: The Old Tongue",
+      "example": "Insert one recognizable or newly coined word in the style of The Old Tongue. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional lexicon: Vulcan",
+      "example": "Insert one recognizable or newly coined word in the style of Vulcan. It should reveal world, tribe, power, technology, or belief."
+    },
+    {
+      "type": "Fictional-language word: Dothraki",
+      "example": "Insert one word from Dothraki. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Fictional-language word: High Valyrian",
+      "example": "Insert one word from High Valyrian. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Fictional-language word: Klingon",
+      "example": "Insert one word from Klingon. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Fictional-language word: Na’vi",
+      "example": "Insert one word from Na’vi. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Fictional-language word: Quenya",
+      "example": "Insert one word from Quenya. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Fictional-language word: Sindarin",
+      "example": "Insert one word from Sindarin. Make it function as living language rather than trivia or a decorative Easter egg."
+    },
+    {
+      "type": "Filler word",
+      "example": "Insert one filler word—well, like, anyway, actually—and make the hesitation or redirection intentional."
+    },
+    {
+      "type": "Food word",
+      "example": "Insert one specific food word and make taste, class, home, culture, or memory enter the sentence."
+    },
+    {
+      "type": "Foreign word: Afrikaans",
+      "example": "Insert one word from Afrikaans. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Albanian",
+      "example": "Insert one word from Albanian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Amharic",
+      "example": "Insert one word from Amharic. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Arabic",
+      "example": "Insert one word from Arabic. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Armenian",
+      "example": "Insert one word from Armenian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Assamese",
+      "example": "Insert one word from Assamese. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Aymara",
+      "example": "Insert one word from Aymara. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Azerbaijani",
+      "example": "Insert one word from Azerbaijani. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Bambara",
+      "example": "Insert one word from Bambara. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Basque",
+      "example": "Insert one word from Basque. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Belarusian",
+      "example": "Insert one word from Belarusian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Bengali",
+      "example": "Insert one word from Bengali. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Bosnian",
+      "example": "Insert one word from Bosnian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Breton",
+      "example": "Insert one word from Breton. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Bulgarian",
+      "example": "Insert one word from Bulgarian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Burmese",
+      "example": "Insert one word from Burmese. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Catalan",
+      "example": "Insert one word from Catalan. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Cebuano",
+      "example": "Insert one word from Cebuano. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Chechen",
+      "example": "Insert one word from Chechen. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Cherokee",
+      "example": "Insert one word from Cherokee. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Chichewa",
+      "example": "Insert one word from Chichewa. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Chinese: Cantonese",
+      "example": "Insert one word from Chinese: Cantonese. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Chinese: Mandarin",
+      "example": "Insert one word from Chinese: Mandarin. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Corsican",
+      "example": "Insert one word from Corsican. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Croatian",
+      "example": "Insert one word from Croatian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Czech",
+      "example": "Insert one word from Czech. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Danish",
+      "example": "Insert one word from Danish. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Dari",
+      "example": "Insert one word from Dari. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Dhivehi",
+      "example": "Insert one word from Dhivehi. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Dutch",
+      "example": "Insert one word from Dutch. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Dzongkha",
+      "example": "Insert one word from Dzongkha. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: English",
+      "example": "Insert one word from English. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Esperanto",
+      "example": "Insert one word from Esperanto. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Estonian",
+      "example": "Insert one word from Estonian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Ewe",
+      "example": "Insert one word from Ewe. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Fijian",
+      "example": "Insert one word from Fijian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Filipino/Tagalog",
+      "example": "Insert one word from Filipino/Tagalog. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Finnish",
+      "example": "Insert one word from Finnish. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: French",
+      "example": "Insert one word from French. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Frisian",
+      "example": "Insert one word from Frisian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Galician",
+      "example": "Insert one word from Galician. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Georgian",
+      "example": "Insert one word from Georgian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: German",
+      "example": "Insert one word from German. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Greek: Modern",
+      "example": "Insert one word from Greek: Modern. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Greenlandic",
+      "example": "Insert one word from Greenlandic. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Guaraní",
+      "example": "Insert one word from Guaraní. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Gujarati",
+      "example": "Insert one word from Gujarati. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Haitian Creole",
+      "example": "Insert one word from Haitian Creole. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Hausa",
+      "example": "Insert one word from Hausa. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Hawaiian",
+      "example": "Insert one word from Hawaiian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Hebrew: Modern",
+      "example": "Insert one word from Hebrew: Modern. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Hindi",
+      "example": "Insert one word from Hindi. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Hmong",
+      "example": "Insert one word from Hmong. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Hungarian",
+      "example": "Insert one word from Hungarian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Icelandic",
+      "example": "Insert one word from Icelandic. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Igbo",
+      "example": "Insert one word from Igbo. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Ilocano",
+      "example": "Insert one word from Ilocano. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Indonesian",
+      "example": "Insert one word from Indonesian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Inuktitut",
+      "example": "Insert one word from Inuktitut. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Irish",
+      "example": "Insert one word from Irish. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Italian",
+      "example": "Insert one word from Italian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Japanese",
+      "example": "Insert one word from Japanese. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Javanese",
+      "example": "Insert one word from Javanese. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Kannada",
+      "example": "Insert one word from Kannada. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Kazakh",
+      "example": "Insert one word from Kazakh. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Khmer",
+      "example": "Insert one word from Khmer. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Kinyarwanda",
+      "example": "Insert one word from Kinyarwanda. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Kirundi",
+      "example": "Insert one word from Kirundi. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Korean",
+      "example": "Insert one word from Korean. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Kurdish: Kurmanji",
+      "example": "Insert one word from Kurdish: Kurmanji. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Kurdish: Sorani",
+      "example": "Insert one word from Kurdish: Sorani. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Kyrgyz",
+      "example": "Insert one word from Kyrgyz. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Lao",
+      "example": "Insert one word from Lao. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Latvian",
+      "example": "Insert one word from Latvian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Lingala",
+      "example": "Insert one word from Lingala. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Lithuanian",
+      "example": "Insert one word from Lithuanian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Luganda",
+      "example": "Insert one word from Luganda. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Luxembourgish",
+      "example": "Insert one word from Luxembourgish. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Macedonian",
+      "example": "Insert one word from Macedonian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Malagasy",
+      "example": "Insert one word from Malagasy. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Malay",
+      "example": "Insert one word from Malay. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Malayalam",
+      "example": "Insert one word from Malayalam. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Maltese",
+      "example": "Insert one word from Maltese. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Marathi",
+      "example": "Insert one word from Marathi. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Mongolian",
+      "example": "Insert one word from Mongolian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Māori",
+      "example": "Insert one word from Māori. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Navajo",
+      "example": "Insert one word from Navajo. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Nepali",
+      "example": "Insert one word from Nepali. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Norwegian",
+      "example": "Insert one word from Norwegian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Odia",
+      "example": "Insert one word from Odia. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Oromo",
+      "example": "Insert one word from Oromo. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Pashto",
+      "example": "Insert one word from Pashto. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Persian/Farsi",
+      "example": "Insert one word from Persian/Farsi. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Polish",
+      "example": "Insert one word from Polish. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Portuguese",
+      "example": "Insert one word from Portuguese. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Punjabi",
+      "example": "Insert one word from Punjabi. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Quechua",
+      "example": "Insert one word from Quechua. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Romanian",
+      "example": "Insert one word from Romanian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Romansh",
+      "example": "Insert one word from Romansh. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Russian",
+      "example": "Insert one word from Russian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Samoan",
+      "example": "Insert one word from Samoan. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Scottish Gaelic",
+      "example": "Insert one word from Scottish Gaelic. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Serbian",
+      "example": "Insert one word from Serbian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Sesotho",
+      "example": "Insert one word from Sesotho. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Shona",
+      "example": "Insert one word from Shona. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Sindhi",
+      "example": "Insert one word from Sindhi. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Sinhala",
+      "example": "Insert one word from Sinhala. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Slovak",
+      "example": "Insert one word from Slovak. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Slovenian",
+      "example": "Insert one word from Slovenian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Somali",
+      "example": "Insert one word from Somali. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Spanish",
+      "example": "Insert one word from Spanish. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Sundanese",
+      "example": "Insert one word from Sundanese. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Swahili",
+      "example": "Insert one word from Swahili. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Swedish",
+      "example": "Insert one word from Swedish. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Tajik",
+      "example": "Insert one word from Tajik. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Tamil",
+      "example": "Insert one word from Tamil. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Tatar",
+      "example": "Insert one word from Tatar. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Telugu",
+      "example": "Insert one word from Telugu. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Thai",
+      "example": "Insert one word from Thai. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Tibetan",
+      "example": "Insert one word from Tibetan. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Tigrinya",
+      "example": "Insert one word from Tigrinya. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Tongan",
+      "example": "Insert one word from Tongan. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Tsonga",
+      "example": "Insert one word from Tsonga. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Tswana",
+      "example": "Insert one word from Tswana. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Turkish",
+      "example": "Insert one word from Turkish. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Turkmen",
+      "example": "Insert one word from Turkmen. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Twi/Akan",
+      "example": "Insert one word from Twi/Akan. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Ukrainian",
+      "example": "Insert one word from Ukrainian. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Urdu",
+      "example": "Insert one word from Urdu. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Uyghur",
+      "example": "Insert one word from Uyghur. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Uzbek",
+      "example": "Insert one word from Uzbek. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Vietnamese",
+      "example": "Insert one word from Vietnamese. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Welsh",
+      "example": "Insert one word from Welsh. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Wolof",
+      "example": "Insert one word from Wolof. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Xhosa",
+      "example": "Insert one word from Xhosa. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Yiddish",
+      "example": "Insert one word from Yiddish. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Yoruba",
+      "example": "Insert one word from Yoruba. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Foreign word: Zulu",
+      "example": "Insert one word from Zulu. Let context, sound, or a nearby clue make its role understandable without stopping to lecture the reader."
+    },
+    {
+      "type": "Fragment of dialogue",
+      "example": "Insert one isolated spoken word—such as “wait,” “listen,” “please,” “yes,” or “no”—and let it interrupt the syntax."
+    },
+    {
+      "type": "Future slang",
+      "example": "Invent one single word from a plausible future dialect and make context do the translation."
+    },
+    {
+      "type": "Gaming term",
+      "example": "Insert one gaming word as literal play, strategic metaphor, generational marker, or private code."
+    },
+    {
+      "type": "Honorific",
+      "example": "Insert one honorific or title whose use establishes hierarchy, intimacy, irony, or resistance."
+    },
+    {
+      "type": "Initialism",
+      "example": "Insert one spoken-letter abbreviation and use it as institutional pressure, identity, or shorthand."
+    },
+    {
+      "type": "Insult",
+      "example": "Insert one single-word insult that reveals more about the speaker than the target."
+    },
+    {
+      "type": "Interjection",
+      "example": "Insert one interjection—ah, oh, hey, alas, huh—and let it reveal the speaker’s immediate state."
+    },
+    {
+      "type": "Internet slang",
+      "example": "Insert one piece of internet slang that dates, localizes, or destabilizes the voice."
+    },
+    {
+      "type": "Invented profanity",
+      "example": "Coin one single-word curse whose sound and implied taboo reveal the culture that uses it."
+    },
+    {
+      "type": "Kinship term",
+      "example": "Insert one kinship word—mother, cousin, auntie, brother, ancestor—and make the relationship matter."
+    },
+    {
+      "type": "Last word of a dying language",
+      "example": "Invent or research one final surviving word from a dying language and place emotional pressure on its use."
+    },
+    {
+      "type": "Legal term",
+      "example": "Insert one legal word and use its cold precision against a human situation."
+    },
+    {
+      "type": "Logical operator",
+      "example": "Insert one logic word or operator—AND, OR, NOT, XOR—and use it structurally or metaphorically."
+    },
+    {
+      "type": "Maritime term",
+      "example": "Insert one nautical word as precise object, inherited idiom, or pressure from the sea."
+    },
+    {
+      "type": "Mathematical term",
+      "example": "Insert one mathematical word—limit, proof, vector, remainder, asymptote—and make it emotionally useful."
+    },
+    {
+      "type": "Medical term",
+      "example": "Insert one medical word as diagnosis, fear, expertise, euphemism, or bodily fact."
+    },
+    {
+      "type": "Mild oath",
+      "example": "Insert one mild oath such as “damn,” “hell,” or “bloody,” chosen to match the speaker and setting."
+    },
+    {
+      "type": "Military term",
+      "example": "Insert one military word as literal jargon, institutional residue, or metaphor under pressure."
+    },
+    {
+      "type": "Mineral or element",
+      "example": "Insert one mineral, metal, chemical element, or stone and exploit its physical associations."
+    },
+    {
+      "type": "Misheard word",
+      "example": "Insert one mondegreen or misheard word whose mistake alters meaning."
+    },
+    {
+      "type": "Musical term",
+      "example": "Insert one musical word—tempo, chord, register, cadence, rest—and let it shape the prose rhythm."
+    },
+    {
+      "type": "Mythological name",
+      "example": "Insert one mythological name as allusion, comparison, inheritance, or mistaken identity."
+    },
+    {
+      "type": "Neologism",
+      "example": "Invent one new word whose meaning can be inferred from sound, morphology, and context."
+    },
+    {
+      "type": "Number word",
+      "example": "Insert one number written as a word and make its exactness consequential."
+    },
+    {
+      "type": "Obsolete profession",
+      "example": "Insert the name of an obsolete or vanishing occupation and let history briefly surface."
+    },
+    {
+      "type": "Onomatopoeia",
+      "example": "Insert one sound-word and make it participate in the sentence’s rhythm."
+    },
+    {
+      "type": "Password fragment",
+      "example": "Insert one password-like word that reveals memory, insecurity, humor, or intimacy."
+    },
+    {
+      "type": "Personal name",
+      "example": "Insert one proper name at the sentence’s most emotionally weighted position."
+    },
+    {
+      "type": "Philosophical term",
+      "example": "Insert one philosophical word and anchor the abstraction in a concrete circumstance."
+    },
+    {
+      "type": "Place name",
+      "example": "Insert one real or invented place name and let its sound carry geography, memory, or threat."
+    },
+    {
+      "type": "Plant name",
+      "example": "Insert one plant, flower, fungus, or tree name as object, medicine, symbol, or memory."
+    },
+    {
+      "type": "Portmanteau",
+      "example": "Coin or insert one blended word whose fused meanings create surprise."
+    },
+    {
+      "type": "Programming-language token: Assembly",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Assembly. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Bash",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Bash. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: BASIC",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from BASIC. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: C",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from C. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: C#",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from C#. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: C++",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from C++. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Clojure",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Clojure. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: COBOL",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from COBOL. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: CSS",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from CSS. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Dart",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Dart. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Elixir",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Elixir. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Erlang",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Erlang. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Fortran",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Fortran. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Go",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Go. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: GraphQL",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from GraphQL. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Haskell",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Haskell. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: HTML",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from HTML. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Java",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Java. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: JavaScript",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from JavaScript. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Julia",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Julia. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Kotlin",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Kotlin. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Lisp",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Lisp. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Lua",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Lua. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: MATLAB",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from MATLAB. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Objective-C",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Objective-C. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Pascal",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Pascal. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Perl",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Perl. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: PHP",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from PHP. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: PowerShell",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from PowerShell. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Prolog",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Prolog. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Python",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Python. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: R",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from R. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Ruby",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Ruby. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Rust",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Rust. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Scala",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Scala. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Scheme",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Scheme. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Scratch",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Scratch. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Smalltalk",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Smalltalk. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Solidity",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Solidity. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: SQL",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from SQL. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: Swift",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from Swift. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: TypeScript",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from TypeScript. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: WebAssembly",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from WebAssembly. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: XML",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from XML. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Programming-language token: YAML",
+      "example": "Insert one keyword, operator, method name, literal, or idiom from YAML. Make it work metaphorically, literally, or as character-specific jargon."
+    },
+    {
+      "type": "Psychological term",
+      "example": "Insert one psychological word as self-understanding, misdiagnosis, manipulation, or professional speech."
+    },
+    {
+      "type": "Punctuation name",
+      "example": "Insert the name of one punctuation mark—semicolon, ellipsis, em dash—and make it literal or metaphorical."
+    },
+    {
+      "type": "Radio call sign",
+      "example": "Insert one call sign and let it compress identity into a single charged word."
+    },
+    {
+      "type": "Religious term",
+      "example": "Insert one sacred, liturgical, or theological word without flattening it into generic solemnity."
+    },
+    {
+      "type": "Revived-language word: Cornish",
+      "example": "Insert one word connected to Cornish. Let the sentence carry a faint sense of recovery, survival, or cultural return."
+    },
+    {
+      "type": "Revived-language word: Hebrew revival-era coinage",
+      "example": "Insert one word connected to Hebrew revival-era coinage. Let the sentence carry a faint sense of recovery, survival, or cultural return."
+    },
+    {
+      "type": "Revived-language word: Livonian",
+      "example": "Insert one word connected to Livonian. Let the sentence carry a faint sense of recovery, survival, or cultural return."
+    },
+    {
+      "type": "Revived-language word: Manx",
+      "example": "Insert one word connected to Manx. Let the sentence carry a faint sense of recovery, survival, or cultural return."
+    },
+    {
+      "type": "Revived-language word: Māori revitalization term",
+      "example": "Insert one word connected to Māori revitalization term. Let the sentence carry a faint sense of recovery, survival, or cultural return."
+    },
+    {
+      "type": "Revived-language word: Wampanoag revitalization term",
+      "example": "Insert one word connected to Wampanoag revitalization term. Let the sentence carry a faint sense of recovery, survival, or cultural return."
+    },
+    {
+      "type": "Ritual word",
+      "example": "Insert one ceremonial word that changes the action from routine to rite."
+    },
+    {
+      "type": "Scientific term",
+      "example": "Insert one scientific word and make its exactness illuminate rather than merely decorate."
+    },
+    {
+      "type": "Secret code word",
+      "example": "Insert one code word whose ordinary surface hides a second meaning."
+    },
+    {
+      "type": "Signed-language insertion: American Sign Language gloss",
+      "example": "Insert one conventional written gloss associated with American Sign Language gloss, treating it as a compact visual or cultural interruption."
+    },
+    {
+      "type": "Signed-language insertion: British Sign Language gloss",
+      "example": "Insert one conventional written gloss associated with British Sign Language gloss, treating it as a compact visual or cultural interruption."
+    },
+    {
+      "type": "Signed-language insertion: French Sign Language gloss",
+      "example": "Insert one conventional written gloss associated with French Sign Language gloss, treating it as a compact visual or cultural interruption."
+    },
+    {
+      "type": "Signed-language insertion: International Sign gloss",
+      "example": "Insert one conventional written gloss associated with International Sign gloss, treating it as a compact visual or cultural interruption."
+    },
+    {
+      "type": "Signed-language insertion: Japanese Sign Language gloss",
+      "example": "Insert one conventional written gloss associated with Japanese Sign Language gloss, treating it as a compact visual or cultural interruption."
+    },
+    {
+      "type": "Single letter",
+      "example": "Insert one isolated letter whose meaning comes from a grade, blood type, route, variable, or private code."
+    },
+    {
+      "type": "Sound-effect caption",
+      "example": "Insert one comic-book-style sound effect and make the prose absorb its force."
+    },
+    {
+      "type": "Spaceflight term",
+      "example": "Insert one astronautical word and connect the cosmic scale to a human-scale consequence."
+    },
+    {
+      "type": "Sports term",
+      "example": "Insert one sports word as action, comparison, ritual, or social belonging."
+    },
+    {
+      "type": "Stage direction",
+      "example": "Insert one one-word dramatic direction—pause, exits, whispers—and blur narration with performance."
+    },
+    {
+      "type": "Taboo word",
+      "example": "Insert one socially forbidden or contextually dangerous word (Don't hold back!)"
+    },
+    {
+      "type": "Tarot term",
+      "example": "Insert one tarot card or divinatory word as object, belief, coincidence, or manipulation."
+    },
+    {
+      "type": "Term of endearment",
+      "example": "Insert one affectionate form of address. It may be sincere, manipulative, habitual, mournful, or ironic."
+    },
+    {
+      "type": "Typographical symbol",
+      "example": "Insert one symbol name—ampersand, asterisk, tilde, hash—and give it narrative purpose."
+    },
+    {
+      "type": "Untranslatable concept",
+      "example": "Insert one culturally specific concept often described as “untranslatable,” but let the sentence demonstrate rather than define it."
+    },
+    {
+      "type": "Weather word",
+      "example": "Insert one weather term that also changes the emotional climate of the sentence."
+    }
+  ],
+  "registers": [
+    {
+      "type": "Academic",
+      "example": "Use precise terminology, explicit logic, and a measured analytical tone."
+    },
+    {
+      "type": "Accessible nonfiction",
+      "example": "Explain the idea clearly for an intelligent general reader without flattening its complexity."
+    },
+    {
+      "type": "Advertisement",
+      "example": "Make the sentence vivid, persuasive, benefit-focused, and immediately memorable."
+    },
+    {
+      "type": "Adventure fiction",
+      "example": "Prioritize motion, danger, discovery, and a clear sense of forward momentum."
+    },
+    {
+      "type": "Aphoristic",
+      "example": "Compress the thought into a concise, quotable statement that feels broadly true."
+    },
+    {
+      "type": "Apocalyptic",
+      "example": "Write with finality, vast consequence, dread, or revelation at the edge of collapse."
+    },
+    {
+      "type": "Argumentative essay",
+      "example": "Advance a clear claim while anticipating resistance or sharpening a distinction."
+    },
+    {
+      "type": "Autobiographical",
+      "example": "Write from lived experience with reflective distance and personal specificity."
+    },
+    {
+      "type": "Biblical",
+      "example": "Use elevated cadence, parallel clauses, elemental imagery, and moral or cosmic weight."
+    },
+    {
+      "type": "Bureaucratic",
+      "example": "Use impersonal, procedural language shaped by policy, classification, and institutional caution."
+    },
+    {
+      "type": "Business report",
+      "example": "State the relevant fact, consequence, and decision with economy and operational clarity."
+    },
+    {
+      "type": "Children’s book",
+      "example": "Use concrete language, rhythmic clarity, emotional directness, and an image a child can grasp."
+    },
+    {
+      "type": "Chronicle",
+      "example": "Record the occurrence plainly, as part of a larger sequence of public events."
+    },
+    {
+      "type": "Clinical",
+      "example": "Describe observable facts precisely while minimizing emotional interpretation."
+    },
+    {
+      "type": "Comedy",
+      "example": "Build expectation, escalation, incongruity, or reversal toward a comic payoff."
+    },
+    {
+      "type": "Confessional",
+      "example": "Write with exposed self-awareness, emotional risk, and little protective distance."
+    },
+    {
+      "type": "Conversational",
+      "example": "Make it sound natural when spoken aloud, using contractions and an unforced rhythm."
+    },
+    {
+      "type": "Cozy fiction",
+      "example": "Emphasize comfort, familiarity, community, and manageable rather than overwhelming stakes."
+    },
+    {
+      "type": "Crime fiction",
+      "example": "Favor concrete evidence, motive, suspicion, and the pressure of concealed information."
+    },
+    {
+      "type": "Critical theory",
+      "example": "Interrogate power, systems, assumptions, and the language used to make them appear natural."
+    },
+    {
+      "type": "Cyberpunk",
+      "example": "Combine technological density, urban pressure, bodily vulnerability, and institutional control."
+    },
+    {
+      "type": "Dark comedy",
+      "example": "Treat pain, failure, or catastrophe with controlled irony and unsettling humor."
+    },
+    {
+      "type": "Diary entry",
+      "example": "Write privately and immediately, as though preserving what the day felt like before it changes."
+    },
+    {
+      "type": "Diplomatic",
+      "example": "Convey disagreement or warning through tact, restraint, and carefully managed implication."
+    },
+    {
+      "type": "Documentary narration",
+      "example": "Present a clear factual image while suggesting the larger human significance."
+    },
+    {
+      "type": "Dreamlike",
+      "example": "Use fluid association, uncertain causality, and imagery that feels emotionally true rather than literal."
+    },
+    {
+      "type": "Elegiac",
+      "example": "Write with tenderness toward something lost, vanishing, or already beyond recovery."
+    },
+    {
+      "type": "Epic",
+      "example": "Give the action heroic scale, ceremonial weight, and consequences larger than one life."
+    },
+    {
+      "type": "Epistolary",
+      "example": "Address an absent reader directly, allowing relationship and circumstance to shape the sentence."
+    },
+    {
+      "type": "Erotic",
+      "example": "Emphasize anticipation, attention, sensory charge, and the meaning carried by physical proximity."
+    },
+    {
+      "type": "Fairy tale",
+      "example": "Use archetypal clarity, repetition, enchantment, danger, and the logic of transformation."
+    },
+    {
+      "type": "Folkloric",
+      "example": "Make the sentence feel inherited, communal, cautionary, and polished by repeated telling."
+    },
+    {
+      "type": "Formal",
+      "example": "Use complete, controlled syntax and a respectful distance from the reader."
+    },
+    {
+      "type": "Gothic",
+      "example": "Emphasize atmosphere, decay, inheritance, secrecy, confinement, and psychological unease."
+    },
+    {
+      "type": "Hard-boiled",
+      "example": "Use terse observation, moral fatigue, concrete detail, and unsentimental judgment."
+    },
+    {
+      "type": "Historical fiction",
+      "example": "Ground the sentence in period-specific material reality without turning it into exposition."
+    },
+    {
+      "type": "Horror",
+      "example": "Create dread through implication, violated normality, bodily vulnerability, or delayed recognition."
+    },
+    {
+      "type": "Instructional",
+      "example": "Guide the reader through an action in an exact, usable, and logically ordered way."
+    },
+    {
+      "type": "Intimate",
+      "example": "Write as though speaking to one trusted person at close emotional range."
+    },
+    {
+      "type": "Journalistic",
+      "example": "Lead with the most consequential fact, then supply concrete context without ornament."
+    },
+    {
+      "type": "Legal",
+      "example": "Define terms and relationships precisely, leaving as little room for ambiguity as possible."
+    },
+    {
+      "type": "Legendary",
+      "example": "Present the subject as larger than ordinary history, shaped by memory and repeated retelling."
+    },
+    {
+      "type": "Literary",
+      "example": "Let syntax, image, implication, and ambiguity carry as much meaning as the stated event."
+    },
+    {
+      "type": "Liturgical",
+      "example": "Use repetition, invocation, communal cadence, and language suited to ritual utterance."
+    },
+    {
+      "type": "Love letter",
+      "example": "Address the beloved with specificity, vulnerability, attention, and emotional consequence."
+    },
+    {
+      "type": "Magical realism",
+      "example": "Present the impossible with the same calm authority used for ordinary domestic facts."
+    },
+    {
+      "type": "Manifesto",
+      "example": "Write with declarative urgency, collective purpose, and refusal of the existing order."
+    },
+    {
+      "type": "Meditative",
+      "example": "Move patiently through perception and thought, allowing attention itself to become the subject."
+    },
+    {
+      "type": "Memoir",
+      "example": "Join a concrete remembered moment to the meaning it acquired later."
+    },
+    {
+      "type": "Military",
+      "example": "Favor mission, terrain, timing, hierarchy, risk, and the practical consequences of action."
+    },
+    {
+      "type": "Minimalist",
+      "example": "Use few words, concrete details, and strategic omission; trust the reader to infer the rest."
+    },
+    {
+      "type": "Mock-heroic",
+      "example": "Describe a trivial event with the elevated scale and ceremony of an epic."
+    },
+    {
+      "type": "Mythic",
+      "example": "Frame the event through archetype, threshold, sacrifice, transformation, or return."
+    },
+    {
+      "type": "Nature writing",
+      "example": "Observe the nonhuman world precisely while connecting physical detail to time, place, or consciousness."
+    },
+    {
+      "type": "Noir",
+      "example": "Use shadowed atmosphere, compromised motives, fatalism, and sharp sensory detail."
+    },
+    {
+      "type": "Oral storytelling",
+      "example": "Shape the sentence for breath, emphasis, repetition, and the presence of a listening audience."
+    },
+    {
+      "type": "Pastoral",
+      "example": "Emphasize rural life, seasonal rhythm, labor, landscape, and the tension between simplicity and reality."
+    },
+    {
+      "type": "Philosophical",
+      "example": "Use the specific event to test a larger question about knowledge, value, being, or action."
+    },
+    {
+      "type": "Plainspoken",
+      "example": "Use familiar words and direct syntax while preserving emotional and intellectual force."
+    },
+    {
+      "type": "Poetic prose",
+      "example": "Heighten rhythm, image, sound, and compression without breaking into verse."
+    },
+    {
+      "type": "Police procedural",
+      "example": "Emphasize sequence, evidence, protocol, observation, and what remains unverified."
+    },
+    {
+      "type": "Political speech",
+      "example": "Use memorable phrasing, collective identity, contrast, and a clear appeal to action or belief."
+    },
+    {
+      "type": "Prayer",
+      "example": "Address a divine or absent presence through petition, gratitude, confession, or surrender."
+    },
+    {
+      "type": "Prophetic",
+      "example": "Speak with visionary certainty about judgment, consequence, warning, or transformation."
+    },
+    {
+      "type": "Psychological realism",
+      "example": "Track subtle motive, contradiction, perception, and the mind’s effort to protect itself."
+    },
+    {
+      "type": "Public-facing essay",
+      "example": "Combine a distinct personal voice with enough context for readers outside the subject."
+    },
+    {
+      "type": "Romance",
+      "example": "Center emotional recognition, attraction, vulnerability, and the consequences of mutual attention."
+    },
+    {
+      "type": "Satirical",
+      "example": "Expose folly or hypocrisy through exaggeration, imitation, irony, or controlled absurdity."
+    },
+    {
+      "type": "Scholarly",
+      "example": "Qualify claims carefully, distinguish evidence from inference, and situate the idea within a field."
+    },
+    {
+      "type": "Science fiction",
+      "example": "Make one altered technology, institution, environment, or assumption reshape ordinary human behavior."
+    },
+    {
+      "type": "Scientific",
+      "example": "State observations, mechanisms, and limits precisely without implying more than the evidence supports."
+    },
+    {
+      "type": "Scriptural",
+      "example": "Use compressed narrative, parallelism, symbolic action, and an authoritative ceremonial cadence."
+    },
+    {
+      "type": "Social media",
+      "example": "Make the sentence immediate, legible, voice-driven, and strong enough to stand without context."
+    },
+    {
+      "type": "Soliloquy",
+      "example": "Let private thought unfold aloud through self-questioning, contradiction, and emotional discovery."
+    },
+    {
+      "type": "Southern Gothic",
+      "example": "Combine regional specificity, family history, social decay, grotesquerie, and moral unease."
+    },
+    {
+      "type": "Speculative nonfiction",
+      "example": "Extend present evidence into a plausible future while clearly signaling uncertainty and consequence."
+    },
+    {
+      "type": "Spiritual reflection",
+      "example": "Connect an ordinary experience to transcendence, conscience, meaning, or inner transformation."
+    },
+    {
+      "type": "Standard prose",
+      "example": "Write clear, natural, flexible contemporary prose without pushing toward a specialized genre."
+    },
+    {
+      "type": "Stream of consciousness",
+      "example": "Follow the mind’s associations, interruptions, sensations, and incomplete transitions in real time."
+    },
+    {
+      "type": "Surreal",
+      "example": "Combine logically incompatible images with confidence, allowing dream logic to govern the sentence."
+    },
+    {
+      "type": "Technical",
+      "example": "Use domain-specific precision, explicit relationships, and terminology appropriate to an expert reader."
+    },
+    {
+      "type": "Testimony",
+      "example": "State what was witnessed or endured with moral seriousness and concrete personal authority."
+    },
+    {
+      "type": "Thriller",
+      "example": "Increase urgency through compressed time, withheld information, danger, and consequential choice."
+    },
+    {
+      "type": "Tragic",
+      "example": "Let the sentence carry irreversible consequence, recognition, loss, or the cost of a fatal choice."
+    },
+    {
+      "type": "Travel writing",
+      "example": "Join sensory place-description to movement, cultural encounter, and the observer’s changing perspective."
+    },
+    {
+      "type": "Urban",
+      "example": "Use density, infrastructure, crowds, commerce, noise, and contested public space as active forces."
+    },
+    {
+      "type": "Workplace",
+      "example": "Ground the sentence in task, hierarchy, competence, friction, and the social language of labor."
+    },
+    {
+      "type": "Young adult",
+      "example": "Use immediate emotional stakes, clear momentum, identity pressure, and a voice close to the character’s experience."
+    }
+  ]
+}

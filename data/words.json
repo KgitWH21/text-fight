@@ -1,0 +1,4674 @@
+[
+  {
+    "type": "lantern",
+    "example": "A portable light, with a flame or bulb protected inside."
+  },
+  {
+    "type": "threshold",
+    "example": "The sill of a doorway; the point where something begins."
+  },
+  {
+    "type": "thimble",
+    "example": "A small protective cap worn on a finger while sewing."
+  },
+  {
+    "type": "culvert",
+    "example": "A passage carrying water beneath a road or path."
+  },
+  {
+    "type": "marrow",
+    "example": "The soft tissue inside a bone; the innermost part of something."
+  },
+  {
+    "type": "hinge",
+    "example": "A joint that lets a door, lid, or idea turn."
+  },
+  {
+    "type": "bramble",
+    "example": "A tangled, prickly shrub, often bearing berries."
+  },
+  {
+    "type": "gutter",
+    "example": "A channel along an edge that carries water away."
+  },
+  {
+    "type": "spindle",
+    "example": "A slender rod used for spinning thread."
+  },
+  {
+    "type": "keel",
+    "example": "The long structural spine along the bottom of a boat."
+  },
+  {
+    "type": "cinder",
+    "example": "A small piece of partly burned coal or wood."
+  },
+  {
+    "type": "satchel",
+    "example": "A bag with a shoulder strap, often closed with a flap."
+  },
+  {
+    "type": "quarry",
+    "example": "A place where stone is dug out; also something pursued."
+  },
+  {
+    "type": "seam",
+    "example": "The line where two pieces join."
+  },
+  {
+    "type": "turnstile",
+    "example": "A rotating barrier that admits one person at a time."
+  },
+  {
+    "type": "chisel",
+    "example": "A sharp tool for cutting or shaping hard material."
+  },
+  {
+    "type": "ferry",
+    "example": "A boat that carries people across a stretch of water."
+  },
+  {
+    "type": "mantel",
+    "example": "The shelf above a fireplace."
+  },
+  {
+    "type": "tendon",
+    "example": "A tough cord of tissue joining muscle to bone."
+  },
+  {
+    "type": "hearth",
+    "example": "The floor of a fireplace; a center of domestic life."
+  },
+  {
+    "type": "scaffold",
+    "example": "A temporary supporting framework around a structure."
+  },
+  {
+    "type": "cistern",
+    "example": "A tank for storing rainwater or other liquids."
+  },
+  {
+    "type": "shingle",
+    "example": "A thin roof tile; or small rounded stones on a shore."
+  },
+  {
+    "type": "bellows",
+    "example": "A device that squeezes air into a fire."
+  },
+  {
+    "type": "knuckle",
+    "example": "A joint of a finger; a hard projecting bend."
+  },
+  {
+    "type": "locket",
+    "example": "A small hinged ornament that holds a picture or keepsake."
+  },
+  {
+    "type": "gravel",
+    "example": "Loose, small stones that crunch underfoot."
+  },
+  {
+    "type": "ledger",
+    "example": "A book or record used to keep accounts."
+  },
+  {
+    "type": "spigot",
+    "example": "A tap controlling the flow of liquid."
+  },
+  {
+    "type": "awning",
+    "example": "A cover projecting from a building to provide shelter."
+  },
+  {
+    "type": "stairwell",
+    "example": "The vertical space surrounding a flight of stairs."
+  },
+  {
+    "type": "brass",
+    "example": "A yellow alloy of copper and zinc."
+  },
+  {
+    "type": "vellum",
+    "example": "A fine writing surface traditionally made from animal skin."
+  },
+  {
+    "type": "reeds",
+    "example": "Tall, slender plants growing in wet ground."
+  },
+  {
+    "type": "stubble",
+    "example": "Short, stiff growth left after cutting hair or crops."
+  },
+  {
+    "type": "rafters",
+    "example": "The sloping beams that support a roof."
+  },
+  {
+    "type": "shoal",
+    "example": "A shallow place in water; or a group of fish."
+  },
+  {
+    "type": "fissure",
+    "example": "A narrow crack or split in a surface."
+  },
+  {
+    "type": "gossamer",
+    "example": "A fine, delicate thread or something as light as a web."
+  },
+  {
+    "type": "talus",
+    "example": "A slope of loose rock fragments at the base of a cliff."
+  },
+  {
+    "type": "switchback",
+    "example": "A road or path making sharp alternating turns."
+  },
+  {
+    "type": "milestone",
+    "example": "A marker beside a road; a significant stage of progress."
+  },
+  {
+    "type": "trinket",
+    "example": "A small ornament or keepsake of little monetary value."
+  },
+  {
+    "type": "turnip",
+    "example": "A pale, round root vegetable with a sharp earthy taste."
+  },
+  {
+    "type": "anchor",
+    "example": "A heavy device used to keep a vessel in place."
+  },
+  {
+    "type": "anvil",
+    "example": "A heavy metal block on which hot metal is shaped."
+  },
+  {
+    "type": "scar",
+    "example": "A mark left after a wound has healed."
+  },
+  {
+    "type": "orchard",
+    "example": "Land planted with fruit trees."
+  },
+  {
+    "type": "wicket",
+    "example": "A small gate or opening within a larger barrier."
+  },
+  {
+    "type": "shard",
+    "example": "A sharp fragment broken from something brittle."
+  },
+  {
+    "type": "splinter",
+    "example": "A thin, sharp fragment of wood or another hard material."
+  },
+  {
+    "type": "furrow",
+    "example": "A long narrow trench; a deep crease in a face."
+  },
+  {
+    "type": "shudder",
+    "example": "To shake suddenly from cold, fear, or strong feeling."
+  },
+  {
+    "type": "skitter",
+    "example": "To move lightly and quickly with small restless motions."
+  },
+  {
+    "type": "clamber",
+    "example": "To climb with awkward effort, using hands and feet."
+  },
+  {
+    "type": "wrench",
+    "example": "To pull or twist violently; to tear something away."
+  },
+  {
+    "type": "coax",
+    "example": "To draw someone toward an action with patient persuasion."
+  },
+  {
+    "type": "flinch",
+    "example": "To make a small involuntary movement away from pain or fear."
+  },
+  {
+    "type": "sidle",
+    "example": "To move sideways or approach in an indirect way."
+  },
+  {
+    "type": "gnaw",
+    "example": "To bite persistently; to trouble someone steadily."
+  },
+  {
+    "type": "sputter",
+    "example": "To make short explosive sounds or speak in broken bursts."
+  },
+  {
+    "type": "unspool",
+    "example": "To unwind from a reel; to unfold little by little."
+  },
+  {
+    "type": "scrape",
+    "example": "To drag a rough or sharp edge across a surface."
+  },
+  {
+    "type": "stagger",
+    "example": "To move unsteadily or cause someone to reel."
+  },
+  {
+    "type": "bristle",
+    "example": "To stand stiffly like hairs; to react with irritation."
+  },
+  {
+    "type": "scuttle",
+    "example": "To hurry with short steps; to deliberately sink a vessel."
+  },
+  {
+    "type": "lurch",
+    "example": "To move with a sudden, uncontrolled jerk."
+  },
+  {
+    "type": "crumple",
+    "example": "To collapse into folds or lose firmness."
+  },
+  {
+    "type": "pry",
+    "example": "To lever something open; to inquire too intrusively."
+  },
+  {
+    "type": "teeter",
+    "example": "To balance unsteadily on an edge."
+  },
+  {
+    "type": "rasp",
+    "example": "To make a harsh scraping sound."
+  },
+  {
+    "type": "flay",
+    "example": "To strip away a covering; to criticize mercilessly."
+  },
+  {
+    "type": "plod",
+    "example": "To walk slowly with heavy, persistent steps."
+  },
+  {
+    "type": "snag",
+    "example": "To catch on something sharp or obstructing."
+  },
+  {
+    "type": "stoke",
+    "example": "To feed fuel to a fire or intensify a feeling."
+  },
+  {
+    "type": "roil",
+    "example": "To churn or stir into a turbulent state."
+  },
+  {
+    "type": "slacken",
+    "example": "To become less tight, brisk, or intense."
+  },
+  {
+    "type": "chafe",
+    "example": "To rub painfully; to feel irritated by restraint."
+  },
+  {
+    "type": "beckon",
+    "example": "To signal someone to approach."
+  },
+  {
+    "type": "falter",
+    "example": "To lose strength, confidence, or steadiness."
+  },
+  {
+    "type": "scour",
+    "example": "To clean by hard rubbing; to search thoroughly."
+  },
+  {
+    "type": "smother",
+    "example": "To cover closely enough to stifle or suppress."
+  },
+  {
+    "type": "cleave",
+    "example": "To split apart; in another use, to cling closely."
+  },
+  {
+    "type": "winnow",
+    "example": "To separate grain from chaff; to sift out what matters."
+  },
+  {
+    "type": "cradle",
+    "example": "To hold gently and protectively."
+  },
+  {
+    "type": "flit",
+    "example": "To move swiftly and lightly from place to place."
+  },
+  {
+    "type": "swivel",
+    "example": "To turn around a central point."
+  },
+  {
+    "type": "recoil",
+    "example": "To spring back from an impact or an alarming sight."
+  },
+  {
+    "type": "budge",
+    "example": "To shift even slightly from a position."
+  },
+  {
+    "type": "saunter",
+    "example": "To walk at a relaxed, unhurried pace."
+  },
+  {
+    "type": "slough",
+    "example": "To shed or cast off an outer layer."
+  },
+  {
+    "type": "gouge",
+    "example": "To cut or scoop out with force."
+  },
+  {
+    "type": "sprawl",
+    "example": "To spread out loosely or occupy space without order."
+  },
+  {
+    "type": "fester",
+    "example": "To grow worse beneath the surface, like an untreated wound."
+  },
+  {
+    "type": "slake",
+    "example": "To satisfy thirst or cool something hot."
+  },
+  {
+    "type": "quaver",
+    "example": "To tremble in sound or movement."
+  },
+  {
+    "type": "seethe",
+    "example": "To boil or remain inwardly furious."
+  },
+  {
+    "type": "stipple",
+    "example": "To cover a surface with small dots or short marks."
+  },
+  {
+    "type": "scald",
+    "example": "To burn with hot liquid or steam."
+  },
+  {
+    "type": "glean",
+    "example": "To gather useful pieces left behind or scattered about."
+  },
+  {
+    "type": "weather",
+    "example": "To endure exposure or pass through difficulty."
+  },
+  {
+    "type": "fray",
+    "example": "To wear into loose threads; to become strained."
+  },
+  {
+    "type": "furtive",
+    "example": "Quietly secretive, as if trying to avoid notice."
+  },
+  {
+    "type": "brackish",
+    "example": "Somewhat salty, especially where river and sea water mix."
+  },
+  {
+    "type": "wan",
+    "example": "Pale, weak, or lacking vitality."
+  },
+  {
+    "type": "fallow",
+    "example": "Left unplanted for a time; temporarily inactive."
+  },
+  {
+    "type": "lurid",
+    "example": "Unpleasantly vivid or sensational."
+  },
+  {
+    "type": "limpid",
+    "example": "Clear and transparent; easy to understand."
+  },
+  {
+    "type": "viscous",
+    "example": "Thick and slow to flow."
+  },
+  {
+    "type": "caustic",
+    "example": "Able to burn chemically; sharply cutting in speech."
+  },
+  {
+    "type": "threadbare",
+    "example": "Worn thin; overused until little substance remains."
+  },
+  {
+    "type": "fitful",
+    "example": "Coming and going in irregular bursts."
+  },
+  {
+    "type": "flinty",
+    "example": "Hard like flint; stern or unyielding."
+  },
+  {
+    "type": "pliant",
+    "example": "Flexible and easily bent or influenced."
+  },
+  {
+    "type": "ochre",
+    "example": "An earthy yellow or reddish brown color."
+  },
+  {
+    "type": "tawny",
+    "example": "A warm, sandy brown color."
+  },
+  {
+    "type": "serrated",
+    "example": "Edged with sharp toothlike notches."
+  },
+  {
+    "type": "fugitive",
+    "example": "Fleeing, elusive, or short lived."
+  },
+  {
+    "type": "tacit",
+    "example": "Understood without being directly stated."
+  },
+  {
+    "type": "oblique",
+    "example": "Slanting; indirect in expression or approach."
+  },
+  {
+    "type": "laconic",
+    "example": "Using very few words."
+  },
+  {
+    "type": "mercurial",
+    "example": "Quickly changing in mood or behavior."
+  },
+  {
+    "type": "tenuous",
+    "example": "Thin, delicate, or weakly supported."
+  },
+  {
+    "type": "verdant",
+    "example": "Green with growing plants."
+  },
+  {
+    "type": "sepulchral",
+    "example": "Suggesting a tomb through darkness, hollowness, or gloom."
+  },
+  {
+    "type": "susurrus",
+    "example": "A soft, continuous whispering or rustling sound."
+  },
+  {
+    "type": "petrichor",
+    "example": "The earthy smell released when rain reaches dry ground."
+  },
+  {
+    "type": "liminal",
+    "example": "At a threshold or between two states."
+  },
+  {
+    "type": "palimpsest",
+    "example": "A reused writing surface with traces of earlier text."
+  },
+  {
+    "type": "crepuscular",
+    "example": "Relating to twilight or active at that time."
+  },
+  {
+    "type": "numinous",
+    "example": "Suggesting a mysterious spiritual presence."
+  },
+  {
+    "type": "psithurism",
+    "example": "The whispering sound of wind in leaves."
+  },
+  {
+    "type": "apricity",
+    "example": "The warmth of sunlight on a cold day."
+  },
+  {
+    "type": "velleity",
+    "example": "A wish too slight to lead to action."
+  },
+  {
+    "type": "lacuna",
+    "example": "A gap or missing portion in a text, record, or thought."
+  },
+  {
+    "type": "syzygy",
+    "example": "An alignment of celestial bodies."
+  },
+  {
+    "type": "chiaroscuro",
+    "example": "The interplay of light and dark in an image."
+  },
+  {
+    "type": "anodyne",
+    "example": "Something that soothes; also blandly inoffensive."
+  },
+  {
+    "type": "inchoate",
+    "example": "Just beginning and not yet clearly formed."
+  },
+  {
+    "type": "refulgent",
+    "example": "Shining brightly."
+  },
+  {
+    "type": "halcyon",
+    "example": "Calm and peaceful, often in memory."
+  },
+  {
+    "type": "desuetude",
+    "example": "A state of no longer being used."
+  },
+  {
+    "type": "quiddity",
+    "example": "The essential quality that makes a thing itself."
+  },
+  {
+    "type": "palaver",
+    "example": "A prolonged discussion, often with unnecessary fuss."
+  },
+  {
+    "type": "penumbra",
+    "example": "A region of partial shadow."
+  },
+  {
+    "type": "fugue",
+    "example": "A layered musical form; a state of disturbed awareness."
+  },
+  {
+    "type": "torpor",
+    "example": "A state of sluggishness or reduced activity."
+  },
+  {
+    "type": "umbrage",
+    "example": "Offense or resentment at a perceived slight."
+  },
+  {
+    "type": "vestige",
+    "example": "A surviving trace of something that has mostly vanished."
+  },
+  {
+    "type": "effigy",
+    "example": "A representation of a person, often made for public display."
+  },
+  {
+    "type": "undertow",
+    "example": "A current beneath the surface; a hidden emotional pull."
+  },
+  {
+    "type": "afterimage",
+    "example": "An image that seems to remain after its source is gone."
+  },
+  {
+    "type": "stillness",
+    "example": "The absence of movement or sound."
+  },
+  {
+    "type": "clamor",
+    "example": "A loud mixture of voices, sounds, or demands."
+  },
+  {
+    "type": "crosswind",
+    "example": "Wind blowing across the direction of travel."
+  },
+  {
+    "type": "kindling",
+    "example": "Small dry pieces used to start a fire."
+  },
+  {
+    "type": "fathom",
+    "example": "A measure of water depth; to understand something difficult."
+  },
+  {
+    "type": "wayward",
+    "example": "Straying from a course or resisting control."
+  },
+  {
+    "type": "steadfast",
+    "example": "Firm and reliable through difficulty."
+  },
+  {
+    "type": "unravel",
+    "example": "To undo threads or gradually expose a hidden structure."
+  },
+  {
+    "type": "smolder",
+    "example": "To burn slowly without flame; to feel quietly intense."
+  },
+  {
+    "type": "glimmer",
+    "example": "A faint, wavering light or small hint of something."
+  },
+  {
+    "type": "hovel",
+    "example": "A small dwelling in poor condition."
+  },
+  {
+    "type": "solstice",
+    "example": "Either of the two annual extremes of the sun's path."
+  },
+  {
+    "type": "cairn",
+    "example": "A pile of stones used as a marker or memorial."
+  },
+  {
+    "type": "scrim",
+    "example": "A thin fabric screen that partly conceals what is behind it."
+  },
+  {
+    "type": "lintel",
+    "example": "The horizontal support above a doorway or window."
+  },
+  {
+    "type": "reverberate",
+    "example": "To echo repeatedly or have effects that continue."
+  },
+  {
+    "type": "door",
+    "example": "A movable barrier closing an entrance."
+  },
+  {
+    "type": "window",
+    "example": "An opening that admits light or air."
+  },
+  {
+    "type": "table",
+    "example": "A raised surface for work or meals."
+  },
+  {
+    "type": "chair",
+    "example": "A seat with a back for one person."
+  },
+  {
+    "type": "bed",
+    "example": "A place arranged for sleeping."
+  },
+  {
+    "type": "blanket",
+    "example": "A thick covering used for warmth."
+  },
+  {
+    "type": "pillow",
+    "example": "A soft support for the head."
+  },
+  {
+    "type": "sheet",
+    "example": "A broad, thin piece of fabric or other material."
+  },
+  {
+    "type": "mattress",
+    "example": "A padded surface placed on a bed."
+  },
+  {
+    "type": "quilt",
+    "example": "A bed covering stitched through layers of fabric."
+  },
+  {
+    "type": "curtain",
+    "example": "A hanging cloth that screens an opening."
+  },
+  {
+    "type": "carpet",
+    "example": "A thick fabric covering for a floor."
+  },
+  {
+    "type": "rug",
+    "example": "A movable piece of floor covering."
+  },
+  {
+    "type": "floor",
+    "example": "The lower surface of a room."
+  },
+  {
+    "type": "ceiling",
+    "example": "The overhead surface inside a room."
+  },
+  {
+    "type": "wall",
+    "example": "A vertical structure enclosing or dividing space."
+  },
+  {
+    "type": "roof",
+    "example": "The upper covering of a building."
+  },
+  {
+    "type": "chimney",
+    "example": "A passage that carries smoke outside."
+  },
+  {
+    "type": "porch",
+    "example": "A sheltered platform outside an entrance."
+  },
+  {
+    "type": "balcony",
+    "example": "A raised platform projecting from a building."
+  },
+  {
+    "type": "terrace",
+    "example": "A level outdoor area beside a building."
+  },
+  {
+    "type": "veranda",
+    "example": "A roofed platform along a building's exterior."
+  },
+  {
+    "type": "cellar",
+    "example": "A room beneath ground level, often used for storage."
+  },
+  {
+    "type": "attic",
+    "example": "The space directly beneath a roof."
+  },
+  {
+    "type": "basement",
+    "example": "A building's lowest floor, partly or entirely underground."
+  },
+  {
+    "type": "closet",
+    "example": "A small enclosed space for storage."
+  },
+  {
+    "type": "cupboard",
+    "example": "A storage space fitted with shelves and doors."
+  },
+  {
+    "type": "cabinet",
+    "example": "A piece of furniture with enclosed storage."
+  },
+  {
+    "type": "drawer",
+    "example": "A sliding compartment in furniture."
+  },
+  {
+    "type": "shelf",
+    "example": "A flat support for storing or displaying things."
+  },
+  {
+    "type": "bookcase",
+    "example": "A piece of furniture with shelves for books."
+  },
+  {
+    "type": "wardrobe",
+    "example": "A tall cupboard for hanging clothes."
+  },
+  {
+    "type": "dresser",
+    "example": "A chest of drawers for clothing."
+  },
+  {
+    "type": "mirror",
+    "example": "A surface that reflects an image."
+  },
+  {
+    "type": "basin",
+    "example": "An open container used for washing or holding water."
+  },
+  {
+    "type": "bucket",
+    "example": "A deep container with a carrying handle."
+  },
+  {
+    "type": "bowl",
+    "example": "A rounded container with an open top."
+  },
+  {
+    "type": "plate",
+    "example": "A shallow dish used for serving food."
+  },
+  {
+    "type": "cup",
+    "example": "A small drinking vessel, often with a handle."
+  },
+  {
+    "type": "mug",
+    "example": "A sturdy drinking vessel with a handle."
+  },
+  {
+    "type": "saucer",
+    "example": "A small shallow dish beneath a cup."
+  },
+  {
+    "type": "spoon",
+    "example": "A utensil with a small curved bowl."
+  },
+  {
+    "type": "fork",
+    "example": "A utensil with prongs for lifting food."
+  },
+  {
+    "type": "knife",
+    "example": "A tool with a sharp cutting blade."
+  },
+  {
+    "type": "ladle",
+    "example": "A deep spoon for serving liquids."
+  },
+  {
+    "type": "colander",
+    "example": "A perforated bowl used to drain food."
+  },
+  {
+    "type": "strainer",
+    "example": "A mesh tool that separates solids from liquid."
+  },
+  {
+    "type": "kettle",
+    "example": "A vessel used to heat water."
+  },
+  {
+    "type": "teapot",
+    "example": "A vessel in which tea is brewed and served."
+  },
+  {
+    "type": "skillet",
+    "example": "A frying pan, often made of heavy metal."
+  },
+  {
+    "type": "cauldron",
+    "example": "A large pot for cooking over a fire."
+  },
+  {
+    "type": "brazier",
+    "example": "A container holding hot coals for warmth."
+  },
+  {
+    "type": "oven",
+    "example": "An enclosed chamber used for baking or heating."
+  },
+  {
+    "type": "stove",
+    "example": "An appliance used for cooking or heating."
+  },
+  {
+    "type": "grate",
+    "example": "A framework of bars that supports or guards something."
+  },
+  {
+    "type": "candle",
+    "example": "A wick enclosed in wax or another slow-burning material."
+  },
+  {
+    "type": "wick",
+    "example": "A cord that draws fuel to a flame."
+  },
+  {
+    "type": "match",
+    "example": "A small stick tipped with an ignitable substance."
+  },
+  {
+    "type": "flint",
+    "example": "A hard stone that can produce sparks when struck."
+  },
+  {
+    "type": "flame",
+    "example": "The visible, flickering part of a fire."
+  },
+  {
+    "type": "ember",
+    "example": "A glowing fragment remaining in a fire."
+  },
+  {
+    "type": "ash",
+    "example": "The powder left after something burns."
+  },
+  {
+    "type": "soot",
+    "example": "Fine black particles deposited by smoke."
+  },
+  {
+    "type": "smoke",
+    "example": "Airborne particles and gases released by burning."
+  },
+  {
+    "type": "fuel",
+    "example": "Material used to produce heat or power."
+  },
+  {
+    "type": "coal",
+    "example": "A dark combustible rock used as fuel."
+  },
+  {
+    "type": "charcoal",
+    "example": "A black fuel made by heating wood with little air."
+  },
+  {
+    "type": "timber",
+    "example": "Wood prepared for building."
+  },
+  {
+    "type": "lumber",
+    "example": "Wood cut into useful boards or beams."
+  },
+  {
+    "type": "plank",
+    "example": "A long, flat piece of timber."
+  },
+  {
+    "type": "beam",
+    "example": "A long support carrying structural weight."
+  },
+  {
+    "type": "post",
+    "example": "An upright support fixed into the ground."
+  },
+  {
+    "type": "pole",
+    "example": "A long, slender rod or shaft."
+  },
+  {
+    "type": "stake",
+    "example": "A pointed piece driven into the ground."
+  },
+  {
+    "type": "nail",
+    "example": "A small metal fastener driven into material."
+  },
+  {
+    "type": "screw",
+    "example": "A fastener with a spiral ridge."
+  },
+  {
+    "type": "bolt",
+    "example": "A stout fastener, often secured with a nut."
+  },
+  {
+    "type": "washer",
+    "example": "A flat ring placed beneath a fastening."
+  },
+  {
+    "type": "rivet",
+    "example": "A permanent fastener formed by flattening its end."
+  },
+  {
+    "type": "clamp",
+    "example": "A device that grips things tightly together."
+  },
+  {
+    "type": "vice",
+    "example": "A device holding an object between tightened jaws."
+  },
+  {
+    "type": "hammer",
+    "example": "A tool with a heavy striking head."
+  },
+  {
+    "type": "mallet",
+    "example": "A hammer with a broad wooden or rubber head."
+  },
+  {
+    "type": "axe",
+    "example": "A tool with a heavy blade for chopping."
+  },
+  {
+    "type": "hatchet",
+    "example": "A small axe used with one hand."
+  },
+  {
+    "type": "saw",
+    "example": "A cutting tool with a toothed edge."
+  },
+  {
+    "type": "plane",
+    "example": "A tool that shaves a wooden surface smooth."
+  },
+  {
+    "type": "awl",
+    "example": "A pointed tool for piercing small holes."
+  },
+  {
+    "type": "file",
+    "example": "A tool with a rough surface for shaping material."
+  },
+  {
+    "type": "raspberry",
+    "example": "A small fruit made of many juicy segments."
+  },
+  {
+    "type": "sandpaper",
+    "example": "Paper coated with abrasive grit."
+  },
+  {
+    "type": "whetstone",
+    "example": "A stone used to sharpen blades."
+  },
+  {
+    "type": "sickle",
+    "example": "A curved blade used for cutting vegetation."
+  },
+  {
+    "type": "scythe",
+    "example": "A long-handled tool with a broad curved blade."
+  },
+  {
+    "type": "shovel",
+    "example": "A tool for lifting loose material."
+  },
+  {
+    "type": "spade",
+    "example": "A flat-bladed tool for digging."
+  },
+  {
+    "type": "hoe",
+    "example": "A long-handled tool for loosening soil."
+  },
+  {
+    "type": "rake",
+    "example": "A tool with teeth for gathering or leveling material."
+  },
+  {
+    "type": "pickaxe",
+    "example": "A heavy pointed tool for breaking hard ground."
+  },
+  {
+    "type": "wheelbarrow",
+    "example": "A small handcart supported by a wheel."
+  },
+  {
+    "type": "cart",
+    "example": "A wheeled vehicle for carrying loads."
+  },
+  {
+    "type": "wagon",
+    "example": "A four-wheeled vehicle used for transporting goods."
+  },
+  {
+    "type": "sled",
+    "example": "A vehicle that slides on runners."
+  },
+  {
+    "type": "sleigh",
+    "example": "A runner-mounted vehicle, often drawn by horses."
+  },
+  {
+    "type": "harness",
+    "example": "Straps and fittings used to guide or secure an animal."
+  },
+  {
+    "type": "bridle",
+    "example": "Headgear used to control a horse."
+  },
+  {
+    "type": "reins",
+    "example": "Straps connecting a rider's hands to a bridle."
+  },
+  {
+    "type": "saddle",
+    "example": "A shaped seat placed on a riding animal."
+  },
+  {
+    "type": "stirrup",
+    "example": "A hanging support for a rider's foot."
+  },
+  {
+    "type": "spur",
+    "example": "A small device on a rider's heel."
+  },
+  {
+    "type": "hoof",
+    "example": "The hard covering of certain animals' feet."
+  },
+  {
+    "type": "mane",
+    "example": "Long hair along an animal's neck."
+  },
+  {
+    "type": "muzzle",
+    "example": "The projecting nose and mouth of an animal."
+  },
+  {
+    "type": "antler",
+    "example": "A branching bony growth on a deer's head."
+  },
+  {
+    "type": "tusk",
+    "example": "A long projecting tooth."
+  },
+  {
+    "type": "claw",
+    "example": "A sharp curved nail on an animal's foot."
+  },
+  {
+    "type": "talon",
+    "example": "A strong hooked claw, especially on a bird."
+  },
+  {
+    "type": "feather",
+    "example": "One of the light structures covering a bird."
+  },
+  {
+    "type": "quill",
+    "example": "A stiff feather shaft, once used for writing."
+  },
+  {
+    "type": "wing",
+    "example": "A limb adapted for flight."
+  },
+  {
+    "type": "beak",
+    "example": "A bird's hard projecting mouth."
+  },
+  {
+    "type": "nest",
+    "example": "A structure made by an animal for shelter or breeding."
+  },
+  {
+    "type": "burrow",
+    "example": "A hole or tunnel used as an animal's home."
+  },
+  {
+    "type": "den",
+    "example": "A concealed resting place for an animal."
+  },
+  {
+    "type": "kennel",
+    "example": "A shelter or establishment for dogs."
+  },
+  {
+    "type": "stable",
+    "example": "A building where horses are housed."
+  },
+  {
+    "type": "barn",
+    "example": "A farm building for animals, crops, or equipment."
+  },
+  {
+    "type": "silo",
+    "example": "A tall storage structure for grain or feed."
+  },
+  {
+    "type": "coop",
+    "example": "A small enclosure for poultry."
+  },
+  {
+    "type": "pen",
+    "example": "An enclosed area for keeping animals."
+  },
+  {
+    "type": "paddock",
+    "example": "A fenced field for grazing or exercising animals."
+  },
+  {
+    "type": "pasture",
+    "example": "Land covered with plants suitable for grazing."
+  },
+  {
+    "type": "meadow",
+    "example": "Open grassland, often dotted with wildflowers."
+  },
+  {
+    "type": "field",
+    "example": "An area of open land, often cultivated."
+  },
+  {
+    "type": "hedge",
+    "example": "A row of shrubs forming a boundary."
+  },
+  {
+    "type": "fence",
+    "example": "A barrier enclosing or dividing land."
+  },
+  {
+    "type": "gate",
+    "example": "A movable barrier in a fence or wall."
+  },
+  {
+    "type": "stile",
+    "example": "Steps or a passage allowing people across a fence."
+  },
+  {
+    "type": "path",
+    "example": "A route made or used for walking."
+  },
+  {
+    "type": "lane",
+    "example": "A narrow road or passage."
+  },
+  {
+    "type": "road",
+    "example": "A prepared route for vehicles or travelers."
+  },
+  {
+    "type": "street",
+    "example": "A road lined with buildings."
+  },
+  {
+    "type": "alley",
+    "example": "A narrow passage between buildings."
+  },
+  {
+    "type": "avenue",
+    "example": "A broad road, sometimes lined with trees."
+  },
+  {
+    "type": "boulevard",
+    "example": "A wide urban road, often with planted sections."
+  },
+  {
+    "type": "causeway",
+    "example": "A raised route across wet or low ground."
+  },
+  {
+    "type": "bridge",
+    "example": "A structure carrying a route over an obstacle."
+  },
+  {
+    "type": "viaduct",
+    "example": "A long elevated structure carrying a road or railway."
+  },
+  {
+    "type": "tunnel",
+    "example": "A passage through or beneath an obstacle."
+  },
+  {
+    "type": "arch",
+    "example": "A curved structure spanning an opening."
+  },
+  {
+    "type": "pillar",
+    "example": "An upright structural support."
+  },
+  {
+    "type": "column",
+    "example": "A vertical support, often cylindrical."
+  },
+  {
+    "type": "foundation",
+    "example": "The supporting base beneath a structure."
+  },
+  {
+    "type": "buttress",
+    "example": "A projecting support that strengthens a wall."
+  },
+  {
+    "type": "parapet",
+    "example": "A low protective wall along an edge."
+  },
+  {
+    "type": "rampart",
+    "example": "A broad defensive wall or embankment."
+  },
+  {
+    "type": "battlement",
+    "example": "A defensive parapet with alternating raised sections."
+  },
+  {
+    "type": "moat",
+    "example": "A ditch surrounding a fortified place."
+  },
+  {
+    "type": "drawbridge",
+    "example": "A bridge that can be raised or moved aside."
+  },
+  {
+    "type": "portcullis",
+    "example": "A heavy grating lowered to close a fortified entrance."
+  },
+  {
+    "type": "courtyard",
+    "example": "An open area enclosed by walls or buildings."
+  },
+  {
+    "type": "cloister",
+    "example": "A covered walkway bordering an enclosed court."
+  },
+  {
+    "type": "arcade",
+    "example": "A covered passage formed by a series of arches."
+  },
+  {
+    "type": "corridor",
+    "example": "A passage connecting rooms."
+  },
+  {
+    "type": "passage",
+    "example": "A narrow route through or between places."
+  },
+  {
+    "type": "hallway",
+    "example": "A passage inside a building."
+  },
+  {
+    "type": "vestibule",
+    "example": "A small entrance space before a larger room."
+  },
+  {
+    "type": "foyer",
+    "example": "An entrance hall or gathering space."
+  },
+  {
+    "type": "lobby",
+    "example": "A public entrance or waiting area."
+  },
+  {
+    "type": "chamber",
+    "example": "An enclosed room or compartment."
+  },
+  {
+    "type": "parlor",
+    "example": "A room used for receiving visitors."
+  },
+  {
+    "type": "scullery",
+    "example": "A small room used for washing dishes and kitchen work."
+  },
+  {
+    "type": "pantry",
+    "example": "A space for storing food and kitchen supplies."
+  },
+  {
+    "type": "larder",
+    "example": "A cool place for storing food."
+  },
+  {
+    "type": "kitchen",
+    "example": "A room or area where food is prepared."
+  },
+  {
+    "type": "workshop",
+    "example": "A room or building where things are made or repaired."
+  },
+  {
+    "type": "smithy",
+    "example": "A workshop where a smith works metal."
+  },
+  {
+    "type": "forge",
+    "example": "A hearth or furnace for heating metal."
+  },
+  {
+    "type": "foundry",
+    "example": "A place where metal is melted and cast."
+  },
+  {
+    "type": "kiln",
+    "example": "A heated chamber for firing pottery or drying materials."
+  },
+  {
+    "type": "warehouse",
+    "example": "A large building used for storing goods."
+  },
+  {
+    "type": "granary",
+    "example": "A building used to store grain."
+  },
+  {
+    "type": "mill",
+    "example": "A place or machine that grinds or processes material."
+  },
+  {
+    "type": "windmill",
+    "example": "A structure whose sails capture wind power."
+  },
+  {
+    "type": "waterwheel",
+    "example": "A wheel turned by flowing or falling water."
+  },
+  {
+    "type": "well",
+    "example": "A deep opening made to obtain groundwater."
+  },
+  {
+    "type": "pump",
+    "example": "A device that moves fluid by pressure or suction."
+  },
+  {
+    "type": "trough",
+    "example": "A long open container for water or feed."
+  },
+  {
+    "type": "aqueduct",
+    "example": "A channel or structure carrying water."
+  },
+  {
+    "type": "reservoir",
+    "example": "A place where water is collected and stored."
+  },
+  {
+    "type": "dam",
+    "example": "A barrier holding back or controlling water."
+  },
+  {
+    "type": "weir",
+    "example": "A low barrier built across flowing water."
+  },
+  {
+    "type": "sluice",
+    "example": "A channel or gate controlling a flow of water."
+  },
+  {
+    "type": "canal",
+    "example": "An artificial waterway."
+  },
+  {
+    "type": "wharf",
+    "example": "A waterside platform where vessels load and unload."
+  },
+  {
+    "type": "quay",
+    "example": "A solid landing place beside navigable water."
+  },
+  {
+    "type": "pier",
+    "example": "A structure projecting from shore over water."
+  },
+  {
+    "type": "jetty",
+    "example": "A structure extending into water for access or protection."
+  },
+  {
+    "type": "dock",
+    "example": "An enclosed or equipped place for vessels."
+  },
+  {
+    "type": "harbor",
+    "example": "A sheltered area where vessels can anchor."
+  },
+  {
+    "type": "marina",
+    "example": "A harbor equipped for small boats."
+  },
+  {
+    "type": "boathouse",
+    "example": "A building used to shelter boats."
+  },
+  {
+    "type": "lighthouse",
+    "example": "A tower displaying a light to guide vessels."
+  },
+  {
+    "type": "beacon",
+    "example": "A visible signal that guides or warns."
+  },
+  {
+    "type": "buoy",
+    "example": "A floating marker fixed or drifting in water."
+  },
+  {
+    "type": "rope",
+    "example": "A thick cord made from twisted strands."
+  },
+  {
+    "type": "cord",
+    "example": "A flexible length of twisted fibers."
+  },
+  {
+    "type": "twine",
+    "example": "A thin strong string made from twisted strands."
+  },
+  {
+    "type": "thread",
+    "example": "A fine strand used in sewing or weaving."
+  },
+  {
+    "type": "yarn",
+    "example": "A continuous strand of fibers used to make fabric."
+  },
+  {
+    "type": "needle",
+    "example": "A slender pointed tool used in sewing."
+  },
+  {
+    "type": "pin",
+    "example": "A small pointed fastener."
+  },
+  {
+    "type": "buckle",
+    "example": "A fastening through which a strap passes."
+  },
+  {
+    "type": "clasp",
+    "example": "A fastening that holds parts together."
+  },
+  {
+    "type": "zipper",
+    "example": "A fastening made from interlocking rows of teeth."
+  },
+  {
+    "type": "button",
+    "example": "A small fastening passed through a loop or hole."
+  },
+  {
+    "type": "loop",
+    "example": "A curve or ring formed by something bending back."
+  },
+  {
+    "type": "knot",
+    "example": "A fastening made by interlacing a flexible length."
+  },
+  {
+    "type": "tassel",
+    "example": "A hanging bunch of threads or cords."
+  },
+  {
+    "type": "fringe",
+    "example": "A border of hanging threads or strips."
+  },
+  {
+    "type": "hem",
+    "example": "The folded and sewn edge of fabric."
+  },
+  {
+    "type": "cuff",
+    "example": "The end portion of a sleeve or trouser leg."
+  },
+  {
+    "type": "collar",
+    "example": "The part of a garment around the neck."
+  },
+  {
+    "type": "lapel",
+    "example": "The folded edge on the front of a jacket."
+  },
+  {
+    "type": "pocket",
+    "example": "A small pouch sewn into clothing."
+  },
+  {
+    "type": "lining",
+    "example": "An inner layer of fabric or other material."
+  },
+  {
+    "type": "patch",
+    "example": "A piece of material covering or repairing a surface."
+  },
+  {
+    "type": "apron",
+    "example": "A protective garment worn over the front of the body."
+  },
+  {
+    "type": "cloak",
+    "example": "A loose outer garment hanging from the shoulders."
+  },
+  {
+    "type": "shawl",
+    "example": "A piece of fabric worn around the shoulders or head."
+  },
+  {
+    "type": "scarf",
+    "example": "A length of fabric worn around the neck or head."
+  },
+  {
+    "type": "bonnet",
+    "example": "A hat tied beneath the chin."
+  },
+  {
+    "type": "helmet",
+    "example": "A protective covering for the head."
+  },
+  {
+    "type": "visor",
+    "example": "A projecting shade or movable face covering."
+  },
+  {
+    "type": "gauntlet",
+    "example": "A long protective glove."
+  },
+  {
+    "type": "mitten",
+    "example": "A glove with one section for the fingers together."
+  },
+  {
+    "type": "boot",
+    "example": "Footwear covering the foot and part of the leg."
+  },
+  {
+    "type": "sandal",
+    "example": "An open shoe held by straps."
+  },
+  {
+    "type": "slipper",
+    "example": "A light shoe, often worn indoors."
+  },
+  {
+    "type": "river",
+    "example": "A natural stream of water flowing toward another body of water."
+  },
+  {
+    "type": "stream",
+    "example": "A relatively small flow of water in a channel."
+  },
+  {
+    "type": "brook",
+    "example": "A small natural stream."
+  },
+  {
+    "type": "creek",
+    "example": "A small stream or narrow inlet."
+  },
+  {
+    "type": "rivulet",
+    "example": "A very small stream of liquid."
+  },
+  {
+    "type": "waterfall",
+    "example": "Water falling over a steep edge."
+  },
+  {
+    "type": "cascade",
+    "example": "A fall of water flowing over a series of drops."
+  },
+  {
+    "type": "rapids",
+    "example": "A stretch of swiftly moving, turbulent water."
+  },
+  {
+    "type": "pool",
+    "example": "A small area of collected liquid."
+  },
+  {
+    "type": "pond",
+    "example": "A small body of still water."
+  },
+  {
+    "type": "lake",
+    "example": "A large body of water surrounded by land."
+  },
+  {
+    "type": "lagoon",
+    "example": "A shallow body of water separated from a larger one."
+  },
+  {
+    "type": "estuary",
+    "example": "The tidal mouth of a river."
+  },
+  {
+    "type": "delta",
+    "example": "Land formed by deposited sediment at a river's mouth."
+  },
+  {
+    "type": "swamp",
+    "example": "Wet ground dominated by trees or shrubs."
+  },
+  {
+    "type": "marsh",
+    "example": "Wet ground covered mainly with grasses and similar plants."
+  },
+  {
+    "type": "bog",
+    "example": "Wet, spongy ground where partly decayed plants accumulate."
+  },
+  {
+    "type": "fen",
+    "example": "A wetland fed by mineral-bearing groundwater or surface water."
+  },
+  {
+    "type": "moor",
+    "example": "Open uncultivated upland, often covered with low shrubs."
+  },
+  {
+    "type": "heath",
+    "example": "Open land covered with low shrubs and coarse grasses."
+  },
+  {
+    "type": "plain",
+    "example": "A broad area of relatively level land."
+  },
+  {
+    "type": "prairie",
+    "example": "A wide area of open grassland."
+  },
+  {
+    "type": "steppe",
+    "example": "A broad, mostly treeless grassland in a dry region."
+  },
+  {
+    "type": "plateau",
+    "example": "An elevated area with a relatively level surface."
+  },
+  {
+    "type": "mesa",
+    "example": "An isolated hill with a flat top and steep sides."
+  },
+  {
+    "type": "butte",
+    "example": "An isolated steep-sided hill with a small flat top."
+  },
+  {
+    "type": "ridge",
+    "example": "A long narrow crest of raised ground."
+  },
+  {
+    "type": "crest",
+    "example": "The highest edge or top of a raised surface."
+  },
+  {
+    "type": "summit",
+    "example": "The highest point of a mountain or achievement."
+  },
+  {
+    "type": "peak",
+    "example": "A pointed top, especially of a mountain."
+  },
+  {
+    "type": "cliff",
+    "example": "A steep, high face of rock or earth."
+  },
+  {
+    "type": "bluff",
+    "example": "A steep bank or headland."
+  },
+  {
+    "type": "ravine",
+    "example": "A deep, narrow valley with steep sides."
+  },
+  {
+    "type": "gorge",
+    "example": "A narrow valley with steep rocky walls."
+  },
+  {
+    "type": "canyon",
+    "example": "A deep valley cut through rock."
+  },
+  {
+    "type": "gully",
+    "example": "A channel cut into earth by running water."
+  },
+  {
+    "type": "valley",
+    "example": "Low ground lying between hills or mountains."
+  },
+  {
+    "type": "hollow",
+    "example": "A sheltered depression or cavity."
+  },
+  {
+    "type": "dell",
+    "example": "A small wooded valley."
+  },
+  {
+    "type": "glen",
+    "example": "A narrow valley, especially in hilly country."
+  },
+  {
+    "type": "knoll",
+    "example": "A small rounded hill."
+  },
+  {
+    "type": "mound",
+    "example": "A rounded heap or raised area."
+  },
+  {
+    "type": "dune",
+    "example": "A hill or ridge of windblown sand."
+  },
+  {
+    "type": "beach",
+    "example": "A shore of sand, pebbles, or other loose material."
+  },
+  {
+    "type": "shore",
+    "example": "The land bordering a body of water."
+  },
+  {
+    "type": "coast",
+    "example": "The land along the edge of a sea."
+  },
+  {
+    "type": "cove",
+    "example": "A small sheltered inlet."
+  },
+  {
+    "type": "bay",
+    "example": "A broad inlet partly enclosed by land."
+  },
+  {
+    "type": "inlet",
+    "example": "A narrow opening through which water extends inland."
+  },
+  {
+    "type": "fjord",
+    "example": "A long, deep sea inlet between steep slopes."
+  },
+  {
+    "type": "headland",
+    "example": "High land projecting into the sea."
+  },
+  {
+    "type": "cape",
+    "example": "A prominent point of land extending into water."
+  },
+  {
+    "type": "peninsula",
+    "example": "Land surrounded by water on most sides."
+  },
+  {
+    "type": "isthmus",
+    "example": "A narrow strip of land connecting larger areas."
+  },
+  {
+    "type": "island",
+    "example": "Land surrounded by water."
+  },
+  {
+    "type": "archipelago",
+    "example": "A group or chain of islands."
+  },
+  {
+    "type": "reef",
+    "example": "A ridge of rock or coral near the water's surface."
+  },
+  {
+    "type": "atoll",
+    "example": "A ring-shaped coral formation surrounding a lagoon."
+  },
+  {
+    "type": "sandbar",
+    "example": "A ridge of sand formed by moving water."
+  },
+  {
+    "type": "shingleback",
+    "example": "An Australian lizard with large scales and a short, blunt tail."
+  },
+  {
+    "type": "scree",
+    "example": "Loose rock fragments covering a steep slope."
+  },
+  {
+    "type": "pebble",
+    "example": "A small stone rounded by wear."
+  },
+  {
+    "type": "boulder",
+    "example": "A large rounded or irregular mass of rock."
+  },
+  {
+    "type": "slate",
+    "example": "A fine-grained rock that splits into thin layers."
+  },
+  {
+    "type": "granite",
+    "example": "A hard rock containing visible mineral crystals."
+  },
+  {
+    "type": "limestone",
+    "example": "A rock composed mainly of calcium carbonate."
+  },
+  {
+    "type": "flintlock",
+    "example": "A gun mechanism that ignites powder with a flint spark."
+  },
+  {
+    "type": "quartz",
+    "example": "A common hard mineral found in many rocks."
+  },
+  {
+    "type": "mica",
+    "example": "A shiny mineral that separates into thin sheets."
+  },
+  {
+    "type": "clay",
+    "example": "Fine earth that becomes moldable when wet."
+  },
+  {
+    "type": "silt",
+    "example": "Fine sediment carried or deposited by water."
+  },
+  {
+    "type": "loam",
+    "example": "Soil containing a mixture of sand, silt, and clay."
+  },
+  {
+    "type": "humus",
+    "example": "Dark organic material formed by decaying matter in soil."
+  },
+  {
+    "type": "peat",
+    "example": "Partly decayed plant material accumulated in wet ground."
+  },
+  {
+    "type": "moss",
+    "example": "A small plant forming soft green growth on damp surfaces."
+  },
+  {
+    "type": "lichen",
+    "example": "A growth formed by a fungus living with an alga or cyanobacterium."
+  },
+  {
+    "type": "fern",
+    "example": "A plant with divided fronds that reproduces by spores."
+  },
+  {
+    "type": "frond",
+    "example": "A large divided leaf, especially of a fern or palm."
+  },
+  {
+    "type": "petal",
+    "example": "One of the often colorful parts surrounding a flower's center."
+  },
+  {
+    "type": "pollen",
+    "example": "Fine grains produced by seed plants for reproduction."
+  },
+  {
+    "type": "stamen",
+    "example": "The pollen-producing part of a flower."
+  },
+  {
+    "type": "nectar",
+    "example": "A sweet liquid produced by flowers."
+  },
+  {
+    "type": "bud",
+    "example": "An undeveloped shoot, leaf, or flower."
+  },
+  {
+    "type": "blossom",
+    "example": "A flower, especially on a fruit tree."
+  },
+  {
+    "type": "root",
+    "example": "A plant part that anchors it and absorbs water."
+  },
+  {
+    "type": "bark",
+    "example": "The protective outer covering of a tree's trunk or branches."
+  },
+  {
+    "type": "branch",
+    "example": "A woody division growing from a tree's trunk."
+  },
+  {
+    "type": "twig",
+    "example": "A small slender woody shoot."
+  },
+  {
+    "type": "sapling",
+    "example": "A young tree with a slender trunk."
+  },
+  {
+    "type": "stump",
+    "example": "The remaining base of a cut or broken tree."
+  },
+  {
+    "type": "log",
+    "example": "A cut length of tree trunk or branch."
+  },
+  {
+    "type": "canopy",
+    "example": "An overhead cover formed by branches or another structure."
+  },
+  {
+    "type": "thicket",
+    "example": "A dense growth of bushes or small trees."
+  },
+  {
+    "type": "copse",
+    "example": "A small group of trees."
+  },
+  {
+    "type": "grove",
+    "example": "A group of trees with relatively open ground beneath."
+  },
+  {
+    "type": "forest",
+    "example": "A large area covered mainly with trees."
+  },
+  {
+    "type": "jungle",
+    "example": "Dense vegetation, especially in a tropical region."
+  },
+  {
+    "type": "clearing",
+    "example": "An open space within a wooded area."
+  },
+  {
+    "type": "glade",
+    "example": "An open area in a wood or forest."
+  },
+  {
+    "type": "undergrowth",
+    "example": "Low plants growing beneath taller vegetation."
+  },
+  {
+    "type": "ivy",
+    "example": "A climbing or trailing plant that clings to surfaces."
+  },
+  {
+    "type": "willow",
+    "example": "A tree or shrub often having narrow leaves and flexible branches."
+  },
+  {
+    "type": "birch",
+    "example": "A tree often recognized by its pale, peeling bark."
+  },
+  {
+    "type": "cedar",
+    "example": "An evergreen tree valued for its aromatic wood."
+  },
+  {
+    "type": "maple",
+    "example": "A tree commonly bearing lobed leaves and winged seeds."
+  },
+  {
+    "type": "oak",
+    "example": "A tree bearing acorns and usually having strong wood."
+  },
+  {
+    "type": "acorn",
+    "example": "The nut produced by an oak tree."
+  },
+  {
+    "type": "chestnut",
+    "example": "A glossy brown nut enclosed in a prickly husk."
+  },
+  {
+    "type": "walnut",
+    "example": "A ridged edible nut enclosed in a hard shell."
+  },
+  {
+    "type": "hazelnut",
+    "example": "A small rounded nut from a hazel tree."
+  },
+  {
+    "type": "almond",
+    "example": "An edible seed with a thin brown skin."
+  },
+  {
+    "type": "fig",
+    "example": "A soft fruit containing many tiny seeds."
+  },
+  {
+    "type": "plum",
+    "example": "A smooth-skinned fruit with a central stone."
+  },
+  {
+    "type": "peach",
+    "example": "A soft fruit with fuzzy skin and a central stone."
+  },
+  {
+    "type": "apricot",
+    "example": "A small orange fruit related to the peach."
+  },
+  {
+    "type": "pear",
+    "example": "A sweet fruit usually narrowing toward its stem."
+  },
+  {
+    "type": "apple",
+    "example": "A firm, rounded fruit with a central seed-containing core."
+  },
+  {
+    "type": "quince",
+    "example": "A fragrant yellow fruit often cooked before eating."
+  },
+  {
+    "type": "pomegranate",
+    "example": "A thick-skinned fruit containing many juicy red seeds."
+  },
+  {
+    "type": "lemon",
+    "example": "A yellow citrus fruit with sour juice."
+  },
+  {
+    "type": "lime",
+    "example": "A small citrus fruit, often green and sharply sour."
+  },
+  {
+    "type": "orange",
+    "example": "A citrus fruit with segmented flesh and a fragrant rind."
+  },
+  {
+    "type": "grape",
+    "example": "A small juicy fruit that grows in clusters."
+  },
+  {
+    "type": "raisin",
+    "example": "A dried grape."
+  },
+  {
+    "type": "date",
+    "example": "A sweet fruit produced by certain palms."
+  },
+  {
+    "type": "olive",
+    "example": "A small oily fruit with a hard central stone."
+  },
+  {
+    "type": "carrot",
+    "example": "An edible root, usually orange and tapering."
+  },
+  {
+    "type": "parsnip",
+    "example": "A pale edible root with a sweet, earthy flavor."
+  },
+  {
+    "type": "beet",
+    "example": "A rounded edible root, often deep red."
+  },
+  {
+    "type": "radish",
+    "example": "A crisp edible root with a peppery taste."
+  },
+  {
+    "type": "onion",
+    "example": "An edible bulb formed from tightly layered leaves."
+  },
+  {
+    "type": "garlic",
+    "example": "A strongly flavored bulb divided into cloves."
+  },
+  {
+    "type": "leek",
+    "example": "A vegetable with a long pale stalk and broad green leaves."
+  },
+  {
+    "type": "celery",
+    "example": "A vegetable with crisp, ribbed stalks."
+  },
+  {
+    "type": "cabbage",
+    "example": "A vegetable whose leaves form a compact head."
+  },
+  {
+    "type": "kale",
+    "example": "A leafy cabbage that does not form a tight head."
+  },
+  {
+    "type": "spinach",
+    "example": "A leafy green vegetable."
+  },
+  {
+    "type": "lettuce",
+    "example": "A leafy plant commonly eaten raw."
+  },
+  {
+    "type": "fennel",
+    "example": "An aromatic plant with feathery leaves and an anise-like flavor."
+  },
+  {
+    "type": "squash",
+    "example": "A plant bearing edible fleshy fruits with firm rinds."
+  },
+  {
+    "type": "gourd",
+    "example": "A hard-rinded fruit sometimes dried into a container."
+  },
+  {
+    "type": "pumpkin",
+    "example": "A large round squash, often orange."
+  },
+  {
+    "type": "cucumber",
+    "example": "A long crisp fruit commonly eaten as a vegetable."
+  },
+  {
+    "type": "eggplant",
+    "example": "A vegetable with smooth skin and spongy flesh."
+  },
+  {
+    "type": "pepper",
+    "example": "A pungent spice or the fruit of certain vegetable plants."
+  },
+  {
+    "type": "chili",
+    "example": "A pepper with a hot, pungent flavor."
+  },
+  {
+    "type": "bean",
+    "example": "An edible seed usually enclosed in a pod."
+  },
+  {
+    "type": "lentil",
+    "example": "A small flattened edible seed."
+  },
+  {
+    "type": "chickpea",
+    "example": "A rounded edible seed with a slightly pointed shape."
+  },
+  {
+    "type": "barley",
+    "example": "A cereal grain used for food, feed, and brewing."
+  },
+  {
+    "type": "oat",
+    "example": "A cereal plant producing grain often eaten as porridge."
+  },
+  {
+    "type": "rye",
+    "example": "A cereal grain used for bread and spirits."
+  },
+  {
+    "type": "wheat",
+    "example": "A cereal grain widely used to make flour."
+  },
+  {
+    "type": "millet",
+    "example": "A group of grasses cultivated for small edible grains."
+  },
+  {
+    "type": "rice",
+    "example": "A cereal grain commonly grown in flooded fields."
+  },
+  {
+    "type": "flour",
+    "example": "A fine powder made by grinding grain or other food."
+  },
+  {
+    "type": "dough",
+    "example": "A thick mixture kneaded or shaped before baking."
+  },
+  {
+    "type": "batter",
+    "example": "A pourable mixture used in cooking."
+  },
+  {
+    "type": "bread",
+    "example": "Food made by baking a mixture based on flour and liquid."
+  },
+  {
+    "type": "crust",
+    "example": "A firm outer layer, especially on baked food."
+  },
+  {
+    "type": "crumb",
+    "example": "A small fragment of bread or another brittle food."
+  },
+  {
+    "type": "pastry",
+    "example": "Dough rich in fat, used for baked dishes."
+  },
+  {
+    "type": "dumpling",
+    "example": "A small mass of dough cooked with or without filling."
+  },
+  {
+    "type": "noodle",
+    "example": "A long thin strip or strand of dough."
+  },
+  {
+    "type": "broth",
+    "example": "A thin savory liquid made by simmering ingredients."
+  },
+  {
+    "type": "stew",
+    "example": "A dish of ingredients cooked slowly in liquid."
+  },
+  {
+    "type": "gravy",
+    "example": "A sauce often made from cooking juices."
+  },
+  {
+    "type": "brine",
+    "example": "Water containing a high concentration of salt."
+  },
+  {
+    "type": "vinegar",
+    "example": "A sour liquid used in cooking and preserving."
+  },
+  {
+    "type": "honey",
+    "example": "A sweet substance made by bees from nectar."
+  },
+  {
+    "type": "molasses",
+    "example": "A dark thick syrup produced during sugar processing."
+  },
+  {
+    "type": "syrup",
+    "example": "A thick, sweet liquid."
+  },
+  {
+    "type": "jam",
+    "example": "Fruit cooked with sugar into a spread."
+  },
+  {
+    "type": "jelly",
+    "example": "A soft food set into a trembling mass."
+  },
+  {
+    "type": "curd",
+    "example": "A soft mass formed when milk coagulates."
+  },
+  {
+    "type": "cheese",
+    "example": "Food made by processing coagulated milk."
+  },
+  {
+    "type": "butter",
+    "example": "A spread made by churning cream."
+  },
+  {
+    "type": "cream",
+    "example": "The richer, fatty portion of milk."
+  },
+  {
+    "type": "yogurt",
+    "example": "Milk thickened and soured by bacterial cultures."
+  },
+  {
+    "type": "buttermilk",
+    "example": "A tangy dairy liquid, traditionally left after churning butter."
+  },
+  {
+    "type": "coffee",
+    "example": "A drink brewed from roasted coffee seeds."
+  },
+  {
+    "type": "tea",
+    "example": "A drink made by steeping tea leaves in hot water."
+  },
+  {
+    "type": "cocoa",
+    "example": "Powder made from processed cacao seeds, or a drink made with it."
+  },
+  {
+    "type": "cider",
+    "example": "A drink made from pressed fruit, especially apples."
+  },
+  {
+    "type": "flask",
+    "example": "A small container, often used for carrying liquid."
+  },
+  {
+    "type": "canteen",
+    "example": "A portable water container or a place serving meals."
+  },
+  {
+    "type": "goblet",
+    "example": "A drinking vessel with a stem and broad bowl."
+  },
+  {
+    "type": "chalice",
+    "example": "A large ceremonial drinking cup."
+  },
+  {
+    "type": "decanter",
+    "example": "A stoppered vessel used for serving a drink."
+  },
+  {
+    "type": "pitcher",
+    "example": "A container with a handle and pouring spout."
+  },
+  {
+    "type": "carafe",
+    "example": "A container used for serving water or wine."
+  },
+  {
+    "type": "phone",
+    "example": "A device used to communicate by sound and other signals."
+  },
+  {
+    "type": "screen",
+    "example": "A surface displaying images or shielding something from view."
+  },
+  {
+    "type": "keyboard",
+    "example": "An arrangement of keys used to enter information or play music."
+  },
+  {
+    "type": "cursor",
+    "example": "A moving mark showing a position on a display."
+  },
+  {
+    "type": "monitor",
+    "example": "A display used to view electronic information."
+  },
+  {
+    "type": "terminal",
+    "example": "A device for accessing a computer system, or a transport station."
+  },
+  {
+    "type": "computer",
+    "example": "An electronic device that processes information."
+  },
+  {
+    "type": "laptop",
+    "example": "A portable computer with an attached screen and keyboard."
+  },
+  {
+    "type": "tablet",
+    "example": "A thin flat object, including a portable touchscreen computer."
+  },
+  {
+    "type": "charger",
+    "example": "A device that restores electrical energy to a battery."
+  },
+  {
+    "type": "battery",
+    "example": "A device that stores energy for supplying electricity."
+  },
+  {
+    "type": "cable",
+    "example": "A thick cord or bundle of wires."
+  },
+  {
+    "type": "socket",
+    "example": "A hollow fitting that receives a matching part."
+  },
+  {
+    "type": "plug",
+    "example": "A piece inserted to close an opening or make a connection."
+  },
+  {
+    "type": "switch",
+    "example": "A device that changes an electrical connection."
+  },
+  {
+    "type": "bulb",
+    "example": "A rounded light source or a plant's underground storage structure."
+  },
+  {
+    "type": "filament",
+    "example": "A very thin strand or threadlike structure."
+  },
+  {
+    "type": "circuit",
+    "example": "A complete path through which electricity can flow."
+  },
+  {
+    "type": "sensor",
+    "example": "A device that detects a physical condition or change."
+  },
+  {
+    "type": "signal",
+    "example": "An action or transmission conveying information."
+  },
+  {
+    "type": "antenna",
+    "example": "A structure used to send or receive radio signals."
+  },
+  {
+    "type": "transmitter",
+    "example": "A device that sends out a signal."
+  },
+  {
+    "type": "receiver",
+    "example": "A device or person that receives a signal or object."
+  },
+  {
+    "type": "speaker",
+    "example": "A person speaking or a device producing sound."
+  },
+  {
+    "type": "microphone",
+    "example": "A device that converts sound into an electrical signal."
+  },
+  {
+    "type": "headphones",
+    "example": "A pair of small speakers worn over or in the ears."
+  },
+  {
+    "type": "camera",
+    "example": "A device used to record images."
+  },
+  {
+    "type": "lens",
+    "example": "A shaped transparent piece that bends light."
+  },
+  {
+    "type": "shutter",
+    "example": "A movable cover controlling an opening or exposure to light."
+  },
+  {
+    "type": "tripod",
+    "example": "A support standing on three legs."
+  },
+  {
+    "type": "projector",
+    "example": "A device that casts an image onto a surface."
+  },
+  {
+    "type": "printer",
+    "example": "A device that produces text or images on a surface."
+  },
+  {
+    "type": "scanner",
+    "example": "A device that reads or examines something systematically."
+  },
+  {
+    "type": "cartridge",
+    "example": "A replaceable container holding material for a device."
+  },
+  {
+    "type": "envelope",
+    "example": "A folded covering used to hold a letter or document."
+  },
+  {
+    "type": "postcard",
+    "example": "A card mailed without an envelope."
+  },
+  {
+    "type": "stamp",
+    "example": "A small printed label or a tool for making an impression."
+  },
+  {
+    "type": "ticket",
+    "example": "A document or token granting admission or travel."
+  },
+  {
+    "type": "receipt",
+    "example": "A written acknowledgment of payment or delivery."
+  },
+  {
+    "type": "invoice",
+    "example": "A document listing goods or services and the amount due."
+  },
+  {
+    "type": "barcode",
+    "example": "A machine-readable pattern identifying an item."
+  },
+  {
+    "type": "passport",
+    "example": "An official document identifying an international traveler."
+  },
+  {
+    "type": "badge",
+    "example": "A small sign of identity, membership, or authority."
+  },
+  {
+    "type": "uniform",
+    "example": "Standard clothing identifying a group or occupation."
+  },
+  {
+    "type": "clipboard",
+    "example": "A portable board with a clip for holding papers."
+  },
+  {
+    "type": "notebook",
+    "example": "A bound collection of pages for writing notes."
+  },
+  {
+    "type": "pencil",
+    "example": "A writing tool containing a solid marking core."
+  },
+  {
+    "type": "eraser",
+    "example": "A tool or material used to remove written marks."
+  },
+  {
+    "type": "ruler",
+    "example": "A straight tool used to measure or draw lines."
+  },
+  {
+    "type": "stapler",
+    "example": "A tool that joins materials with bent metal fasteners."
+  },
+  {
+    "type": "paperclip",
+    "example": "A small bent wire used to hold papers together."
+  },
+  {
+    "type": "folder",
+    "example": "A cover used to organize and hold documents."
+  },
+  {
+    "type": "briefcase",
+    "example": "A flat case used to carry papers and work materials."
+  },
+  {
+    "type": "backpack",
+    "example": "A bag carried on the back with shoulder straps."
+  },
+  {
+    "type": "suitcase",
+    "example": "A handled case for clothing and travel belongings."
+  },
+  {
+    "type": "handbag",
+    "example": "A small bag carried for personal belongings."
+  },
+  {
+    "type": "wallet",
+    "example": "A small folding case for money and cards."
+  },
+  {
+    "type": "purse",
+    "example": "A small bag or container for money or personal items."
+  },
+  {
+    "type": "key",
+    "example": "A shaped object used to operate a lock."
+  },
+  {
+    "type": "keyhole",
+    "example": "The opening into which a lock's key is inserted."
+  },
+  {
+    "type": "padlock",
+    "example": "A portable lock with a movable loop."
+  },
+  {
+    "type": "chain",
+    "example": "A series of connected links."
+  },
+  {
+    "type": "handrail",
+    "example": "A rail held for support beside stairs or a walkway."
+  },
+  {
+    "type": "escalator",
+    "example": "A moving staircase."
+  },
+  {
+    "type": "elevator",
+    "example": "A platform or cabin that moves people or goods vertically."
+  },
+  {
+    "type": "platform",
+    "example": "A raised, level surface used as a working or standing area."
+  },
+  {
+    "type": "subway",
+    "example": "An underground railway or pedestrian passage."
+  },
+  {
+    "type": "turntable",
+    "example": "A rotating platform, especially one used to play records."
+  },
+  {
+    "type": "engine",
+    "example": "A machine that converts energy into useful motion."
+  },
+  {
+    "type": "piston",
+    "example": "A sliding part that moves inside a cylinder."
+  },
+  {
+    "type": "amble",
+    "example": "To walk at an easy, unhurried pace."
+  },
+  {
+    "type": "stroll",
+    "example": "To walk casually, usually for pleasure."
+  },
+  {
+    "type": "stride",
+    "example": "To walk with long, purposeful steps."
+  },
+  {
+    "type": "trudge",
+    "example": "To walk with slow, heavy effort."
+  },
+  {
+    "type": "shuffle",
+    "example": "To move with short steps while dragging the feet."
+  },
+  {
+    "type": "limp",
+    "example": "To walk unevenly because one leg is painful or weak."
+  },
+  {
+    "type": "hobble",
+    "example": "To walk awkwardly or with difficulty."
+  },
+  {
+    "type": "stumble",
+    "example": "To trip or briefly lose balance."
+  },
+  {
+    "type": "totter",
+    "example": "To move or stand with unstable, swaying motions."
+  },
+  {
+    "type": "stomp",
+    "example": "To step heavily and forcefully."
+  },
+  {
+    "type": "tramp",
+    "example": "To walk heavily or travel on foot for a long time."
+  },
+  {
+    "type": "march",
+    "example": "To walk with regular, deliberate steps."
+  },
+  {
+    "type": "slink",
+    "example": "To move quietly as if avoiding attention."
+  },
+  {
+    "type": "creep",
+    "example": "To move slowly and cautiously."
+  },
+  {
+    "type": "crawl",
+    "example": "To move close to the ground using limbs or the body."
+  },
+  {
+    "type": "slither",
+    "example": "To slide or twist along a surface."
+  },
+  {
+    "type": "glide",
+    "example": "To move smoothly with little apparent effort."
+  },
+  {
+    "type": "drift",
+    "example": "To move slowly under the influence of a current or force."
+  },
+  {
+    "type": "float",
+    "example": "To rest or move on a fluid without sinking."
+  },
+  {
+    "type": "hover",
+    "example": "To remain suspended or linger near a place."
+  },
+  {
+    "type": "soar",
+    "example": "To rise or fly high with apparent ease."
+  },
+  {
+    "type": "swoop",
+    "example": "To descend or move in a swift sweeping curve."
+  },
+  {
+    "type": "dive",
+    "example": "To plunge downward, especially headfirst."
+  },
+  {
+    "type": "plunge",
+    "example": "To move or thrust suddenly downward or forward."
+  },
+  {
+    "type": "plummet",
+    "example": "To fall rapidly and steeply."
+  },
+  {
+    "type": "tumble",
+    "example": "To fall or roll with uncontrolled turns."
+  },
+  {
+    "type": "topple",
+    "example": "To lose balance and fall over."
+  },
+  {
+    "type": "pitch",
+    "example": "To throw forcefully or tilt sharply."
+  },
+  {
+    "type": "tilt",
+    "example": "To move into a sloping position."
+  },
+  {
+    "type": "lean",
+    "example": "To incline the body or rest against support."
+  },
+  {
+    "type": "crouch",
+    "example": "To lower the body by bending the knees."
+  },
+  {
+    "type": "stoop",
+    "example": "To bend the upper body downward."
+  },
+  {
+    "type": "hunch",
+    "example": "To bend the back and raise the shoulders."
+  },
+  {
+    "type": "kneel",
+    "example": "To rest the body on one or both knees."
+  },
+  {
+    "type": "squat",
+    "example": "To lower the body with knees bent and weight over the feet."
+  },
+  {
+    "type": "perch",
+    "example": "To sit or rest on a narrow or elevated support."
+  },
+  {
+    "type": "roost",
+    "example": "To settle into a resting place, especially for the night."
+  },
+  {
+    "type": "settle",
+    "example": "To come to rest or become established."
+  },
+  {
+    "type": "alight",
+    "example": "To land gently or step down from a vehicle."
+  },
+  {
+    "type": "descend",
+    "example": "To move from a higher place to a lower one."
+  },
+  {
+    "type": "ascend",
+    "example": "To move or rise upward."
+  },
+  {
+    "type": "scale",
+    "example": "To climb a steep surface or reach a height."
+  },
+  {
+    "type": "climb",
+    "example": "To move upward using effort or support."
+  },
+  {
+    "type": "mount",
+    "example": "To get onto, rise above, or increase."
+  },
+  {
+    "type": "scramble",
+    "example": "To climb or move hurriedly with awkward effort."
+  },
+  {
+    "type": "scamper",
+    "example": "To run with quick, light steps."
+  },
+  {
+    "type": "scurry",
+    "example": "To move quickly with small hurried steps."
+  },
+  {
+    "type": "dart",
+    "example": "To make a sudden, quick movement."
+  },
+  {
+    "type": "gallop",
+    "example": "To run with the fast gait of a horse."
+  },
+  {
+    "type": "dash",
+    "example": "To move or rush with sudden speed."
+  },
+  {
+    "type": "sprint",
+    "example": "To run at high speed for a short distance."
+  },
+  {
+    "type": "charge",
+    "example": "To rush forward with force or determination."
+  },
+  {
+    "type": "rush",
+    "example": "To move or act with haste."
+  },
+  {
+    "type": "hurtle",
+    "example": "To move with great speed, often dangerously."
+  },
+  {
+    "type": "barrel",
+    "example": "To move rapidly with force and little restraint."
+  },
+  {
+    "type": "lunge",
+    "example": "To make a sudden forward thrust."
+  },
+  {
+    "type": "leap",
+    "example": "To spring through the air or across a gap."
+  },
+  {
+    "type": "bound",
+    "example": "To move forward with long jumping strides."
+  },
+  {
+    "type": "spring",
+    "example": "To move suddenly or jump upward."
+  },
+  {
+    "type": "hop",
+    "example": "To make a short jump, often on one foot."
+  },
+  {
+    "type": "skip",
+    "example": "To move with alternating steps and light jumps."
+  },
+  {
+    "type": "vault",
+    "example": "To jump over something using a hand or pole for support."
+  },
+  {
+    "type": "hurdle",
+    "example": "To leap over an obstacle."
+  },
+  {
+    "type": "swerve",
+    "example": "To change direction suddenly."
+  },
+  {
+    "type": "veer",
+    "example": "To shift direction or course."
+  },
+  {
+    "type": "weave",
+    "example": "To move in and out or interlace strands."
+  },
+  {
+    "type": "zigzag",
+    "example": "To move through a series of sharp alternating turns."
+  },
+  {
+    "type": "pivot",
+    "example": "To turn around a fixed point."
+  },
+  {
+    "type": "twist",
+    "example": "To turn into a bent or spiral shape."
+  },
+  {
+    "type": "coil",
+    "example": "To wind into a series of loops."
+  },
+  {
+    "type": "curl",
+    "example": "To form or move into a curved shape."
+  },
+  {
+    "type": "unfurl",
+    "example": "To open out something rolled or folded."
+  },
+  {
+    "type": "uncoil",
+    "example": "To straighten from a coiled shape."
+  },
+  {
+    "type": "untangle",
+    "example": "To free something from knots or confusion."
+  },
+  {
+    "type": "unwind",
+    "example": "To loosen something wound around a center."
+  },
+  {
+    "type": "wind",
+    "example": "To wrap or turn something around a center."
+  },
+  {
+    "type": "wring",
+    "example": "To twist and squeeze firmly."
+  },
+  {
+    "type": "squeeze",
+    "example": "To press inward from opposing sides."
+  },
+  {
+    "type": "crush",
+    "example": "To press with enough force to deform or break."
+  },
+  {
+    "type": "compress",
+    "example": "To press into a smaller or denser form."
+  },
+  {
+    "type": "flatten",
+    "example": "To make a surface level or an object thinner."
+  },
+  {
+    "type": "fold",
+    "example": "To bend one part over another."
+  },
+  {
+    "type": "crease",
+    "example": "To make a sharp line by folding or pressing."
+  },
+  {
+    "type": "crinkle",
+    "example": "To form small wrinkles with a dry rustling sound."
+  },
+  {
+    "type": "wrinkle",
+    "example": "To form small folds or lines on a surface."
+  },
+  {
+    "type": "rumple",
+    "example": "To disturb a smooth surface into uneven folds."
+  },
+  {
+    "type": "ruffle",
+    "example": "To stir into irregular movement or disturb composure."
+  },
+  {
+    "type": "fluff",
+    "example": "To shake or arrange something into a soft, airy shape."
+  },
+  {
+    "type": "flap",
+    "example": "To move loosely back and forth."
+  },
+  {
+    "type": "flutter",
+    "example": "To move with quick, light, irregular motions."
+  },
+  {
+    "type": "flicker",
+    "example": "To shine or move with rapid, unsteady changes."
+  },
+  {
+    "type": "flare",
+    "example": "To burn or brighten suddenly."
+  },
+  {
+    "type": "blaze",
+    "example": "To burn brightly and fiercely."
+  },
+  {
+    "type": "glow",
+    "example": "To give off steady light or warmth."
+  },
+  {
+    "type": "gleam",
+    "example": "To shine with a clear, often reflected light."
+  },
+  {
+    "type": "glisten",
+    "example": "To shine with small reflections, especially when wet."
+  },
+  {
+    "type": "glitter",
+    "example": "To shine with many bright points of light."
+  },
+  {
+    "type": "sparkle",
+    "example": "To flash with small bright bursts."
+  },
+  {
+    "type": "shimmer",
+    "example": "To shine with a soft, trembling light."
+  },
+  {
+    "type": "shine",
+    "example": "To emit or reflect light."
+  },
+  {
+    "type": "dazzle",
+    "example": "To overwhelm sight with brightness or impress greatly."
+  },
+  {
+    "type": "dim",
+    "example": "To become less bright or distinct."
+  },
+  {
+    "type": "fade",
+    "example": "To lose brightness, strength, or clarity gradually."
+  },
+  {
+    "type": "bleach",
+    "example": "To remove color or make something very pale."
+  },
+  {
+    "type": "stain",
+    "example": "To mark or discolor a surface."
+  },
+  {
+    "type": "smudge",
+    "example": "To blur or smear a mark."
+  },
+  {
+    "type": "smear",
+    "example": "To spread a substance unevenly across a surface."
+  },
+  {
+    "type": "daub",
+    "example": "To apply a substance in rough, thick strokes."
+  },
+  {
+    "type": "slather",
+    "example": "To spread a thick or generous coating."
+  },
+  {
+    "type": "splatter",
+    "example": "To scatter liquid in irregular drops."
+  },
+  {
+    "type": "splash",
+    "example": "To scatter liquid through sudden movement."
+  },
+  {
+    "type": "sprinkle",
+    "example": "To scatter small drops or particles lightly."
+  },
+  {
+    "type": "dribble",
+    "example": "To let liquid fall or flow in small amounts."
+  },
+  {
+    "type": "trickle",
+    "example": "To flow in a thin, slow stream."
+  },
+  {
+    "type": "seep",
+    "example": "To pass slowly through small openings."
+  },
+  {
+    "type": "ooze",
+    "example": "To flow slowly as a thick substance."
+  },
+  {
+    "type": "gush",
+    "example": "To flow out suddenly and abundantly."
+  },
+  {
+    "type": "spurt",
+    "example": "To burst out in a short, forceful stream."
+  },
+  {
+    "type": "surge",
+    "example": "To move forward or increase with sudden force."
+  },
+  {
+    "type": "swell",
+    "example": "To grow larger, fuller, or more intense."
+  },
+  {
+    "type": "ripple",
+    "example": "To move in small waves or spread in gentle successive changes."
+  },
+  {
+    "type": "undulate",
+    "example": "To move or rise and fall in a wave-like pattern."
+  },
+  {
+    "type": "billow",
+    "example": "To swell outward or move in broad rolling masses."
+  },
+  {
+    "type": "heave",
+    "example": "To lift or move with great effort."
+  },
+  {
+    "type": "haul",
+    "example": "To pull or carry something heavy."
+  },
+  {
+    "type": "heft",
+    "example": "To lift something to feel or judge its weight."
+  },
+  {
+    "type": "hoist",
+    "example": "To raise something with effort or equipment."
+  },
+  {
+    "type": "lug",
+    "example": "To carry or drag something cumbersome."
+  },
+  {
+    "type": "tug",
+    "example": "To pull with a short, sharp effort."
+  },
+  {
+    "type": "yank",
+    "example": "To pull suddenly and forcefully."
+  },
+  {
+    "type": "drag",
+    "example": "To pull something along a surface."
+  },
+  {
+    "type": "tow",
+    "example": "To pull a vehicle or vessel behind another."
+  },
+  {
+    "type": "jerk",
+    "example": "To move with a sudden sharp motion."
+  },
+  {
+    "type": "snatch",
+    "example": "To seize quickly or unexpectedly."
+  },
+  {
+    "type": "grab",
+    "example": "To take hold of something suddenly."
+  },
+  {
+    "type": "grasp",
+    "example": "To hold firmly or understand clearly."
+  },
+  {
+    "type": "clutch",
+    "example": "To hold tightly, often from fear or urgency."
+  },
+  {
+    "type": "clench",
+    "example": "To close or tighten firmly."
+  },
+  {
+    "type": "embrace",
+    "example": "To hold closely in the arms or accept willingly."
+  },
+  {
+    "type": "grope",
+    "example": "To feel about uncertainly while searching."
+  },
+  {
+    "type": "fumble",
+    "example": "To handle something clumsily or uncertainly."
+  },
+  {
+    "type": "fidget",
+    "example": "To make small restless movements."
+  },
+  {
+    "type": "twitch",
+    "example": "To move with a brief involuntary jerk."
+  },
+  {
+    "type": "flail",
+    "example": "To wave the limbs wildly or ineffectively."
+  },
+  {
+    "type": "thrash",
+    "example": "To move or strike violently and repeatedly."
+  },
+  {
+    "type": "convulse",
+    "example": "To shake with sudden, powerful contractions."
+  },
+  {
+    "type": "quiver",
+    "example": "To tremble with small rapid movements."
+  },
+  {
+    "type": "tremble",
+    "example": "To shake from emotion, weakness, or cold."
+  },
+  {
+    "type": "shiver",
+    "example": "To shake slightly and involuntarily."
+  },
+  {
+    "type": "palpitate",
+    "example": "To beat or flutter rapidly, especially of the heart."
+  },
+  {
+    "type": "whisper",
+    "example": "To speak very softly with little vibration of the vocal cords."
+  },
+  {
+    "type": "murmur",
+    "example": "To speak or sound in a low, gentle way."
+  },
+  {
+    "type": "mutter",
+    "example": "To speak quietly and indistinctly, often with irritation."
+  },
+  {
+    "type": "mumble",
+    "example": "To speak unclearly without opening the mouth fully."
+  },
+  {
+    "type": "grumble",
+    "example": "To complain in a low, dissatisfied way."
+  },
+  {
+    "type": "rumble",
+    "example": "To make a deep, rolling sound."
+  },
+  {
+    "type": "growl",
+    "example": "To make a low rough sound of warning or anger."
+  },
+  {
+    "type": "snarl",
+    "example": "To speak or sound with harsh hostility."
+  },
+  {
+    "type": "hiss",
+    "example": "To make a sharp sound like escaping air."
+  },
+  {
+    "type": "spit",
+    "example": "To force saliva or another substance from the mouth."
+  },
+  {
+    "type": "snap",
+    "example": "To make a sharp breaking sound or speak abruptly."
+  },
+  {
+    "type": "yelp",
+    "example": "To utter a short, sharp cry."
+  },
+  {
+    "type": "yap",
+    "example": "To bark or talk in repeated sharp bursts."
+  },
+  {
+    "type": "yowl",
+    "example": "To make a long, loud, mournful cry."
+  },
+  {
+    "type": "howl",
+    "example": "To make a prolonged, rising cry or sound."
+  },
+  {
+    "type": "wail",
+    "example": "To cry out with a long, high sound of distress."
+  },
+  {
+    "type": "whine",
+    "example": "To make a sustained high sound or complain plaintively."
+  },
+  {
+    "type": "whimper",
+    "example": "To cry with soft, broken sounds."
+  },
+  {
+    "type": "sob",
+    "example": "To cry with convulsive catches of breath."
+  },
+  {
+    "type": "sniffle",
+    "example": "To breathe through the nose in small wet-sounding breaths."
+  },
+  {
+    "type": "snort",
+    "example": "To expel air noisily through the nose."
+  },
+  {
+    "type": "sniff",
+    "example": "To draw air through the nose to smell something."
+  },
+  {
+    "type": "sigh",
+    "example": "To release a long breath expressing feeling."
+  },
+  {
+    "type": "gasp",
+    "example": "To draw a sudden, sharp breath."
+  },
+  {
+    "type": "pant",
+    "example": "To breathe rapidly and heavily."
+  },
+  {
+    "type": "wheeze",
+    "example": "To breathe with a whistling or rattling sound."
+  },
+  {
+    "type": "cough",
+    "example": "To expel air suddenly from the lungs."
+  },
+  {
+    "type": "hack",
+    "example": "To cut with rough blows or cough harshly."
+  },
+  {
+    "type": "croak",
+    "example": "To make a low, rough sound."
+  },
+  {
+    "type": "choke",
+    "example": "To have breathing obstructed or become blocked."
+  },
+  {
+    "type": "gag",
+    "example": "To retch or struggle against something in the throat."
+  },
+  {
+    "type": "retch",
+    "example": "To make the muscular effort of vomiting."
+  },
+  {
+    "type": "belch",
+    "example": "To release gas noisily or emit something in a large burst."
+  },
+  {
+    "type": "burp",
+    "example": "To release swallowed gas through the mouth."
+  },
+  {
+    "type": "hiccup",
+    "example": "To make an involuntary sound caused by a sudden breathing spasm."
+  },
+  {
+    "type": "gurgle",
+    "example": "To make a bubbling sound as liquid or air moves."
+  },
+  {
+    "type": "bubble",
+    "example": "To form or rise in rounded pockets of gas."
+  },
+  {
+    "type": "burble",
+    "example": "To make a continuous soft bubbling sound."
+  },
+  {
+    "type": "chuckle",
+    "example": "To laugh quietly with a low sound."
+  },
+  {
+    "type": "chortle",
+    "example": "To laugh with an audible expression of delight."
+  },
+  {
+    "type": "giggle",
+    "example": "To laugh in repeated light, high sounds."
+  },
+  {
+    "type": "snicker",
+    "example": "To laugh quietly in a mocking or restrained way."
+  },
+  {
+    "type": "cackle",
+    "example": "To laugh with sharp, harsh bursts."
+  },
+  {
+    "type": "guffaw",
+    "example": "To laugh loudly and heartily."
+  },
+  {
+    "type": "laugh",
+    "example": "To express amusement with vocal sounds and bodily movement."
+  },
+  {
+    "type": "scoff",
+    "example": "To express scorn or disbelief."
+  },
+  {
+    "type": "jeer",
+    "example": "To make mocking or insulting remarks."
+  },
+  {
+    "type": "taunt",
+    "example": "To provoke someone with repeated insults or challenges."
+  },
+  {
+    "type": "heckle",
+    "example": "To interrupt a speaker with hostile or persistent remarks."
+  },
+  {
+    "type": "tease",
+    "example": "To provoke playfully or draw something out little by little."
+  },
+  {
+    "type": "banter",
+    "example": "To exchange playful, teasing remarks."
+  },
+  {
+    "type": "quip",
+    "example": "To make a short, witty remark."
+  },
+  {
+    "type": "jest",
+    "example": "To speak or act jokingly."
+  },
+  {
+    "type": "retort",
+    "example": "To answer sharply or with a quick counterargument."
+  },
+  {
+    "type": "reply",
+    "example": "To give an answer in words or action."
+  },
+  {
+    "type": "respond",
+    "example": "To react or provide an answer."
+  },
+  {
+    "type": "answer",
+    "example": "To respond to a question, call, or demand."
+  },
+  {
+    "type": "ask",
+    "example": "To seek information or request something."
+  },
+  {
+    "type": "inquire",
+    "example": "To ask for information."
+  },
+  {
+    "type": "probe",
+    "example": "To investigate closely or test with a pointed instrument."
+  },
+  {
+    "type": "question",
+    "example": "To ask about or express doubt concerning something."
+  },
+  {
+    "type": "plead",
+    "example": "To appeal earnestly or present a case."
+  },
+  {
+    "type": "implore",
+    "example": "To ask urgently and earnestly."
+  },
+  {
+    "type": "beseech",
+    "example": "To appeal to someone with great urgency."
+  },
+  {
+    "type": "beg",
+    "example": "To ask for something with strong need or earnestness."
+  },
+  {
+    "type": "urge",
+    "example": "To press someone toward an action."
+  },
+  {
+    "type": "entreat",
+    "example": "To ask earnestly and respectfully."
+  },
+  {
+    "type": "persuade",
+    "example": "To influence someone through reasons or appeals."
+  },
+  {
+    "type": "cajole",
+    "example": "To persuade through flattery or patient coaxing."
+  },
+  {
+    "type": "wheedle",
+    "example": "To obtain something through flattering or coaxing talk."
+  },
+  {
+    "type": "flatter",
+    "example": "To praise someone, often to gain favor."
+  },
+  {
+    "type": "praise",
+    "example": "To express approval or admiration."
+  },
+  {
+    "type": "commend",
+    "example": "To express approval or recommend favorably."
+  },
+  {
+    "type": "applaud",
+    "example": "To clap in approval or express strong support."
+  },
+  {
+    "type": "cheer",
+    "example": "To shout encouragement or make someone happier."
+  },
+  {
+    "type": "acclaim",
+    "example": "To welcome or praise enthusiastically."
+  },
+  {
+    "type": "celebrate",
+    "example": "To mark an occasion with recognition or enjoyment."
+  },
+  {
+    "type": "mourn",
+    "example": "To feel or express sorrow over a loss."
+  },
+  {
+    "type": "grieve",
+    "example": "To experience deep sorrow."
+  },
+  {
+    "type": "lament",
+    "example": "To express grief or regret."
+  },
+  {
+    "type": "regret",
+    "example": "To feel sorrow about a past action or circumstance."
+  },
+  {
+    "type": "repent",
+    "example": "To feel remorse and turn away from wrongdoing."
+  },
+  {
+    "type": "resent",
+    "example": "To feel lasting irritation at perceived unfairness."
+  },
+  {
+    "type": "envy",
+    "example": "To desire an advantage or possession another person has."
+  },
+  {
+    "type": "covet",
+    "example": "To desire something intensely, especially another's possession."
+  },
+  {
+    "type": "crave",
+    "example": "To feel a powerful desire for something."
+  },
+  {
+    "type": "yearn",
+    "example": "To long deeply for something absent or difficult to reach."
+  },
+  {
+    "type": "long",
+    "example": "To feel a strong, persistent desire."
+  },
+  {
+    "type": "ache",
+    "example": "To feel a dull pain or a deep emotional longing."
+  },
+  {
+    "type": "pine",
+    "example": "To suffer with longing for someone or something."
+  },
+  {
+    "type": "brood",
+    "example": "To dwell anxiously or unhappily on a thought."
+  },
+  {
+    "type": "ponder",
+    "example": "To consider something carefully and at length."
+  },
+  {
+    "type": "muse",
+    "example": "To think quietly and reflectively."
+  },
+  {
+    "type": "reflect",
+    "example": "To think back carefully or return light from a surface."
+  },
+  {
+    "type": "contemplate",
+    "example": "To consider attentively or look at something steadily."
+  },
+  {
+    "type": "consider",
+    "example": "To give something deliberate thought."
+  },
+  {
+    "type": "deliberate",
+    "example": "To weigh choices carefully before deciding."
+  },
+  {
+    "type": "reckon",
+    "example": "To calculate or form an opinion."
+  },
+  {
+    "type": "reason",
+    "example": "To think through evidence or explain a conclusion."
+  },
+  {
+    "type": "infer",
+    "example": "To reach a conclusion from evidence rather than direct statement."
+  },
+  {
+    "type": "deduce",
+    "example": "To arrive at a conclusion through logical reasoning."
+  },
+  {
+    "type": "guess",
+    "example": "To form an answer without enough evidence for certainty."
+  },
+  {
+    "type": "surmise",
+    "example": "To suppose something on incomplete evidence."
+  },
+  {
+    "type": "suspect",
+    "example": "To think something may be true without being certain."
+  },
+  {
+    "type": "doubt",
+    "example": "To feel uncertainty about a claim or possibility."
+  },
+  {
+    "type": "hesitate",
+    "example": "To pause through uncertainty or reluctance."
+  },
+  {
+    "type": "waver",
+    "example": "To move unsteadily or become uncertain."
+  },
+  {
+    "type": "vacillate",
+    "example": "To shift repeatedly between choices or opinions."
+  },
+  {
+    "type": "resolve",
+    "example": "To decide firmly or find a solution."
+  },
+  {
+    "type": "decide",
+    "example": "To choose or reach a conclusion."
+  },
+  {
+    "type": "determine",
+    "example": "To establish a fact or settle on a course of action."
+  },
+  {
+    "type": "intend",
+    "example": "To have an action or result in mind."
+  },
+  {
+    "type": "scheme",
+    "example": "To make a detailed or secret plan."
+  },
+  {
+    "type": "plot",
+    "example": "To plan events, often secretly."
+  },
+  {
+    "type": "plan",
+    "example": "To arrange in advance how something will be done."
+  },
+  {
+    "type": "prepare",
+    "example": "To make something ready."
+  },
+  {
+    "type": "arrange",
+    "example": "To put things in order or organize an event."
+  },
+  {
+    "type": "assemble",
+    "example": "To bring parts or people together."
+  },
+  {
+    "type": "gather",
+    "example": "To bring scattered things together."
+  },
+  {
+    "type": "collect",
+    "example": "To accumulate or bring things into one place."
+  },
+  {
+    "type": "amass",
+    "example": "To gather a large quantity over time."
+  },
+  {
+    "type": "hoard",
+    "example": "To accumulate and guard a supply."
+  },
+  {
+    "type": "stash",
+    "example": "To place something in a concealed or safe spot."
+  },
+  {
+    "type": "conceal",
+    "example": "To keep something from being seen or known."
+  },
+  {
+    "type": "hide",
+    "example": "To place or remain out of sight."
+  },
+  {
+    "type": "obscure",
+    "example": "To make something harder to see or understand."
+  },
+  {
+    "type": "mask",
+    "example": "To cover or disguise a feature or feeling."
+  },
+  {
+    "type": "disguise",
+    "example": "To alter an appearance so it is harder to recognize."
+  },
+  {
+    "type": "camouflage",
+    "example": "To conceal something by making it blend with its surroundings."
+  },
+  {
+    "type": "veil",
+    "example": "To cover lightly or make something less evident."
+  },
+  {
+    "type": "shroud",
+    "example": "To cover or surround something so it is concealed."
+  },
+  {
+    "type": "unmask",
+    "example": "To expose a hidden identity or motive."
+  },
+  {
+    "type": "reveal",
+    "example": "To make something visible or known."
+  },
+  {
+    "type": "disclose",
+    "example": "To make previously hidden information known."
+  },
+  {
+    "type": "divulge",
+    "example": "To reveal information that was private or secret."
+  },
+  {
+    "type": "confide",
+    "example": "To share private thoughts with someone trusted."
+  },
+  {
+    "type": "admit",
+    "example": "To acknowledge something or allow entry."
+  },
+  {
+    "type": "confess",
+    "example": "To acknowledge a concealed action or feeling."
+  },
+  {
+    "type": "acknowledge",
+    "example": "To recognize or openly accept something."
+  },
+  {
+    "type": "deny",
+    "example": "To state that something is untrue or refuse access."
+  },
+  {
+    "type": "refuse",
+    "example": "To decline a request or reject an offer."
+  },
+  {
+    "type": "reject",
+    "example": "To dismiss or refuse to accept something."
+  },
+  {
+    "type": "rebuff",
+    "example": "To reject someone abruptly or firmly."
+  },
+  {
+    "type": "repel",
+    "example": "To drive away or cause strong aversion."
+  },
+  {
+    "type": "resist",
+    "example": "To oppose a force, urge, or demand."
+  },
+  {
+    "type": "defy",
+    "example": "To resist openly or refuse to obey."
+  },
+  {
+    "type": "oppose",
+    "example": "To act or argue against something."
+  },
+  {
+    "type": "confront",
+    "example": "To face a person, problem, or threat directly."
+  },
+  {
+    "type": "challenge",
+    "example": "To question a claim or call someone to a contest."
+  },
+  {
+    "type": "accuse",
+    "example": "To state that someone has done something wrong."
+  },
+  {
+    "type": "rough",
+    "example": "Uneven or harsh to the touch."
+  },
+  {
+    "type": "smooth",
+    "example": "Even in texture or moving without interruption."
+  },
+  {
+    "type": "coarse",
+    "example": "Made of large particles or having a rough texture."
+  },
+  {
+    "type": "fine",
+    "example": "Delicate in texture, detail, or size."
+  },
+  {
+    "type": "granular",
+    "example": "Made up of small grains or particles."
+  },
+  {
+    "type": "gritty",
+    "example": "Containing hard particles or showing determined courage."
+  },
+  {
+    "type": "sandy",
+    "example": "Covered with or resembling sand."
+  },
+  {
+    "type": "silky",
+    "example": "Smooth and soft like silk."
+  },
+  {
+    "type": "velvety",
+    "example": "Soft, dense, and smooth like velvet."
+  },
+  {
+    "type": "satiny",
+    "example": "Smooth and glossy like satin."
+  },
+  {
+    "type": "waxy",
+    "example": "Resembling wax in texture or appearance."
+  },
+  {
+    "type": "oily",
+    "example": "Covered with oil or having an oil-like texture."
+  },
+  {
+    "type": "greasy",
+    "example": "Coated with or containing much grease."
+  },
+  {
+    "type": "slimy",
+    "example": "Covered with a slippery, unpleasantly smooth substance."
+  },
+  {
+    "type": "sticky",
+    "example": "Clinging to surfaces or difficult to remove."
+  },
+  {
+    "type": "tacky",
+    "example": "Slightly sticky to the touch."
+  },
+  {
+    "type": "clammy",
+    "example": "Unpleasantly damp and cool."
+  },
+  {
+    "type": "damp",
+    "example": "Slightly wet."
+  },
+  {
+    "type": "moist",
+    "example": "Containing a small amount of moisture."
+  },
+  {
+    "type": "sodden",
+    "example": "Soaked heavily with liquid."
+  },
+  {
+    "type": "saturated",
+    "example": "Holding as much of a substance as possible."
+  },
+  {
+    "type": "waterlogged",
+    "example": "Soaked or filled with water."
+  },
+  {
+    "type": "parched",
+    "example": "Extremely dry or thirsty."
+  },
+  {
+    "type": "arid",
+    "example": "Very dry, with little rainfall or moisture."
+  },
+  {
+    "type": "dusty",
+    "example": "Covered with or full of fine dry particles."
+  },
+  {
+    "type": "powdery",
+    "example": "Having the texture of fine loose particles."
+  },
+  {
+    "type": "crumbly",
+    "example": "Easily breaking into small pieces."
+  },
+  {
+    "type": "brittle",
+    "example": "Hard but easily broken or snapped."
+  },
+  {
+    "type": "fragile",
+    "example": "Easily damaged or broken."
+  },
+  {
+    "type": "frail",
+    "example": "Physically weak or delicate."
+  },
+  {
+    "type": "sturdy",
+    "example": "Strongly built and able to withstand strain."
+  },
+  {
+    "type": "robust",
+    "example": "Strong, healthy, or resilient."
+  },
+  {
+    "type": "rigid",
+    "example": "Stiff and resistant to bending or change."
+  },
+  {
+    "type": "stiff",
+    "example": "Difficult to bend or move freely."
+  },
+  {
+    "type": "supple",
+    "example": "Able to bend or move smoothly and easily."
+  },
+  {
+    "type": "flexible",
+    "example": "Able to bend without breaking or adapt to change."
+  },
+  {
+    "type": "elastic",
+    "example": "Able to stretch and return toward its original shape."
+  },
+  {
+    "type": "taut",
+    "example": "Stretched or pulled tight."
+  },
+  {
+    "type": "loose",
+    "example": "Not tightly held, fixed, or attached."
+  },
+  {
+    "type": "slack",
+    "example": "Not drawn tight; lacking tension."
+  },
+  {
+    "type": "slender",
+    "example": "Narrow and gracefully thin."
+  },
+  {
+    "type": "slim",
+    "example": "Thin in shape or small in amount."
+  },
+  {
+    "type": "gaunt",
+    "example": "Very thin, often with a worn or hungry appearance."
+  },
+  {
+    "type": "stocky",
+    "example": "Broad and solidly built."
+  },
+  {
+    "type": "burly",
+    "example": "Large, strong, and heavily built."
+  },
+  {
+    "type": "lanky",
+    "example": "Tall and thin, often awkwardly so."
+  },
+  {
+    "type": "willowy",
+    "example": "Tall, slender, and flexible in appearance."
+  },
+  {
+    "type": "broad",
+    "example": "Wide across or extensive in range."
+  },
+  {
+    "type": "narrow",
+    "example": "Having little width or limited scope."
+  },
+  {
+    "type": "wide",
+    "example": "Extending a considerable distance from side to side."
+  },
+  {
+    "type": "deep",
+    "example": "Extending far below a surface or inward from an edge."
+  },
+  {
+    "type": "shallow",
+    "example": "Having little depth."
+  },
+  {
+    "type": "steep",
+    "example": "Rising or falling at a sharp angle."
+  },
+  {
+    "type": "level",
+    "example": "Flat or even, without a slope."
+  },
+  {
+    "type": "slanted",
+    "example": "Set at an angle or presented with a particular bias."
+  },
+  {
+    "type": "crooked",
+    "example": "Bent out of a straight line or dishonest."
+  },
+  {
+    "type": "warped",
+    "example": "Bent or distorted from an original shape."
+  },
+  {
+    "type": "lopsided",
+    "example": "Unevenly balanced or heavier on one side."
+  },
+  {
+    "type": "askew",
+    "example": "Out of line or set at an awkward angle."
+  },
+  {
+    "type": "awry",
+    "example": "Out of the expected position or course."
+  },
+  {
+    "type": "uneven",
+    "example": "Not level, regular, or consistent."
+  },
+  {
+    "type": "jagged",
+    "example": "Having sharp, irregular points or edges."
+  },
+  {
+    "type": "notched",
+    "example": "Marked by small cuts or indentations along an edge."
+  },
+  {
+    "type": "ridged",
+    "example": "Marked by raised narrow lines."
+  },
+  {
+    "type": "grooved",
+    "example": "Marked by long narrow channels."
+  },
+  {
+    "type": "fluted",
+    "example": "Shaped with a series of long grooves."
+  },
+  {
+    "type": "scalloped",
+    "example": "Edged with a repeated pattern of rounded curves."
+  },
+  {
+    "type": "knurled",
+    "example": "Covered with small ridges for gripping."
+  },
+  {
+    "type": "barbed",
+    "example": "Fitted with backward-facing points; sharply hurtful in speech."
+  },
+  {
+    "type": "thorny",
+    "example": "Covered with thorns or difficult to resolve."
+  },
+  {
+    "type": "spiny",
+    "example": "Covered with stiff pointed projections."
+  },
+  {
+    "type": "prickly",
+    "example": "Having sharp points or being easily irritated."
+  },
+  {
+    "type": "hairy",
+    "example": "Covered with hair."
+  },
+  {
+    "type": "furry",
+    "example": "Covered with soft, dense hair."
+  },
+  {
+    "type": "fuzzy",
+    "example": "Covered with fine soft fibers or lacking clear edges."
+  },
+  {
+    "type": "downy",
+    "example": "Covered with soft fine feathers or similar fibers."
+  },
+  {
+    "type": "feathery",
+    "example": "Light, soft, or divided like a feather."
+  },
+  {
+    "type": "scaly",
+    "example": "Covered with thin overlapping plates or flakes."
+  },
+  {
+    "type": "leathery",
+    "example": "Tough and flexible like leather."
+  },
+  {
+    "type": "calloused",
+    "example": "Hardened by repeated friction or pressure."
+  },
+  {
+    "type": "rugged",
+    "example": "Rough and uneven or strongly built."
+  },
+  {
+    "type": "gnarled",
+    "example": "Twisted and knobby, often through age."
+  },
+  {
+    "type": "sinuous",
+    "example": "Curving smoothly from side to side."
+  },
+  {
+    "type": "contorted",
+    "example": "Twisted into an unusual or strained shape."
+  },
+  {
+    "type": "angular",
+    "example": "Having clear angles or sharp outlines."
+  },
+  {
+    "type": "rounded",
+    "example": "Having a curved outline without sharp corners."
+  },
+  {
+    "type": "bumpy",
+    "example": "Covered with small raised areas."
+  },
+  {
+    "type": "bulbous",
+    "example": "Rounded and swollen in shape."
+  },
+  {
+    "type": "tapered",
+    "example": "Gradually narrowing toward one end."
+  },
+  {
+    "type": "pointed",
+    "example": "Ending in a sharp tip or expressing a direct criticism."
+  },
+  {
+    "type": "blunt",
+    "example": "Having a rounded edge or speaking without softening the meaning."
+  },
+  {
+    "type": "sharp",
+    "example": "Having a fine cutting edge or a keenly defined quality."
+  },
+  {
+    "type": "keen",
+    "example": "Sharply perceptive or strongly eager."
+  },
+  {
+    "type": "dull",
+    "example": "Lacking sharpness, brightness, or excitement."
+  },
+  {
+    "type": "bright",
+    "example": "Giving much light or showing lively intelligence."
+  },
+  {
+    "type": "brilliant",
+    "example": "Exceptionally bright or impressive."
+  },
+  {
+    "type": "radiant",
+    "example": "Giving off light or showing visible happiness."
+  },
+  {
+    "type": "luminous",
+    "example": "Emitting or reflecting a soft light."
+  },
+  {
+    "type": "luminescent",
+    "example": "Giving off light through a process other than high heat."
+  },
+  {
+    "type": "iridescent",
+    "example": "Showing shifting colors as the viewing angle changes."
+  },
+  {
+    "type": "opalescent",
+    "example": "Showing a soft, milky play of colors."
+  },
+  {
+    "type": "pearlescent",
+    "example": "Having a gentle reflective sheen like a pearl."
+  },
+  {
+    "type": "translucent",
+    "example": "Allowing light through without a clear view beyond."
+  },
+  {
+    "type": "transparent",
+    "example": "Allowing a clear view through or easy understanding."
+  },
+  {
+    "type": "opaque",
+    "example": "Preventing a clear view or resisting understanding."
+  },
+  {
+    "type": "murky",
+    "example": "Dark or clouded enough to be difficult to see through."
+  },
+  {
+    "type": "cloudy",
+    "example": "Covered with clouds or made unclear by suspended material."
+  },
+  {
+    "type": "hazy",
+    "example": "Obscured by fine particles or uncertain in detail."
+  },
+  {
+    "type": "misty",
+    "example": "Filled with fine suspended droplets of water."
+  },
+  {
+    "type": "foggy",
+    "example": "Obscured by fog or unclear in thought."
+  },
+  {
+    "type": "smoky",
+    "example": "Containing smoke or resembling its color or smell."
+  },
+  {
+    "type": "dusky",
+    "example": "Dimly lit or darkened in color."
+  },
+  {
+    "type": "gloomy",
+    "example": "Dark and poorly lit or filled with sadness."
+  },
+  {
+    "type": "somber",
+    "example": "Dark or subdued in appearance or mood."
+  },
+  {
+    "type": "sullen",
+    "example": "Showing silent resentment or a dark, heavy mood."
+  },
+  {
+    "type": "bleak",
+    "example": "Bare and unwelcoming or offering little hope."
+  },
+  {
+    "type": "desolate",
+    "example": "Empty and abandoned or deeply unhappy."
+  },
+  {
+    "type": "forlorn",
+    "example": "Pitifully lonely or unlikely to succeed."
+  },
+  {
+    "type": "lonely",
+    "example": "Feeling the absence of company or being far from others."
+  },
+  {
+    "type": "remote",
+    "example": "Far away in place, time, or connection."
+  },
+  {
+    "type": "isolated",
+    "example": "Separated from other people or things."
+  },
+  {
+    "type": "abandoned",
+    "example": "Left behind or no longer cared for."
+  },
+  {
+    "type": "empty",
+    "example": "Containing nothing or lacking a felt substance."
+  },
+  {
+    "type": "vacant",
+    "example": "Unoccupied or showing little attention."
+  },
+  {
+    "type": "silent",
+    "example": "Making no sound or choosing not to speak."
+  },
+  {
+    "type": "quiet",
+    "example": "Making little noise or showing little activity."
+  },
+  {
+    "type": "hushed",
+    "example": "Softened into near silence."
+  },
+  {
+    "type": "muted",
+    "example": "Reduced in volume, brightness, or intensity."
+  },
+  {
+    "type": "boisterous",
+    "example": "Noisy, energetic, and difficult to restrain."
+  },
+  {
+    "type": "raucous",
+    "example": "Harshly loud and disorderly."
+  },
+  {
+    "type": "strident",
+    "example": "Loud, harsh, and insistent."
+  },
+  {
+    "type": "shrill",
+    "example": "High and piercing in sound."
+  },
+  {
+    "type": "hoarse",
+    "example": "Rough or strained in the voice."
+  },
+  {
+    "type": "husky",
+    "example": "Low and slightly rough in the voice."
+  },
+  {
+    "type": "sonorous",
+    "example": "Deep, rich, and resonant in sound."
+  },
+  {
+    "type": "resonant",
+    "example": "Rich in echoes or carrying a strong emotional association."
+  },
+  {
+    "type": "mellifluous",
+    "example": "Smooth and pleasing to hear."
+  },
+  {
+    "type": "euphonious",
+    "example": "Having a pleasing sound."
+  },
+  {
+    "type": "dissonant",
+    "example": "Clashing or lacking harmony in sound or feeling."
+  },
+  {
+    "type": "discordant",
+    "example": "Conflicting or unpleasantly lacking harmony."
+  },
+  {
+    "type": "harmonious",
+    "example": "Fitting together pleasantly or peacefully."
+  },
+  {
+    "type": "rhythmic",
+    "example": "Following a noticeable pattern of beats or movements."
+  },
+  {
+    "type": "cadenced",
+    "example": "Shaped by a measured, recurring rhythm."
+  },
+  {
+    "type": "staccato",
+    "example": "Made of short, sharply separated sounds or movements."
+  },
+  {
+    "type": "sibilant",
+    "example": "Having a hissing sound."
+  },
+  {
+    "type": "guttural",
+    "example": "Produced deep in the throat or having a throaty quality."
+  },
+  {
+    "type": "plaintive",
+    "example": "Expressing sorrow or longing through sound."
+  },
+  {
+    "type": "wistful",
+    "example": "Showing a gentle sadness for something desired or remembered."
+  },
+  {
+    "type": "pensive",
+    "example": "Deep in thought, often with a trace of sadness."
+  },
+  {
+    "type": "melancholy",
+    "example": "Marked by a quiet, lingering sadness."
+  },
+  {
+    "type": "braid",
+    "example": "To interlace three or more strands into a patterned length."
+  },
+  {
+    "type": "plait",
+    "example": "To fold or interlace strands into a braid."
+  },
+  {
+    "type": "embroider",
+    "example": "To decorate fabric with sewn patterns or embellish a story."
+  },
+  {
+    "type": "stitch",
+    "example": "To join or mark material with loops of thread."
+  },
+  {
+    "type": "sew",
+    "example": "To join or fasten material using a needle and thread."
+  },
+  {
+    "type": "knit",
+    "example": "To form fabric from interconnected loops or bring things closely together."
+  },
+  {
+    "type": "crochet",
+    "example": "To make fabric by drawing loops of yarn through one another with a hook."
+  },
+  {
+    "type": "felt",
+    "example": "To press or work fibers into a dense matted fabric."
+  },
+  {
+    "type": "gild",
+    "example": "To cover with a thin layer of gold or a golden appearance."
+  },
+  {
+    "type": "engrave",
+    "example": "To cut a design or inscription into a hard surface."
+  },
+  {
+    "type": "etch",
+    "example": "To mark a surface with fine lines or impress something deeply."
+  },
+  {
+    "type": "carve",
+    "example": "To shape material by cutting pieces away."
+  },
+  {
+    "type": "hew",
+    "example": "To shape or cut with heavy chopping blows."
+  },
+  {
+    "type": "whittle",
+    "example": "To shape wood by shaving off small pieces."
+  },
+  {
+    "type": "pare",
+    "example": "To trim away a thin outer layer or reduce something gradually."
+  },
+  {
+    "type": "peel",
+    "example": "To remove an outer covering or separate in thin layers."
+  },
+  {
+    "type": "slit",
+    "example": "To cut a narrow opening."
+  },
+  {
+    "type": "slice",
+    "example": "To cut into thin, flat pieces."
+  },
+  {
+    "type": "slash",
+    "example": "To cut with a broad, forceful stroke."
+  },
+  {
+    "type": "chop",
+    "example": "To cut with repeated sharp blows."
+  },
+  {
+    "type": "scorch",
+    "example": "To burn or discolor a surface with intense heat."
+  },
+  {
+    "type": "singe",
+    "example": "To burn lightly at the surface or tips."
+  },
+  {
+    "type": "char",
+    "example": "To blacken something through partial burning."
+  },
+  {
+    "type": "burn",
+    "example": "To consume or damage through fire or intense heat."
+  },
+  {
+    "type": "freeze",
+    "example": "To become solid through cold or stop moving suddenly."
+  },
+  {
+    "type": "chill",
+    "example": "To cool something or cause a feeling of fear."
+  },
+  {
+    "type": "numb",
+    "example": "To reduce physical sensation or dull an emotional response."
+  },
+  {
+    "type": "thaw",
+    "example": "To soften or become liquid after freezing."
+  },
+  {
+    "type": "melt",
+    "example": "To become liquid through heat or gradually lose firmness."
+  },
+  {
+    "type": "dissolve",
+    "example": "To mix into a liquid or gradually cease to exist as a distinct form."
+  },
+  {
+    "type": "distill",
+    "example": "To purify through evaporation and condensation or extract an essence."
+  },
+  {
+    "type": "evaporate",
+    "example": "To change from liquid into vapor."
+  },
+  {
+    "type": "condense",
+    "example": "To become denser or change from vapor into liquid."
+  },
+  {
+    "type": "congeal",
+    "example": "To thicken or set into a firmer mass."
+  },
+  {
+    "type": "coagulate",
+    "example": "To turn from a liquid into a thickened or clotted mass."
+  },
+  {
+    "type": "curdle",
+    "example": "To separate into clumps and liquid, especially of milk."
+  },
+  {
+    "type": "ferment",
+    "example": "To undergo chemical changes caused by microorganisms or build toward unrest."
+  },
+  {
+    "type": "leaven",
+    "example": "To make dough rise or lighten a heavy mood."
+  },
+  {
+    "type": "knead",
+    "example": "To work a pliable material by pressing and folding it repeatedly."
+  },
+  {
+    "type": "sift",
+    "example": "To separate fine particles or examine something carefully."
+  },
+  {
+    "type": "sieve",
+    "example": "To pass material through a mesh that separates particles by size."
+  },
+  {
+    "type": "infuse",
+    "example": "To steep a substance in liquid or fill something with a quality."
+  },
+  {
+    "type": "filter",
+    "example": "To pass through a separating medium or remove unwanted material."
+  },
+  {
+    "type": "decant",
+    "example": "To pour liquid carefully away from sediment or into another container."
+  },
+  {
+    "type": "pour",
+    "example": "To cause a liquid or loose material to flow out."
+  },
+  {
+    "type": "spill",
+    "example": "To let something flow or fall from its container."
+  },
+  {
+    "type": "drain",
+    "example": "To remove liquid or gradually exhaust a supply."
+  },
+  {
+    "type": "bleed",
+    "example": "To lose blood or allow fluid to escape."
+  },
+  {
+    "type": "sear",
+    "example": "To burn or brown a surface with intense heat."
+  },
+  {
+    "type": "render",
+    "example": "To make or represent something; in cooking, to melt fat out of tissue."
+  }
+]
