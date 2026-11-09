@@ -1,6 +1,6 @@
 # Text Fight
 
-A mobile-first, installable fiction-writing app. Vanilla HTML, CSS, and JavaScript; no account, API key, package installation, or build service is needed to write. Includes 950 original Sentence Trainer craft entries and explanations plus 1,168 offline vocabulary entries. The original Sentence Trainer repository was read only.
+A mobile-first, installable fiction-writing app. Vanilla HTML, CSS, and JavaScript; no account, API key, package installation, or build service is needed to write. Includes 950 original Sentence Trainer craft entries and explanations plus 24 additional sentence starters (974 craft entries total) and 1,168 offline vocabulary entries. The original Sentence Trainer repository was read only.
 
 ## Try locally
 

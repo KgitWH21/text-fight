@@ -7,6 +7,11 @@ All entries and their original `type` / `example` explanations are retained:
 376 sentence enhancements, and 88 registers (950 total).
 The source repository was read only and was not modified.
 
+Text Fight adds 24 separately authored sentence starters, retaining all 24
+original starters for 48 total. The expanded craft deck contains 974 entries.
+The additions are maintained in `scripts/sentence-starters-extra.json` and
+are included by the import script when refreshing the source snapshot.
+
 To refresh from a separately downloaded source snapshot:
 `node scripts/import-sentence-trainer.mjs /path/to/sentence_trainer/index.html`
 

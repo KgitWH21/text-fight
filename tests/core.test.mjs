@@ -125,9 +125,10 @@ test('ranks advance less often than levels', () => {
   assert.equal(progress(300).level, 4); assert.equal(progress(300).rank, 'Iron 1');
   assert.equal(progress(320).rank, 'Iron 2');
 });
-test('the full original craft dataset and offline word deck are bundled', async () => {
+test('the full original craft dataset, additional starters, and offline word deck are bundled', async () => {
   const deck = JSON.parse(await readFile(new URL('../data/sentence-trainer.json', import.meta.url)));
-  assert.deepEqual(Object.fromEntries(Object.entries(deck).map(([k, v]) => [k, v.length])), { starters: 24, craftDevices: 101, enders: 20, prompts: 341, sentenceEnhancements: 376, registers: 88 });
+  assert.deepEqual(Object.fromEntries(Object.entries(deck).map(([k, v]) => [k, v.length])), { starters: 48, craftDevices: 101, enders: 20, prompts: 341, sentenceEnhancements: 376, registers: 88 });
+  assert.equal(new Set(deck.starters.map(entry => entry.type.trim().toLowerCase())).size, deck.starters.length);
   for (const [key, entries] of Object.entries(deck)) for (const entry of entries) assert.ok(key === 'prompts' ? typeof entry === 'string' : entry.type && entry.example);
   const words = JSON.parse(await readFile(new URL('../data/words.json', import.meta.url)));
   assert.equal(words.length, 1168); assert.equal(new Set(words.map(w => w.type.toLowerCase())).size, words.length);

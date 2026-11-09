@@ -95,6 +95,102 @@
     {
       "type": "Negative construction",
       "example": "Open with “Never,” “Not until,” or “Nothing.”"
+    },
+    {
+      "type": "Direct address",
+      "example": "Speak directly to a named person or the reader: “Reader, you would have trusted him too.”"
+    },
+    {
+      "type": "Existential opening",
+      "example": "Introduce something with “There is” or “There was”: “There was a second heartbeat inside the room.”"
+    },
+    {
+      "type": "Cleft emphasis",
+      "example": "Highlight one detail with “It was … that …”: “It was the missing button that betrayed him.”"
+    },
+    {
+      "type": "Gerund as subject",
+      "example": "Make an -ing action the subject of the sentence: “Keeping secrets had become her profession.”"
+    },
+    {
+      "type": "Paired alternatives",
+      "example": "Open with two possibilities joined by “Either … or …”: “Either the map was wrong or the island had moved.”"
+    },
+    {
+      "type": "Proportional construction",
+      "example": "Link two changing conditions with “The … the …”: “The closer she came, the quieter the house grew.”"
+    },
+    {
+      "type": "Degree and result",
+      "example": "Lead with an extreme quality and its consequence: “So thin was the ice that we could see the coins beneath it.”"
+    },
+    {
+      "type": "Comparison",
+      "example": "Open with a comparison using “Like” or “As”: “Like a loose tooth, the tower shifted in the wind.”"
+    },
+    {
+      "type": "Definition",
+      "example": "Begin by defining what something means to a character: “Home meant whichever room she could lock.”"
+    },
+    {
+      "type": "List or inventory",
+      "example": "Begin with a collection of telling details: “A bent nail, two receipts, and a tooth lay on the desk.”"
+    },
+    {
+      "type": "Precise measurement",
+      "example": "Lead with an exact distance, quantity, or dimension: “Six inches separated the blade from his throat.”"
+    },
+    {
+      "type": "Source attribution",
+      "example": "Name the source of a claim before giving it: “According to the ledger, she had died twice.”"
+    },
+    {
+      "type": "Rumor",
+      "example": "Begin with an unverified claim circulating among people: “Word was the ferryman accepted memories as payment.”"
+    },
+    {
+      "type": "Recollection",
+      "example": "Open with a character recalling something: “I remembered the gate being taller.”"
+    },
+    {
+      "type": "Anticipation",
+      "example": "Point ahead to a future realization or consequence: “Later, she would understand why he wore gloves.”"
+    },
+    {
+      "type": "Admission",
+      "example": "Begin by acknowledging something difficult or revealing: “I confess that I wanted the letter to be a threat.”"
+    },
+    {
+      "type": "Promise",
+      "example": "Lead with an assurance or commitment: “You have my word: the door will stay open.”"
+    },
+    {
+      "type": "General truth",
+      "example": "Open with a broad observation about how the world works: “Small towns keep excellent records of other people’s mistakes.”"
+    },
+    {
+      "type": "Self-correction",
+      "example": "Revise the opening claim as the sentence unfolds: “Seven men—six, counting only the living—returned.”"
+    },
+    {
+      "type": "Echo of the previous sentence",
+      "example": "Repeat a word from the preceding sentence’s ending at the start of the next. After a sentence ending in “mercy”: “Mercy had never entered his calculations.”"
+    },
+    {
+      "type": "Personification",
+      "example": "Begin by giving something nonhuman a human motive or action: “The house resented every visitor.”"
+    },
+    {
+      "type": "Paradox",
+      "example": "Open with an apparent contradiction that carries a deeper truth: “His freedom depended on staying locked inside.”"
+    },
+    {
+      "type": "Understatement",
+      "example": "Introduce something serious in deliberately mild terms: “The missing roof presented a minor inconvenience.”"
+    },
+    {
+      "type": "Conspicuous omission",
+      "example": "Draw attention to an absence before explaining it: “One name was missing from the passenger list.”"
     }
   ],
   "craftDevices": [
