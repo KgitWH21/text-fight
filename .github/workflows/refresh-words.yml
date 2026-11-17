@@ -1,0 +1,74 @@
+name: Refresh words
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+# A push made with the default GITHUB_TOKEN does not start pages.yml.
+# When the word file changes, this workflow runs the same test, build, and
+# Pages deploy steps itself.
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: refresh-words
+      cancel-in-progress: false
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+      sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Fetch Wordnik words
+        env:
+          WORDNIK_API_KEY: ${{ secrets.WORDNIK_API_KEY }}
+        run: node scripts/fetch-wordnik.mjs
+      - run: npm test
+      - name: Commit updated words
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/wordnik-words.json
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "sha=" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Refresh Wordnik words"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          fi
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.refresh.outputs.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm test
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

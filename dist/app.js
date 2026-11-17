@@ -1,25 +1,24 @@
-import { CATEGORY_NAMES, CONTINUE_CATEGORIES, PACES, PROGRESSION, countWords, createRound, editRound, undoRound, sessionCount, sessionText, vocabularyUsed, awardPrompt, dealLocal, advanceTimer, progress, rankFromXP, changedRange } from './core.js';
+import { CATEGORY_NAMES, CONTINUE_CATEGORIES, PACES, PROGRESSION, countWords, createRound, editRound, undoRound, sessionCount, sessionText, vocabularyUsed, awardPrompt, dealLocal, advanceTimer, progress, rankFromXP, changedRange, wordnikDeck } from './core.js';
 
 const $ = id => document.getElementById(id);
 const STORAGE_KEY = 'text-fight-v1';
 const uuid = () => crypto.randomUUID();
 const newDraft = title => ({ id: uuid(), title: title || 'Untitled scene', text: '', updated: Date.now(), round: null });
 const initial = () => { const draft = newDraft(); return { version: 1, drafts: [draft], activeId: draft.id, xp: 0,
-  settings: { pace: 'chill', customMinutes: 5, sound: false, endpoint: '', categories: { continue: [...CONTINUE_CATEGORIES], drill: Object.keys(CATEGORY_NAMES) } } }; };
+  settings: { pace: 'chill', customMinutes: 5, sound: false, categories: { continue: [...CONTINUE_CATEGORIES], drill: Object.keys(CATEGORY_NAMES) } } }; };
 let state, storageOK = true, corruptStorage = false;
 try {
   const raw = localStorage.getItem(STORAGE_KEY);
   state = raw ? JSON.parse(raw) : initial();
   if (state.version !== 1 || !Array.isArray(state.drafts) || !state.drafts.length || !state.settings || !Number.isFinite(state.xp)) throw Error('Invalid save');
   if (!state.drafts.some(d => d.id === state.activeId)) state.activeId = state.drafts[0].id;
+  if (state.settings) delete state.settings.endpoint;
 } catch (error) {
   // Never overwrite an unreadable save with an empty manuscript.
   state = initial(); storageOK = false; corruptStorage = true;
 }
 let decks, beforeInput = null, lastTick = performance.now(), lastSavedTick = performance.now(), toastTimeout, fanfareTimeout;
-let liveWords = [], fetchingWords = false, lastLiveFetch = 0, installPrompt = null, swRegistration;
-// Wordnik credentials never enter saved app state or browser storage.
-let wordnikSession = null, wordFetchController = null, authController = null, connectionEpoch = 0;
+let installPrompt = null, swRegistration;
 let writingFullscreen = false, nativeWritingFullscreen = false, fullscreenRevision = 0;
 const draft = () => state.drafts.find(d => d.id === state.activeId);
 const interval = () => PACES[state.settings.pace] || state.settings.customMinutes * 60000;
@@ -206,19 +205,9 @@ function startRound(roundMode) {
 }
 function deal() {
   const r = draft().round; if (!r || !decks) return;
-  const card = dealLocal(decks, categories(), r.last);
-  if (card.category === 'words') {
-    liveWords = liveWords.filter(w => w.word.toLowerCase() !== r.lastWordTitle?.toLowerCase());
-    if (liveWords.length) {
-      const entry = liveWords.shift(); card.title = entry.word; card.explanation = entry.definition; card.source = 'wordnik';
-    } else if (card.title.toLowerCase() === r.lastWordTitle?.toLowerCase() && decks.words.length > 1) {
-      const replacement = dealLocal(decks, ['words'], r.last);
-      Object.assign(card, replacement);
-    }
-    r.lastWordTitle = card.title;
-  }
-  r.card = card; r.remaining = interval(); r.pinned = false; lastTick = performance.now();
-  renderRound(); save(); prefetchWords();
+  r.card = dealLocal(decks, categories(), r.last);
+  r.remaining = interval(); r.pinned = false; lastTick = performance.now();
+  renderRound(); save();
 }
 function usePrompt() {
   const r = draft().round; if (!r) return;
@@ -263,50 +252,6 @@ function download() {
   link.href = URL.createObjectURL(blob); link.download = `${(draft().title || 'Untitled scene').replace(/[<>:"/\\|?*\u0000-\u001f]/g, '_')}.txt`;
   link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000); toast('Plain-text draft downloaded.');
 }
-function validEndpoint(value) {
-  if (!value.trim()) return '';
-  const url = new URL(value.trim());
-  if (url.protocol !== 'https:' || url.username || url.password || url.search || url.hash) throw Error('Use an HTTPS endpoint URL without credentials, query parameters, or a fragment. Never enter an API key.');
-  return url.href;
-}
-function clearWordnikConnection() {
-  connectionEpoch++; wordnikSession = null; liveWords = []; lastLiveFetch = 0;
-  wordFetchController?.abort(); wordFetchController = null; fetchingWords = false;
-  authController?.abort(); authController = null;
-}
-function currentWordnikSession() {
-  if (wordnikSession && (wordnikSession.endpoint !== state.settings.endpoint || wordnikSession.expiresAt <= Date.now())) clearWordnikConnection();
-  return wordnikSession;
-}
-function renderWordnikStatus(message) {
-  const session = currentWordnikSession();
-  $('wordnikStatus').textContent = message || (!state.settings.endpoint ? 'Offline word deck active.' : session ? 'Connected for this tab. Reconnect after one hour or a reload.' : 'Connect to use live Wordnik words. Offline words are always available.');
-  $('disconnectWordnik').hidden = !session;
-  $('connectWordnik').textContent = session ? 'Reconnect Wordnik' : 'Connect Wordnik';
-}
-async function prefetchWords() {
-  const session = currentWordnikSession();
-  if (!session || !navigator.onLine || fetchingWords || liveWords.length >= 3 || Date.now() - lastLiveFetch < 10000) return;
-  fetchingWords = true; lastLiveFetch = Date.now(); const endpoint = state.settings.endpoint;
-  const epoch = connectionEpoch;
-  const controller = new AbortController(), timeout = setTimeout(() => controller.abort(), 2500);
-  wordFetchController = controller;
-  try {
-    const response = await fetch(endpoint, { signal: controller.signal, credentials: 'omit', cache: 'no-store', referrerPolicy: 'no-referrer', redirect: 'error', headers: { Authorization: `Bearer ${session.token}` } });
-    if (connectionEpoch !== epoch || currentWordnikSession() !== session) return;
-    if (response.status === 401 || response.status === 403) { clearWordnikConnection(); renderWordnikStatus('Wordnik connection ended. Connect again; offline words are active.'); return; }
-    if (!response.ok) throw Error('Unavailable');
-    const data = await response.json();
-    if (connectionEpoch !== epoch || currentWordnikSession() !== session) return;
-    const entries = Array.isArray(data) ? data : [data];
-    for (const entry of entries.slice(0, 8)) {
-      if (typeof entry.word === 'string' && /^[\p{L}][\p{L}'’\-]{1,39}$/u.test(entry.word) && typeof entry.definition === 'string' && entry.definition.length < 600 &&
-          !liveWords.some(w => w.word.toLowerCase() === entry.word.toLowerCase()) && entry.word.toLowerCase() !== draft().round?.card?.title.toLowerCase()) liveWords.push(entry);
-    }
-  } catch { /* The local deck is available immediately on every draw. */ }
-  finally { clearTimeout(timeout); if (wordFetchController === controller) { fetchingWords = false; wordFetchController = null; } }
-}
-
 $('editor').addEventListener('beforeinput', event => {
   beforeInput = { start: $('editor').selectionStart, end: $('editor').selectionEnd, inputType: event.inputType };
 });
@@ -386,75 +331,16 @@ $('toolsButton').addEventListener('click', () => $('toolsDialog').showModal());
 $('copyDraft').addEventListener('click', () => copyText(draft().text));
 $('copySession').addEventListener('click', () => copyText(sessionText(draft().text, draft().round)));
 $('downloadDraft').addEventListener('click', download);
-$('settingsButton').addEventListener('click', () => { $('sound').checked = state.settings.sound; $('wordnikEndpoint').value = state.settings.endpoint; renderWordnikStatus(); $('settingsDialog').showModal(); });
+$('settingsButton').addEventListener('click', () => { $('sound').checked = state.settings.sound; $('settingsDialog').showModal(); });
 $('saveSettings').addEventListener('click', () => {
-  try {
-    const endpoint = validEndpoint($('wordnikEndpoint').value);
-    if (endpoint !== state.settings.endpoint) clearWordnikConnection();
-    state.settings.endpoint = endpoint; state.settings.sound = $('sound').checked; unlockAudio(); save(); prefetchWords(); $('settingsDialog').close(); toast('Settings saved.');
-  } catch (error) { $('wordnikEndpoint').setCustomValidity(error.message); $('wordnikEndpoint').reportValidity(); }
+  state.settings.sound = $('sound').checked; unlockAudio(); save(); $('settingsDialog').close(); toast('Settings saved.');
 });
-$('wordnikEndpoint').addEventListener('input', () => $('wordnikEndpoint').setCustomValidity(''));
-$('connectWordnik').addEventListener('click', () => {
-  try {
-    const endpoint = validEndpoint($('wordnikEndpoint').value);
-    if (!endpoint) throw Error('Enter your HTTPS Wordnik endpoint first.');
-    if (endpoint !== state.settings.endpoint) { clearWordnikConnection(); state.settings.endpoint = endpoint; save(); }
-    renderWordnikStatus();
-    $('wordnikAuthHost').textContent = `Connect to ${new URL(endpoint).host}`;
-    $('wordnikAuthError').textContent = ''; $('wordnikPassword').value = '';
-    $('wordnikAuthSubmit').disabled = false; $('wordnikAuthDialog').showModal();
-  } catch (error) { $('wordnikEndpoint').setCustomValidity(error.message); $('wordnikEndpoint').reportValidity(); }
-});
-$('wordnikAuthForm').addEventListener('submit', async event => {
-  event.preventDefault(); if (authController) return;
-  const endpoint = state.settings.endpoint, epoch = connectionEpoch;
-  const loginURL = new URL(endpoint); loginURL.pathname = loginURL.pathname.replace(/\/+$/, '') + '/auth';
-  const controller = new AbortController(), timeout = setTimeout(() => controller.abort(), 8000);
-  authController = controller; $('wordnikAuthSubmit').disabled = true; $('wordnikAuthError').textContent = '';
-  try {
-    const pending = fetch(loginURL.href, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: $('wordnikPassword').value }), signal: controller.signal,
-      credentials: 'omit', cache: 'no-store', redirect: 'error', referrerPolicy: 'no-referrer' });
-    $('wordnikPassword').value = '';
-    const response = await pending;
-    if (controller.signal.aborted || epoch !== connectionEpoch || state.settings.endpoint !== endpoint) return;
-    if (!response.ok) {
-      let message = response.status === 429 ? 'Too many connection attempts. Wait a minute, then try again.' : response.status === 401 ? 'Connection failed. Check your endpoint password.' : 'Could not connect. Check the endpoint setup and try again.';
-      if (response.status === 503) {
-        const detail = await response.json().catch(() => null);
-        const labels = {
-          WORDNIK_API_KEY: 'WORDNIK_API_KEY',
-          WORDNIK_ACCESS_PASSWORD: 'WORDNIK_ACCESS_PASSWORD (16–256 characters)',
-          SESSION_SIGNING_KEY: 'SESSION_SIGNING_KEY (a generated 43-character key)',
-          AUTH_RATE_LIMITER: 'AUTH_RATE_LIMITER binding', RATE_LIMITER: 'RATE_LIMITER binding'
-        };
-        const missing = Array.isArray(detail?.missing) ? detail.missing.slice(0, 5).filter(name => Object.hasOwn(labels, name)).map(name => labels[name]) : [];
-        if (detail?.error === 'Word service not configured' && missing.length) message = `Endpoint setup is missing or invalid: ${missing.join(', ')}. Update the Worker settings and reconnect.`;
-      }
-      throw Error(message);
-    }
-    const result = await response.json();
-    if (controller.signal.aborted || epoch !== connectionEpoch || state.settings.endpoint !== endpoint) return;
-    if (typeof result.token !== 'string' || !/^[A-Za-z0-9_-]+\.[A-Za-z0-9_-]{43}$/.test(result.token) || result.token.length > 1024 || !Number.isInteger(result.expiresIn) || result.expiresIn <= 0 || result.expiresIn > 3600) throw Error('The endpoint returned an invalid connection response.');
-    clearWordnikConnection();
-    wordnikSession = { token: result.token, endpoint, expiresAt: Date.now() + result.expiresIn * 1000 };
-    renderWordnikStatus(); $('wordnikAuthDialog').close(); prefetchWords();
-  } catch (error) {
-    if (epoch === connectionEpoch && $('wordnikAuthDialog').open) $('wordnikAuthError').textContent = controller.signal.aborted ? 'Connection timed out. Try again when you are online.' : error.message;
-  } finally {
-    clearTimeout(timeout); $('wordnikPassword').value = '';
-    if (authController === controller) authController = null;
-    $('wordnikAuthSubmit').disabled = false;
-  }
-});
-$('wordnikAuthDialog').addEventListener('close', () => { authController?.abort(); authController = null; $('wordnikPassword').value = ''; });
-$('disconnectWordnik').addEventListener('click', () => { clearWordnikConnection(); renderWordnikStatus(); toast('Wordnik disconnected. Offline words are active.'); });
 for (const button of document.querySelectorAll('[data-close]')) button.addEventListener('click', () => button.closest('dialog').close());
 document.addEventListener('pointerdown', unlockAudio, { passive: true });
 document.addEventListener('visibilitychange', () => { lastTick = performance.now(); rememberEditor(); save(); });
 window.addEventListener('pagehide', () => { lastTick = performance.now(); rememberEditor(); save(); });
 function networkStatus() { $('connection').textContent = navigator.onLine ? 'LOCAL FIRST' : 'OFFLINE · READY'; }
-window.addEventListener('online', () => { networkStatus(); prefetchWords(); }); window.addEventListener('offline', networkStatus);
+window.addEventListener('online', networkStatus); window.addEventListener('offline', networkStatus);
 window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); installPrompt = event; $('installButton').hidden = false; });
 $('installButton').addEventListener('click', async () => { if (installPrompt) { await installPrompt.prompt(); installPrompt = null; $('installButton').hidden = true; } });
 window.addEventListener('appinstalled', () => { $('installButton').hidden = true; toast('Text Fight installed.'); });
@@ -470,10 +356,15 @@ renderDraftList(); renderRound(); updateCounts(); networkStatus();
 if (corruptStorage) toast('Saved data could not be read. It has been preserved; download any new writing.');
 else save();
 try {
-  const [craft, words] = await Promise.all([fetch('./data/sentence-trainer.json').then(r => { if (!r.ok) throw Error(); return r.json(); }), fetch('./data/words.json').then(r => { if (!r.ok) throw Error(); return r.json(); })]);
-  decks = { ...craft, words };
+  const readJson = url => fetch(url).then(response => { if (!response.ok) throw Error(); return response.json(); });
+  const [craft, words, wordnik] = await Promise.all([
+    readJson('./data/sentence-trainer.json'),
+    readJson('./data/words.json'),
+    readJson('./data/wordnik-words.json').catch(() => null)
+  ]);
+  const fresh = wordnikDeck(wordnik);
+  decks = { ...craft, words: fresh.length ? fresh : words };
   $('fullscreenButton').disabled = false;
-  prefetchWords();
 } catch { $('promptExplanation').textContent = 'Prompt data could not load. Reconnect once, then reload to prepare offline writing.'; }
 setInterval(tick, 500);
 if ('serviceWorker' in navigator) {

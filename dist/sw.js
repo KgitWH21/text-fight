@@ -1,8 +1,8 @@
 // Bump VERSION for every release. Cache updates never touch localStorage.
-const VERSION = '1.3.1';
+const VERSION = '1.3.2';
 const PREFIX = `text-fight:${new URL(self.registration.scope).pathname}:`;
 const CACHE = PREFIX + VERSION;
-const FILES = ['./', './index.html', './style.css', './app.js', './core.js', './manifest.webmanifest', './data/sentence-trainer.json', './data/words.json', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png'];
+const FILES = ['./', './index.html', './style.css', './app.js', './core.js', './manifest.webmanifest', './data/sentence-trainer.json', './data/words.json', './data/wordnik-words.json', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png'];
 const urls = FILES.map(file => new URL(file, self.registration.scope).href);
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(urls)).then(() => {
@@ -18,5 +18,14 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url); url.search = '';
   if (!urls.includes(url.href)) return;
+  if (url.pathname.endsWith('/data/wordnik-words.json') && typeof event.waitUntil === 'function') {
+    // Refresh the daily list while you are online, and keep the cached copy for offline writing.
+    event.waitUntil(caches.open(CACHE).then(async cache => {
+      try {
+        const fresh = await fetch(event.request);
+        if (fresh && fresh.ok && typeof fresh.clone === 'function') await cache.put(url.href, fresh.clone());
+      } catch { /* The cached list remains available. */ }
+    }));
+  }
   event.respondWith(caches.open(CACHE).then(async cache => (await cache.match(url.href)) || fetch(event.request)));
 });

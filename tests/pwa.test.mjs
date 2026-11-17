@@ -36,7 +36,7 @@ test('service worker caches full offline shell with subpath isolation and safe u
   handlers.activate({ waitUntil(promise) { pending = promise; } }); await pending;
   assert.equal(claimed, 1); assert.ok(cached.has('another-app-cache')); assert.ok(cached.has('text-fight:/other-repo/:old')); assert.ok(!cached.has('text-fight:/text-fight-2/:old'));
   network = false;
-  for (const file of ['', 'index.html', 'app.js', 'core.js', 'data/words.json', 'data/sentence-trainer.json', 'manifest.webmanifest']) {
+  for (const file of ['', 'index.html', 'app.js', 'core.js', 'data/words.json', 'data/wordnik-words.json', 'data/sentence-trainer.json', 'manifest.webmanifest']) {
     let response; handlers.fetch({ request: { url: scope + file, method: 'GET' }, respondWith(promise) { response = promise; } });
     assert.ok(await response, `Missing offline resource ${file}`);
   }
