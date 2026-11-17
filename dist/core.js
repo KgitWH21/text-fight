@@ -161,6 +161,21 @@ export function awardPrompt(round) {
   if (!round.card || round.card.used) return 0;
   round.card.used = true; round.bonusXP += PROGRESSION.promptBonus; return PROGRESSION.promptBonus;
 }
+export const WORD_PATTERN = /^[\p{L}][\p{L}'’\-]{1,39}$/u;
+export function wordnikDeck(payload) {
+  const list = Array.isArray(payload) ? payload : payload?.words;
+  if (!Array.isArray(list)) return [];
+  const seen = new Set(), deck = [];
+  for (const item of list) {
+    const word = typeof item === 'string' ? item : item?.word;
+    if (typeof word !== 'string' || !WORD_PATTERN.test(word)) continue;
+    const key = word.toLocaleLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    deck.push({ type: word, example: 'Give this word a place in your scene.', source: 'wordnik' });
+  }
+  return deck;
+}
 export function dealLocal(decks, enabled, last, random = Math.random) {
   const available = enabled.filter(k => decks[k]?.length);
   if (!available.length) throw new Error('Choose at least one category.');
@@ -171,7 +186,8 @@ export function dealLocal(decks, enabled, last, random = Math.random) {
   last[category] = index;
   const entry = deck[index];
   return { id: globalThis.crypto.randomUUID(), category, title: typeof entry === 'string' ? entry : entry.type,
-    explanation: typeof entry === 'string' ? 'Let this be the seed of your next sentence.' : entry.example, source: 'local', used: false };
+    explanation: typeof entry === 'string' ? 'Let this be the seed of your next sentence.' : entry.example,
+    source: entry?.source === 'wordnik' ? 'wordnik' : 'local', used: false };
 }
 export function advanceTimer(round, elapsed, interval, visible = true) {
   if (!round || round.paused || round.pinned || !visible) return false;

@@ -21,6 +21,10 @@ short explanations (1,168 total). The expansion mixes concrete objects and
 places, nature and food, modern objects, expressive verbs, textures, sounds,
 and moods. No Wordnik API data was used to create the expansion.
 
+`wordnik-words.json` is a separate list. GitHub Actions refreshes it from
+Wordnik when the `WORDNIK_API_KEY` secret is set. Vocabulary cards use that
+list when it contains words, and this offline deck otherwise.
+
 Rebuild the deck with `node scripts/make-words.mjs`. The original entries are
 retained in that script; the 1,000 additional entries are maintained in
 `scripts/offline-words-extra.txt`. The generator rejects duplicates and missing

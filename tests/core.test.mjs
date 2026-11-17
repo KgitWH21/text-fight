@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { createRound, editRound, undoRound, sessionCount, countWords, sessionText, dealLocal, awardPrompt, vocabularyUsed, advanceTimer, progress, PACES, CATEGORY_NAMES } from '../core.js';
+import { createRound, editRound, undoRound, sessionCount, countWords, sessionText, dealLocal, awardPrompt, vocabularyUsed, advanceTimer, progress, PACES, CATEGORY_NAMES, wordnikDeck } from '../core.js';
 
 test('exact 3000-word regression: append 120, correct earlier typo, cut 15, undo, redo, restore', () => {
   const base = 'teh ' + Array.from({ length: 2999 }, (_, i) => `old${i}`).join(' ');
@@ -101,6 +101,17 @@ test('automatic and manual use share exactly one bonus per dealt card', () => {
   assert.equal(awardPrompt(round), 5); assert.equal(awardPrompt(round), 0);
   const restored = JSON.parse(JSON.stringify(round)); assert.equal(awardPrompt(restored), 0);
   restored.card = { id: 'two', used: false }; assert.equal(awardPrompt(restored), 5);
+});
+test('vocabulary prefers a usable Wordnik list and falls back when that list is empty', () => {
+  const fresh = wordnikDeck({ generatedAt: '2026-11-17', words: ['Zephyr', 'zephyr', 'a', 'has space', "o'clock", 'well-made', 'café', '1234'] });
+  assert.deepEqual(fresh.map(entry => entry.type), ['Zephyr', "o'clock", 'well-made', 'café']);
+  assert.equal(fresh[0].example, 'Give this word a place in your scene.');
+  const card = dealLocal({ words: fresh }, ['words'], {}, () => 0);
+  assert.equal(card.source, 'wordnik'); assert.equal(card.title, 'Zephyr');
+  assert.equal(wordnikDeck(null).length, 0);
+  assert.equal(wordnikDeck({ words: ['<b>', '9lives'] }).length, 0);
+  const local = dealLocal({ words: [{ type: 'lantern', example: 'A light.' }] }, ['words'], {}, () => 0);
+  assert.equal(local.source, 'local'); assert.equal(local.explanation, 'A light.');
 });
 test('category first selection is balanced regardless of deck size and avoids repeats', () => {
   const decks = { tiny: ['one', 'two'], huge: Array.from({ length: 1000 }, (_, i) => `x${i}`) }, last = {};
